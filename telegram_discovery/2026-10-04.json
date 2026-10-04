@@ -1,6 +1,6 @@
 {
   "date_kst": "2026-10-04",
-  "collected_at_kst": "2026-10-04T21:01:59+09:00",
+  "collected_at_kst": "2026-10-04T21:10:09+09:00",
   "total_posts": 56,
   "channels": [
     {
@@ -44,12 +44,12 @@
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 640,
+      "timestamp_count": 180,
       "errors_count": 0,
-      "fetched_pages": 32,
+      "fetched_pages": 9,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-07T07:30:35+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T07:30:25+09:00"
     },
     {
       "channel": "hanasmallcap",
@@ -104,12 +104,12 @@
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 107,
+      "timestamp_count": 50,
       "errors_count": 0,
-      "fetched_pages": 6,
+      "fetched_pages": 3,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-04T21:05:15+09:00"
+      "earliest_fetched_at_kst": "2026-10-01T21:21:06+09:00"
     },
     {
       "channel": "corevalue",
@@ -188,12 +188,12 @@
       "tier": "D2",
       "http_status": 200,
       "today_post_count": 23,
-      "timestamp_count": 500,
+      "timestamp_count": 100,
       "errors_count": 0,
-      "fetched_pages": 25,
+      "fetched_pages": 5,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T07:03:03+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T05:31:44+09:00"
     },
     {
       "channel": "STANDARDCAPITAL",
@@ -224,12 +224,12 @@
       "tier": "D2",
       "http_status": 200,
       "today_post_count": 1,
-      "timestamp_count": 864,
-      "errors_count": 1,
-      "fetched_pages": 44,
-      "history_complete": false,
-      "backfill_next_before": 124470,
-      "earliest_fetched_at_kst": "2026-09-08T08:19:45+09:00"
+      "timestamp_count": 192,
+      "errors_count": 0,
+      "fetched_pages": 10,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T09:35:54+09:00"
     }
   ],
   "posts": [
@@ -682,12 +682,5 @@
       "body": "1. 트럼프, 공화당의 중간선거 승리 촉구: \"공화당은 2026년 중간선거에서 반드시 승리해야 합니다. 조기 투표, 부재자 투표, 우편 투표, 직접 투표 등 모든 적절한 수단을 동원하여 대규모 투표 참여로 급진 좌파를 압도해야 합니다! 이는 매우 중요합니다. 부디 투표에 참여해 주십시오. 미국을 다시 위대하게 만들자!\"\n\n2. 트럼프, 상원 의원들에게 정보공개법 통과 촉구: 트럼프는 아칸소 주민들에게 톰 코튼 상원 의원에게 전화하여 정보공개법(Sunshine Protection Act)의 통과를 막지 말 것을 요구하고, 상원이 즉시 이 법안을 통과시켜 연 2회 시행되는 서머타임제를 폐지하도록 촉구했습니다.\n\n3. 트럼프, 오하이오에서 공화당 후보 지원 유세: 오하이오에서 열린 유세에서 트럼프는 11월 중간선거를 앞두고 주요 지역구의 공화당 후보들을 지원하기 위해 여러 대기업의 투자 계획을 언급했습니다. 그는 스트랜디스, 일렉트라 에어로, 바이엘이 주에 투자할 계획을 언급하며, 이러한 투자 유치는 자신의 관세 정책 덕분에 가능했다고 주장했습니다.\n\n4. 백악관 AI 태스크포스, AI 위험 평가 보고서 작성 예정 - 월스트리트 저널에 따르면, 백악관은 국가정보국장 클레이튼을 위원장으로 하는 인공지능 특별 태스크포스를 구성했으며, 클레이튼 국장은 예상대로 트럼프 행정부의 \"AI 총괄 책임자\"로 임명되었습니다. 이 태스크포스는 120일 이내에 AI가 제기하는 위험과 이 기술에 대한 연방 정부의 규제 책임에 대한 보고서를 작성할 예정입니다."
     }
   ],
-  "errors": [
-    {
-      "channel": "FastStockNews",
-      "type": "pagination",
-      "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/FastStockNews?before=124470"
-    }
-  ]
+  "errors": []
 }
