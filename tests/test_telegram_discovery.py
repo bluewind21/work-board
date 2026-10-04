@@ -28,6 +28,12 @@ def summary(channel, count, complete=True):
 
 
 class DiscoveryTests(unittest.TestCase):
+    def setUp(self):
+        # Synthetic fixtures must not appear in the real Actions job summary.
+        env = patch.dict('os.environ', {'GITHUB_STEP_SUMMARY': ''})
+        env.start()
+        self.addCleanup(env.stop)
+
     def test_publication_date_uses_html_time_and_aware_offsets(self):
         html = '<div class="tgme_channel_history"><div class="tgme_widget_message" data-post="siglab/1"><div class="tgme_widget_message_text">2020-01-01 뉴스 날짜</div><time datetime="2026-10-03T23:30:00+00:00"></time></div></div>'
         records, count = parse_page('siglab', html, NOW.isoformat(), [], 'https://t.me/s/siglab')
@@ -56,6 +62,26 @@ class DiscoveryTests(unittest.TestCase):
         groups = scout.clusters([a, b, c])
         self.assertEqual(groups[post_key(a)], groups[post_key(b)])
         self.assertNotEqual(groups[post_key(a)], groups[post_key(c)])
+
+    def test_real_contract_rewrite_and_tracking_urls_are_one_source(self):
+        a = post('opendisco', 1, '일진전기(103590.KS) 수주공시 1,871.7억 상대 J. MURPHY & SONS LIMITED')
+        b = post('FastStockNews', 2, '일진전기(103590) 공급계약 계약총액 1,872억원, 매출대비 9.15%')
+        groups = scout.clusters([a, b])
+        self.assertEqual(groups[post_key(a)], groups[post_key(b)])
+        self.assertEqual(scout.source_links('https://biz.example.com/article/12345?ref=naver'), scout.source_links('https://biz.example.com/article/12345'))
+        extracted = [name for name, _ in scout.entities('창사 최대 프로젝트 수주 100억원 J. MURPHY & SONS LIMITED')]
+        self.assertNotIn('최대 프로젝트', extracted)
+        self.assertNotIn('SONS', extracted)
+        self.assertNotIn('MURPHY', extracted)
+
+    def test_generic_financial_words_are_not_entities(self):
+        names = [name for name, _ in scout.entities('Monthly Blended Upfront Downstream Call Edition Revenue Billion')]
+        self.assertEqual(names, [])
+
+    def test_unrelated_digest_numbers_do_not_create_an_entity_signal(self):
+        records = [post('siglab', 1, 'Abogen 소식은 단순 의견\n삼성전자 신규 수주 300억원 확대')]
+        candidates = scout.analyze(records, NOW, False)[1]
+        self.assertNotIn('Abogen', [c['entity'] for c in candidates])
 
     def test_independent_new_candidate_and_cold_start(self):
         records = [post('siglab', 1, '뉴브릿지(123456) 신규 수주 300억원, 생산량 40% 확대', 2),
