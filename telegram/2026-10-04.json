@@ -1,0 +1,107 @@
+{
+  "collected_at_kst": "2026-10-04T19:29:19+09:00",
+  "date_kst": "2026-10-04",
+  "total_collected": 1,
+  "total_posts": 1,
+  "channels": [
+    {
+      "channel": "KISemicon",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "jw_tech",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "skitteam",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 14,
+      "errors_count": 0
+    },
+    {
+      "channel": "kiwoom_semibat",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 16,
+      "errors_count": 0
+    },
+    {
+      "channel": "semirae",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "meritz_research",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 12,
+      "errors_count": 0
+    },
+    {
+      "channel": "meritz_strategy",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "shinhanresearch",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "HanaResearch",
+      "http_status": 200,
+      "today_post_count": 1,
+      "fetched_pages": 1,
+      "timestamp_count": 17,
+      "errors_count": 0
+    },
+    {
+      "channel": "hmsecresearch",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "hodolrytv",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    }
+  ],
+  "posts": [
+    {
+      "collected_at_kst": "2026-10-04T19:29:27+09:00",
+      "channel": "HanaResearch",
+      "message_id": "HanaResearch/20555",
+      "published_at_kst": "2026-10-04T16:47:45+09:00",
+      "permalink": "https://t.me/HanaResearch/20555",
+      "body": "◈하나증권 해외주식분석◈\n\n선진국 기업분석 강재구(T.02-3771-3386)\n*텔레그램 채널: https://t.me/hana_us_stock\n\n★ [HANA US Weekly] 앤트로픽 IPO 2조 달러 가치가 요구하는 성장 조건\n▶ 자료: https://buly.kr/1GMW8Li\n\n- 앤트로픽은 플랫폼화와 장기 고성장이 동시에 필요\n- AI 시장 성장만으로 2조 달러 가치를 설명하기는 어려우며, 기업 고객과 개발자 생태계를 확보한 플랫폼으로의 전환과 장기 점유율 유지가 핵심\n- 최근 사모라운드 가치 9,650억 달러는 기본 시나리오에서 2029~2035년 연평균 21.4%의 매출 성장을 요구하며, AI 시장의 높은 성장 전망을 감안하면 설명 가능한 수준\n- 2조 달러는 기본 시나리오에서 연평균 35.4%, 플랫폼화를 가정한 낙관 시나리오에서도 31.0%의 성장이 필요하며, 2035년 매출이 약 1.29조 달러까지 확대돼야 함\n\n- 지난주(9월 28일~10월 2일) 리뷰: 나스닥 상승, 엔비디아 역사적 고점 경신\n- 이번 주(10월 5일~10월 9일) 프리뷰: 기술주 투자심리 회복, FOMC 의사록, 미-이란 갈등, 장기금리 등\n\n(위 문자의 내용은 컴플라이언스의 승인을 득하였음)"
+    }
+  ],
+  "errors": []
+}
