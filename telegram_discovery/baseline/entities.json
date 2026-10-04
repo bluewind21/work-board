@@ -1,13 +1,13 @@
 {
-  "collected_at_kst": "2026-10-04T21:10:09+09:00",
-  "window_start_kst": "2026-09-04T21:10:09+09:00",
-  "window_end_kst": "2026-10-04T21:10:09+09:00",
+  "collected_at_kst": "2026-10-05T05:50:13+09:00",
+  "window_start_kst": "2026-09-05T05:50:13+09:00",
+  "window_end_kst": "2026-10-05T05:50:13+09:00",
   "schema_version": 1,
   "baseline_status": "complete",
   "coverage": {
     "SK_Research_Asset": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:12:22+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -15,7 +15,7 @@
     },
     "sk_smallcap": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:21:59+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -23,7 +23,7 @@
     },
     "eqmirae": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T13:18:25+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -31,7 +31,7 @@
     },
     "opendisco": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:30:35+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -39,7 +39,7 @@
     },
     "hanasmallcap": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-08T18:14:56+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -47,7 +47,7 @@
     },
     "SKSCyclical": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-06T14:28:10+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -55,7 +55,7 @@
     },
     "HI_GS": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T17:18:56+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -63,7 +63,7 @@
     },
     "hana_us_stock": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-04T21:31:34+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -71,7 +71,7 @@
     },
     "siglab": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-04T21:05:15+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -79,7 +79,7 @@
     },
     "corevalue": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T18:09:11+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -87,7 +87,7 @@
     },
     "growthresearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T12:40:06+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -95,7 +95,7 @@
     },
     "growth_semi": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T12:40:18+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -103,7 +103,7 @@
     },
     "knowledge_to_wealth": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T00:26:41+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -111,7 +111,7 @@
     },
     "sksresearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-06T14:28:27+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -119,7 +119,7 @@
     },
     "HanaResearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T16:58:40+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -127,7 +127,7 @@
     },
     "quantum_algo": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T07:03:03+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -135,7 +135,7 @@
     },
     "STANDARDCAPITAL": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T11:14:42+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -143,7 +143,7 @@
     },
     "FastStockNewsUSA": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-04T22:20:13+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -151,7 +151,7 @@
     },
     "FastStockNews": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T21:10:09+09:00",
+      "last_success_at_kst": "2026-10-05T05:50:13+09:00",
       "earliest_observed_at_kst": "2026-09-05T09:35:54+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -159,7 +159,7 @@
     }
   },
   "errors": [],
-  "total_entities": 6294,
+  "total_entities": 6288,
   "entities": [
     {
       "entity": "A214370",
@@ -956,9 +956,9 @@
       "last_seen": "2026-10-01T22:34:49+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/FastStockNewsUSA/23514"
       ]
@@ -2888,9 +2888,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129"
       ]
@@ -3897,9 +3897,9 @@
       "last_seen": "2026-10-04T17:03:07+09:00",
       "mention_count": 167,
       "channel_count": 14,
-      "mentions_72h": 11,
-      "prior_mentions": 156,
-      "independent_channels": 6,
+      "mentions_72h": 10,
+      "prior_mentions": 157,
+      "independent_channels": 5,
       "permalinks": [
         "https://t.me/quantum_algo/101630",
         "https://t.me/hana_us_stock/10484",
@@ -4339,13 +4339,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:21:36+09:00",
       "last_seen": "2026-10-01T07:37:59+09:00",
-      "mention_count": 32,
+      "mention_count": 31,
       "channel_count": 9,
       "mentions_72h": 0,
-      "prior_mentions": 32,
+      "prior_mentions": 31,
       "independent_channels": 0,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22891",
         "https://t.me/FastStockNewsUSA/22897",
         "https://t.me/FastStockNewsUSA/22899",
         "https://t.me/FastStockNewsUSA/22923",
@@ -7037,20 +7036,6 @@
       ]
     },
     {
-      "entity": "BAC",
-      "category": "ticker",
-      "first_seen": "2026-09-04T22:20:13+09:00",
-      "last_seen": "2026-09-04T22:20:13+09:00",
-      "mention_count": 1,
-      "channel_count": 1,
-      "mentions_72h": 0,
-      "prior_mentions": 1,
-      "independent_channels": 0,
-      "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890"
-      ]
-    },
-    {
       "entity": "BACKERS",
       "category": "name_or_technology",
       "first_seen": "2026-09-23T22:39:00+09:00",
@@ -7460,13 +7445,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-10-01T02:18:54+09:00",
-      "mention_count": 9,
+      "mention_count": 8,
       "channel_count": 4,
       "mentions_72h": 0,
-      "prior_mentions": 9,
+      "prior_mentions": 8,
       "independent_channels": 0,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/hana_us_stock/10480",
         "https://t.me/STANDARDCAPITAL/10203",
         "https://t.me/FastStockNewsUSA/23040",
@@ -7648,9 +7632,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 2,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 1,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 2,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/29867",
         "https://t.me/growthresearch/30130"
@@ -8969,9 +8953,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30130"
       ]
@@ -9153,8 +9137,8 @@
       "last_seen": "2026-10-02T13:03:52+09:00",
       "mention_count": 5,
       "channel_count": 3,
-      "mentions_72h": 3,
-      "prior_mentions": 2,
+      "mentions_72h": 2,
+      "prior_mentions": 3,
       "independent_channels": 2,
       "permalinks": [
         "https://t.me/HanaResearch/20465",
@@ -12509,9 +12493,9 @@
       "last_seen": "2026-10-02T11:49:59+09:00",
       "mention_count": 27,
       "channel_count": 6,
-      "mentions_72h": 2,
-      "prior_mentions": 25,
-      "independent_channels": 2,
+      "mentions_72h": 1,
+      "prior_mentions": 26,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/FastStockNews/124383",
         "https://t.me/growthresearch/29508",
@@ -14050,9 +14034,9 @@
       "last_seen": "2026-10-01T22:21:12+09:00",
       "mention_count": 15,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 14,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 15,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141132",
         "https://t.me/siglab/141178",
@@ -14541,13 +14525,12 @@
       "category": "company",
       "first_seen": "2026-09-04T21:25:53+09:00",
       "last_seen": "2026-10-02T15:42:25+09:00",
-      "mention_count": 2,
-      "channel_count": 2,
+      "mention_count": 1,
+      "channel_count": 1,
       "mentions_72h": 1,
-      "prior_mentions": 1,
+      "prior_mentions": 0,
       "independent_channels": 1,
       "permalinks": [
-        "https://t.me/siglab/141079",
         "https://t.me/opendisco/2327"
       ]
     },
@@ -14932,9 +14915,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129"
       ]
@@ -17172,9 +17155,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 2,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 1,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 2,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/29587",
         "https://t.me/growthresearch/30129"
@@ -18694,17 +18677,18 @@
       "entity": "CTO",
       "category": "name_or_technology",
       "first_seen": "2026-09-16T10:12:23+09:00",
-      "last_seen": "2026-10-01T23:07:32+09:00",
-      "mention_count": 4,
+      "last_seen": "2026-10-04T22:56:29+09:00",
+      "mention_count": 5,
       "channel_count": 3,
       "mentions_72h": 1,
-      "prior_mentions": 3,
+      "prior_mentions": 4,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/quantum_algo/102106",
         "https://t.me/FastStockNews/125126",
         "https://t.me/FastStockNewsUSA/23387",
-        "https://t.me/FastStockNewsUSA/23516"
+        "https://t.me/FastStockNewsUSA/23516",
+        "https://t.me/FastStockNewsUSA/23567"
       ]
     },
     {
@@ -20688,9 +20672,9 @@
       "last_seen": "2026-10-01T21:21:06+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141893"
       ]
@@ -22188,13 +22172,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-09-29T10:53:55+09:00",
-      "mention_count": 6,
+      "mention_count": 5,
       "channel_count": 3,
       "mentions_72h": 0,
-      "prior_mentions": 6,
+      "prior_mentions": 5,
       "independent_channels": 0,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/FastStockNews/124951",
         "https://t.me/hana_us_stock/10544",
         "https://t.me/hana_us_stock/10600",
@@ -23080,9 +23063,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 2,
       "channel_count": 2,
-      "mentions_72h": 1,
-      "prior_mentions": 1,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 2,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/HanaResearch/20408",
         "https://t.me/growthresearch/30129"
@@ -23433,9 +23416,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 2,
       "channel_count": 1,
-      "mentions_72h": 2,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 2,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129",
         "https://t.me/growthresearch/30130"
@@ -23462,9 +23445,9 @@
       "last_seen": "2026-10-02T11:04:17+09:00",
       "mention_count": 4,
       "channel_count": 2,
-      "mentions_72h": 4,
-      "prior_mentions": 0,
-      "independent_channels": 2,
+      "mentions_72h": 2,
+      "prior_mentions": 2,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/growthresearch/30129",
         "https://t.me/growthresearch/30130",
@@ -25667,8 +25650,8 @@
       "last_seen": "2026-10-02T13:03:52+09:00",
       "mention_count": 5,
       "channel_count": 3,
-      "mentions_72h": 2,
-      "prior_mentions": 3,
+      "mentions_72h": 1,
+      "prior_mentions": 4,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/HanaResearch/20465",
@@ -26286,9 +26269,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30130"
       ]
@@ -26300,9 +26283,9 @@
       "last_seen": "2026-10-02T11:04:17+09:00",
       "mention_count": 3,
       "channel_count": 2,
-      "mentions_72h": 3,
-      "prior_mentions": 0,
-      "independent_channels": 2,
+      "mentions_72h": 2,
+      "prior_mentions": 1,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/growthresearch/30130",
         "https://t.me/FastStockNews/126041",
@@ -26316,9 +26299,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30130"
       ]
@@ -29515,19 +29498,20 @@
       "entity": "Force",
       "category": "name_or_technology",
       "first_seen": "2026-09-05T07:15:26+09:00",
-      "last_seen": "2026-09-30T17:13:06+09:00",
-      "mention_count": 6,
+      "last_seen": "2026-10-04T22:56:29+09:00",
+      "mention_count": 7,
       "channel_count": 5,
-      "mentions_72h": 0,
+      "mentions_72h": 1,
       "prior_mentions": 6,
-      "independent_channels": 0,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/hana_us_stock/10480",
         "https://t.me/growth_semi/1464",
         "https://t.me/growthresearch/29714",
         "https://t.me/FastStockNewsUSA/23396",
         "https://t.me/FastStockNewsUSA/23461",
-        "https://t.me/HanaResearch/20532"
+        "https://t.me/HanaResearch/20532",
+        "https://t.me/FastStockNewsUSA/23567"
       ]
     },
     {
@@ -30713,16 +30697,17 @@
       "entity": "FTC",
       "category": "name_or_technology",
       "first_seen": "2026-09-15T10:02:01+09:00",
-      "last_seen": "2026-10-01T07:37:59+09:00",
-      "mention_count": 3,
-      "channel_count": 3,
-      "mentions_72h": 0,
+      "last_seen": "2026-10-04T22:56:29+09:00",
+      "mention_count": 4,
+      "channel_count": 4,
+      "mentions_72h": 1,
       "prior_mentions": 3,
-      "independent_channels": 0,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/growth_semi/1446",
         "https://t.me/growthresearch/29653",
-        "https://t.me/hana_us_stock/10639"
+        "https://t.me/hana_us_stock/10639",
+        "https://t.me/FastStockNewsUSA/23567"
       ]
     },
     {
@@ -32528,9 +32513,9 @@
       "last_seen": "2026-10-01T22:21:12+09:00",
       "mention_count": 15,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 14,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 15,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141132",
         "https://t.me/siglab/141178",
@@ -33921,9 +33906,9 @@
       "last_seen": "2026-10-02T14:48:01+09:00",
       "mention_count": 6,
       "channel_count": 3,
-      "mentions_72h": 3,
-      "prior_mentions": 3,
-      "independent_channels": 2,
+      "mentions_72h": 2,
+      "prior_mentions": 4,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/siglab/141180",
         "https://t.me/siglab/141558",
@@ -33940,8 +33925,8 @@
       "last_seen": "2026-10-03T13:24:01+09:00",
       "mention_count": 148,
       "channel_count": 12,
-      "mentions_72h": 16,
-      "prior_mentions": 132,
+      "mentions_72h": 15,
+      "prior_mentions": 133,
       "independent_channels": 6,
       "permalinks": [
         "https://t.me/quantum_algo/101634",
@@ -34922,13 +34907,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-09-09T09:34:25+09:00",
-      "mention_count": 2,
-      "channel_count": 2,
+      "mention_count": 1,
+      "channel_count": 1,
       "mentions_72h": 0,
-      "prior_mentions": 2,
+      "prior_mentions": 1,
       "independent_channels": 0,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/eqmirae/3183"
       ]
     },
@@ -35892,9 +35876,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129"
       ]
@@ -36221,20 +36205,6 @@
       ]
     },
     {
-      "entity": "Hartnett",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-04T22:20:13+09:00",
-      "last_seen": "2026-09-04T22:20:13+09:00",
-      "mention_count": 1,
-      "channel_count": 1,
-      "mentions_72h": 0,
-      "prior_mentions": 1,
-      "independent_channels": 0,
-      "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890"
-      ]
-    },
-    {
       "entity": "Harvey",
       "category": "name_or_technology",
       "first_seen": "2026-09-10T22:06:10+09:00",
@@ -36362,8 +36332,8 @@
       "last_seen": "2026-10-04T20:21:50+09:00",
       "mention_count": 267,
       "channel_count": 11,
-      "mentions_72h": 29,
-      "prior_mentions": 238,
+      "mentions_72h": 28,
+      "prior_mentions": 239,
       "independent_channels": 7,
       "permalinks": [
         "https://t.me/FastStockNewsUSA/22892",
@@ -37091,9 +37061,9 @@
       "last_seen": "2026-10-01T21:21:06+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141893"
       ]
@@ -40442,8 +40412,8 @@
       "last_seen": "2026-10-02T13:43:02+09:00",
       "mention_count": 7,
       "channel_count": 4,
-      "mentions_72h": 2,
-      "prior_mentions": 5,
+      "mentions_72h": 1,
+      "prior_mentions": 6,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/siglab/141413",
@@ -40752,9 +40722,9 @@
       "last_seen": "2026-10-02T08:14:18+09:00",
       "mention_count": 25,
       "channel_count": 5,
-      "mentions_72h": 2,
-      "prior_mentions": 23,
-      "independent_channels": 2,
+      "mentions_72h": 1,
+      "prior_mentions": 24,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/siglab/141088",
         "https://t.me/siglab/141137",
@@ -41583,12 +41553,12 @@
       "entity": "Intelligence",
       "category": "name_or_technology",
       "first_seen": "2026-09-07T01:42:04+09:00",
-      "last_seen": "2026-10-01T05:36:50+09:00",
-      "mention_count": 13,
+      "last_seen": "2026-10-04T22:56:29+09:00",
+      "mention_count": 14,
       "channel_count": 5,
-      "mentions_72h": 0,
+      "mentions_72h": 1,
       "prior_mentions": 13,
-      "independent_channels": 0,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/FastStockNewsUSA/22937",
         "https://t.me/hana_us_stock/10511",
@@ -41602,7 +41572,8 @@
         "https://t.me/FastStockNewsUSA/23407",
         "https://t.me/FastStockNewsUSA/23423",
         "https://t.me/knowledge_to_wealth/8665",
-        "https://t.me/quantum_algo/102677"
+        "https://t.me/quantum_algo/102677",
+        "https://t.me/FastStockNewsUSA/23567"
       ]
     },
     {
@@ -43240,20 +43211,6 @@
       ]
     },
     {
-      "entity": "JGB",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-04T21:45:53+09:00",
-      "last_seen": "2026-09-04T21:45:53+09:00",
-      "mention_count": 1,
-      "channel_count": 1,
-      "mentions_72h": 0,
-      "prior_mentions": 1,
-      "independent_channels": 0,
-      "permalinks": [
-        "https://t.me/siglab/141080"
-      ]
-    },
-    {
       "entity": "Jiangmen",
       "category": "name_or_technology",
       "first_seen": "2026-09-23T08:54:03+09:00",
@@ -43681,9 +43638,9 @@
       "last_seen": "2026-10-02T02:25:09+09:00",
       "mention_count": 2,
       "channel_count": 2,
-      "mentions_72h": 1,
-      "prior_mentions": 1,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 2,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141759",
         "https://t.me/STANDARDCAPITAL/10241"
@@ -45470,8 +45427,8 @@
       "last_seen": "2026-10-02T19:15:36+09:00",
       "mention_count": 86,
       "channel_count": 4,
-      "mentions_72h": 6,
-      "prior_mentions": 80,
+      "mentions_72h": 5,
+      "prior_mentions": 81,
       "independent_channels": 2,
       "permalinks": [
         "https://t.me/eqmirae/3177",
@@ -45971,9 +45928,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141894"
       ]
@@ -50644,8 +50601,8 @@
       "last_seen": "2026-10-02T13:03:52+09:00",
       "mention_count": 7,
       "channel_count": 4,
-      "mentions_72h": 2,
-      "prior_mentions": 5,
+      "mentions_72h": 1,
+      "prior_mentions": 6,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/growthresearch/29590",
@@ -51036,20 +50993,6 @@
       ]
     },
     {
-      "entity": "Michael",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-04T22:20:13+09:00",
-      "last_seen": "2026-09-04T22:20:13+09:00",
-      "mention_count": 1,
-      "channel_count": 1,
-      "mentions_72h": 0,
-      "prior_mentions": 1,
-      "independent_channels": 0,
-      "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890"
-      ]
-    },
-    {
       "entity": "Micro",
       "category": "name_or_technology",
       "first_seen": "2026-09-21T08:49:29+09:00",
@@ -51103,8 +51046,8 @@
       "last_seen": "2026-10-04T20:21:50+09:00",
       "mention_count": 190,
       "channel_count": 14,
-      "mentions_72h": 27,
-      "prior_mentions": 163,
+      "mentions_72h": 25,
+      "prior_mentions": 165,
       "independent_channels": 9,
       "permalinks": [
         "https://t.me/FastStockNewsUSA/22892",
@@ -51435,9 +51378,9 @@
       "last_seen": "2026-10-02T02:25:09+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/STANDARDCAPITAL/10241"
       ]
@@ -52195,8 +52138,8 @@
       "last_seen": "2026-10-02T13:03:52+09:00",
       "mention_count": 4,
       "channel_count": 3,
-      "mentions_72h": 2,
-      "prior_mentions": 2,
+      "mentions_72h": 1,
+      "prior_mentions": 3,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/growthresearch/29590",
@@ -53565,12 +53508,12 @@
       "entity": "Muse",
       "category": "name_or_technology",
       "first_seen": "2026-09-09T07:54:54+09:00",
-      "last_seen": "2026-10-02T14:50:07+09:00",
-      "mention_count": 56,
+      "last_seen": "2026-10-04T22:05:12+09:00",
+      "mention_count": 57,
       "channel_count": 10,
-      "mentions_72h": 2,
+      "mentions_72h": 3,
       "prior_mentions": 54,
-      "independent_channels": 1,
+      "independent_channels": 2,
       "permalinks": [
         "https://t.me/hana_us_stock/10505",
         "https://t.me/FastStockNewsUSA/23037",
@@ -53627,7 +53570,8 @@
         "https://t.me/FastStockNewsUSA/23508",
         "https://t.me/HanaResearch/20546",
         "https://t.me/HanaResearch/20552",
-        "https://t.me/hana_us_stock/10649"
+        "https://t.me/hana_us_stock/10649",
+        "https://t.me/knowledge_to_wealth/8723"
       ]
     },
     {
@@ -54344,13 +54288,12 @@
       "category": "company",
       "first_seen": "2026-09-04T21:25:53+09:00",
       "last_seen": "2026-10-02T15:45:35+09:00",
-      "mention_count": 20,
+      "mention_count": 19,
       "channel_count": 6,
       "mentions_72h": 2,
-      "prior_mentions": 18,
+      "prior_mentions": 17,
       "independent_channels": 2,
       "permalinks": [
-        "https://t.me/siglab/141079",
         "https://t.me/eqmirae/3177",
         "https://t.me/eqmirae/3181",
         "https://t.me/FastStockNews/124512",
@@ -55234,20 +55177,6 @@
         "https://t.me/hana_us_stock/10501",
         "https://t.me/FastStockNewsUSA/23299",
         "https://t.me/FastStockNewsUSA/23300"
-      ]
-    },
-    {
-      "entity": "NFLX",
-      "category": "ticker",
-      "first_seen": "2026-09-04T21:25:53+09:00",
-      "last_seen": "2026-09-04T21:25:53+09:00",
-      "mention_count": 1,
-      "channel_count": 1,
-      "mentions_72h": 0,
-      "prior_mentions": 1,
-      "independent_channels": 0,
-      "permalinks": [
-        "https://t.me/siglab/141079"
       ]
     },
     {
@@ -56329,9 +56258,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129"
       ]
@@ -56520,13 +56449,12 @@
       "category": "ticker",
       "first_seen": "2026-09-04T22:21:36+09:00",
       "last_seen": "2026-10-02T21:27:50+09:00",
-      "mention_count": 22,
+      "mention_count": 21,
       "channel_count": 7,
       "mentions_72h": 3,
-      "prior_mentions": 19,
+      "prior_mentions": 18,
       "independent_channels": 1,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22891",
         "https://t.me/FastStockNews/124382",
         "https://t.me/growthresearch/29517",
         "https://t.me/STANDARDCAPITAL/10213",
@@ -58175,9 +58103,9 @@
       "last_seen": "2026-10-03T14:32:39+09:00",
       "mention_count": 201,
       "channel_count": 14,
-      "mentions_72h": 8,
-      "prior_mentions": 193,
-      "independent_channels": 5,
+      "mentions_72h": 7,
+      "prior_mentions": 194,
+      "independent_channels": 4,
       "permalinks": [
         "https://t.me/quantum_algo/101631",
         "https://t.me/hana_us_stock/10484",
@@ -58545,12 +58473,12 @@
       "entity": "OPM",
       "category": "name_or_technology",
       "first_seen": "2026-09-05T17:19:01+09:00",
-      "last_seen": "2026-10-02T09:15:20+09:00",
-      "mention_count": 69,
-      "channel_count": 12,
-      "mentions_72h": 3,
+      "last_seen": "2026-10-04T22:56:29+09:00",
+      "mention_count": 70,
+      "channel_count": 13,
+      "mentions_72h": 4,
       "prior_mentions": 66,
-      "independent_channels": 2,
+      "independent_channels": 3,
       "permalinks": [
         "https://t.me/HI_GS/7028",
         "https://t.me/quantum_algo/101688",
@@ -58620,7 +58548,8 @@
         "https://t.me/HanaResearch/20546",
         "https://t.me/quantum_algo/102741",
         "https://t.me/siglab/141903",
-        "https://t.me/siglab/141908"
+        "https://t.me/siglab/141908",
+        "https://t.me/FastStockNewsUSA/23567"
       ]
     },
     {
@@ -59235,9 +59164,9 @@
       "last_seen": "2026-10-02T02:25:09+09:00",
       "mention_count": 2,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 1,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 2,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/STANDARDCAPITAL/10234",
         "https://t.me/STANDARDCAPITAL/10241"
@@ -60461,9 +60390,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 24,
       "channel_count": 12,
-      "mentions_72h": 1,
-      "prior_mentions": 23,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 24,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/eqmirae/3185",
         "https://t.me/siglab/141331",
@@ -61087,9 +61016,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 2,
       "channel_count": 2,
-      "mentions_72h": 1,
-      "prior_mentions": 1,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 2,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/HanaResearch/20408",
         "https://t.me/growthresearch/30129"
@@ -61228,9 +61157,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 10,
       "channel_count": 4,
-      "mentions_72h": 2,
-      "prior_mentions": 8,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 10,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/29490",
         "https://t.me/quantum_algo/101893",
@@ -61770,9 +61699,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 4,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 3,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 4,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/29490",
         "https://t.me/growthresearch/29841",
@@ -62310,13 +62239,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-09-06T14:28:27+09:00",
-      "mention_count": 4,
+      "mention_count": 3,
       "channel_count": 3,
       "mentions_72h": 0,
-      "prior_mentions": 4,
+      "prior_mentions": 3,
       "independent_channels": 0,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/FastStockNewsUSA/22920",
         "https://t.me/SKSCyclical/1891",
         "https://t.me/sksresearch/9128"
@@ -63015,8 +62943,8 @@
       "last_seen": "2026-10-02T13:03:52+09:00",
       "mention_count": 2,
       "channel_count": 2,
-      "mentions_72h": 2,
-      "prior_mentions": 0,
+      "mentions_72h": 1,
+      "prior_mentions": 1,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/HanaResearch/20550",
@@ -63087,9 +63015,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 4,
       "channel_count": 2,
-      "mentions_72h": 1,
-      "prior_mentions": 3,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 4,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/FastStockNewsUSA/23062",
         "https://t.me/growthresearch/29841",
@@ -66884,13 +66812,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-10-02T14:50:07+09:00",
-      "mention_count": 19,
-      "channel_count": 7,
+      "mention_count": 18,
+      "channel_count": 6,
       "mentions_72h": 3,
-      "prior_mentions": 16,
+      "prior_mentions": 15,
       "independent_channels": 2,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/hana_us_stock/10483",
         "https://t.me/siglab/141138",
         "https://t.me/siglab/141140",
@@ -67304,13 +67231,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-09-22T07:47:55+09:00",
-      "mention_count": 2,
-      "channel_count": 2,
+      "mention_count": 1,
+      "channel_count": 1,
       "mentions_72h": 0,
-      "prior_mentions": 2,
+      "prior_mentions": 1,
       "independent_channels": 0,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/quantum_algo/102349"
       ]
     },
@@ -68230,9 +68156,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 3,
       "channel_count": 2,
-      "mentions_72h": 2,
-      "prior_mentions": 1,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 3,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/hana_us_stock/10616",
         "https://t.me/growthresearch/30129",
@@ -68985,9 +68911,9 @@
       "last_seen": "2026-10-02T02:25:09+09:00",
       "mention_count": 4,
       "channel_count": 3,
-      "mentions_72h": 1,
-      "prior_mentions": 3,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 4,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/hana_us_stock/10523",
         "https://t.me/STANDARDCAPITAL/10222",
@@ -71369,6 +71295,20 @@
       ]
     },
     {
+      "entity": "SIF",
+      "category": "name_or_technology",
+      "first_seen": "2026-10-04T22:56:29+09:00",
+      "last_seen": "2026-10-04T22:56:29+09:00",
+      "mention_count": 1,
+      "channel_count": 1,
+      "mentions_72h": 1,
+      "prior_mentions": 0,
+      "independent_channels": 1,
+      "permalinks": [
+        "https://t.me/FastStockNewsUSA/23567"
+      ]
+    },
+    {
       "entity": "SIF09",
       "category": "name_or_technology",
       "first_seen": "2026-09-30T16:51:56+09:00",
@@ -71471,14 +71411,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:58+09:00",
       "last_seen": "2026-10-02T22:29:58+09:00",
-      "mention_count": 59,
+      "mention_count": 57,
       "channel_count": 1,
-      "mentions_72h": 6,
+      "mentions_72h": 4,
       "prior_mentions": 53,
       "independent_channels": 1,
       "permalinks": [
-        "https://t.me/siglab/141083",
-        "https://t.me/siglab/141084",
         "https://t.me/siglab/141108",
         "https://t.me/siglab/141123",
         "https://t.me/siglab/141133",
@@ -75068,9 +75006,9 @@
       "last_seen": "2026-10-02T02:25:09+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/STANDARDCAPITAL/10241"
       ]
@@ -76285,19 +76223,20 @@
       "entity": "Super",
       "category": "name_or_technology",
       "first_seen": "2026-09-10T05:20:22+09:00",
-      "last_seen": "2026-10-01T05:36:50+09:00",
-      "mention_count": 6,
+      "last_seen": "2026-10-04T22:56:29+09:00",
+      "mention_count": 7,
       "channel_count": 5,
-      "mentions_72h": 0,
+      "mentions_72h": 1,
       "prior_mentions": 6,
-      "independent_channels": 0,
+      "independent_channels": 1,
       "permalinks": [
         "https://t.me/hana_us_stock/10511",
         "https://t.me/knowledge_to_wealth/8467",
         "https://t.me/hana_us_stock/10600",
         "https://t.me/FastStockNewsUSA/23393",
         "https://t.me/siglab/141814",
-        "https://t.me/quantum_algo/102677"
+        "https://t.me/quantum_algo/102677",
+        "https://t.me/FastStockNewsUSA/23567"
       ]
     },
     {
@@ -76633,20 +76572,6 @@
       ]
     },
     {
-      "entity": "Sweep",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-04T22:20:13+09:00",
-      "last_seen": "2026-09-04T22:20:13+09:00",
-      "mention_count": 1,
-      "channel_count": 1,
-      "mentions_72h": 0,
-      "prior_mentions": 1,
-      "independent_channels": 0,
-      "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890"
-      ]
-    },
-    {
       "entity": "SWF",
       "category": "name_or_technology",
       "first_seen": "2026-09-18T21:21:05+09:00",
@@ -76755,8 +76680,8 @@
       "last_seen": "2026-10-02T13:03:52+09:00",
       "mention_count": 2,
       "channel_count": 2,
-      "mentions_72h": 2,
-      "prior_mentions": 0,
+      "mentions_72h": 1,
+      "prior_mentions": 1,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/HanaResearch/20550",
@@ -76970,9 +76895,9 @@
       "last_seen": "2026-10-02T02:25:09+09:00",
       "mention_count": 6,
       "channel_count": 5,
-      "mentions_72h": 1,
-      "prior_mentions": 5,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 6,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/knowledge_to_wealth/8467",
         "https://t.me/corevalue/46994",
@@ -77238,9 +77163,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30130"
       ]
@@ -77465,9 +77390,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129"
       ]
@@ -78756,9 +78681,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129"
       ]
@@ -79995,13 +79920,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-09-17T21:21:09+09:00",
-      "mention_count": 3,
-      "channel_count": 3,
+      "mention_count": 2,
+      "channel_count": 2,
       "mentions_72h": 0,
-      "prior_mentions": 3,
+      "prior_mentions": 2,
       "independent_channels": 0,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/hana_us_stock/10523",
         "https://t.me/siglab/141505"
       ]
@@ -80013,9 +79937,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30130"
       ]
@@ -80081,9 +80005,9 @@
       "last_seen": "2026-10-02T00:50:48+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30130"
       ]
@@ -80249,13 +80173,12 @@
       "category": "name_or_technology",
       "first_seen": "2026-09-04T22:20:13+09:00",
       "last_seen": "2026-10-02T08:41:41+09:00",
-      "mention_count": 17,
+      "mention_count": 16,
       "channel_count": 6,
-      "mentions_72h": 2,
+      "mentions_72h": 1,
       "prior_mentions": 15,
-      "independent_channels": 2,
+      "independent_channels": 1,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22890",
         "https://t.me/hana_us_stock/10480",
         "https://t.me/FastStockNewsUSA/22920",
         "https://t.me/siglab/141250",
@@ -80392,9 +80315,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/30129"
       ]
@@ -80960,9 +80883,9 @@
       "last_seen": "2026-10-02T00:19:24+09:00",
       "mention_count": 3,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 2,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 3,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/growthresearch/29446",
         "https://t.me/growthresearch/29856",
@@ -86766,9 +86689,9 @@
       "last_seen": "2026-10-01T23:07:32+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/FastStockNewsUSA/23516"
       ]
@@ -89450,13 +89373,12 @@
       "category": "industry",
       "first_seen": "2026-09-04T22:21:36+09:00",
       "last_seen": "2026-10-02T22:38:21+09:00",
-      "mention_count": 493,
+      "mention_count": 492,
       "channel_count": 16,
       "mentions_72h": 26,
-      "prior_mentions": 467,
+      "prior_mentions": 466,
       "independent_channels": 8,
       "permalinks": [
-        "https://t.me/FastStockNewsUSA/22891",
         "https://t.me/hana_us_stock/10482",
         "https://t.me/quantum_algo/101632",
         "https://t.me/quantum_algo/101635",
@@ -90610,9 +90532,9 @@
       "last_seen": "2026-10-02T18:08:26+09:00",
       "mention_count": 257,
       "channel_count": 17,
-      "mentions_72h": 11,
-      "prior_mentions": 246,
-      "independent_channels": 8,
+      "mentions_72h": 9,
+      "prior_mentions": 248,
+      "independent_channels": 7,
       "permalinks": [
         "https://t.me/quantum_algo/101665",
         "https://t.me/quantum_algo/101666",
@@ -91317,9 +91239,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 5,
       "channel_count": 2,
-      "mentions_72h": 1,
-      "prior_mentions": 4,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 5,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141123",
         "https://t.me/siglab/141219",
@@ -91468,9 +91390,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 14,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 13,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 14,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141123",
         "https://t.me/siglab/141318",
@@ -91837,8 +91759,8 @@
       "last_seen": "2026-10-04T09:52:01+09:00",
       "mention_count": 178,
       "channel_count": 16,
-      "mentions_72h": 11,
-      "prior_mentions": 167,
+      "mentions_72h": 10,
+      "prior_mentions": 168,
       "independent_channels": 5,
       "permalinks": [
         "https://t.me/eqmirae/3177",
@@ -94777,8 +94699,8 @@
       "last_seen": "2026-10-02T19:15:36+09:00",
       "mention_count": 16,
       "channel_count": 1,
-      "mentions_72h": 2,
-      "prior_mentions": 14,
+      "mentions_72h": 1,
+      "prior_mentions": 15,
       "independent_channels": 1,
       "permalinks": [
         "https://t.me/siglab/141123",
@@ -96430,9 +96352,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 3,
       "channel_count": 3,
-      "mentions_72h": 1,
-      "prior_mentions": 2,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 3,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/opendisco/1212",
         "https://t.me/FastStockNews/125687",
@@ -97250,9 +97172,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 1,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 0,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 1,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141894"
       ]
@@ -98771,9 +98693,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 9,
       "channel_count": 1,
-      "mentions_72h": 1,
-      "prior_mentions": 8,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 9,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141123",
         "https://t.me/siglab/141452",
@@ -99210,13 +99132,12 @@
       "category": "industry",
       "first_seen": "2026-09-05T00:26:41+09:00",
       "last_seen": "2026-10-04T12:33:43+09:00",
-      "mention_count": 242,
+      "mention_count": 241,
       "channel_count": 16,
-      "mentions_72h": 24,
-      "prior_mentions": 218,
-      "independent_channels": 10,
+      "mentions_72h": 22,
+      "prior_mentions": 219,
+      "independent_channels": 9,
       "permalinks": [
-        "https://t.me/knowledge_to_wealth/8436",
         "https://t.me/hana_us_stock/10481",
         "https://t.me/HI_GS/7028",
         "https://t.me/growthresearch/29404",
@@ -99637,9 +99558,9 @@
       "last_seen": "2026-10-03T20:29:40+09:00",
       "mention_count": 71,
       "channel_count": 9,
-      "mentions_72h": 6,
-      "prior_mentions": 65,
-      "independent_channels": 3,
+      "mentions_72h": 5,
+      "prior_mentions": 66,
+      "independent_channels": 2,
       "permalinks": [
         "https://t.me/HI_GS/7031",
         "https://t.me/SKSCyclical/1891",
@@ -102678,9 +102599,9 @@
       "last_seen": "2026-10-01T21:50:02+09:00",
       "mention_count": 5,
       "channel_count": 3,
-      "mentions_72h": 1,
-      "prior_mentions": 4,
-      "independent_channels": 1,
+      "mentions_72h": 0,
+      "prior_mentions": 5,
+      "independent_channels": 0,
       "permalinks": [
         "https://t.me/siglab/141090",
         "https://t.me/siglab/141764",
@@ -103466,20 +103387,6 @@
       "independent_channels": 0,
       "permalinks": [
         "https://t.me/corevalue/46996"
-      ]
-    },
-    {
-      "entity": "허깅페이스",
-      "category": "tag",
-      "first_seen": "2026-09-04T22:21:36+09:00",
-      "last_seen": "2026-09-04T22:21:36+09:00",
-      "mention_count": 1,
-      "channel_count": 1,
-      "mentions_72h": 0,
-      "prior_mentions": 1,
-      "independent_channels": 0,
-      "permalinks": [
-        "https://t.me/FastStockNewsUSA/22891"
       ]
     },
     {
