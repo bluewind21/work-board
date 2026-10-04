@@ -66,8 +66,10 @@ ALIASES = {
 }
 STOP = set('AI CAPA Q P KST UTC HTTP HTTPS ETF IPO YoY MoM QoQ EPS PER PBR BUY SELL HOLD USD KRW CEO GDP CPI FOMC USA US NYSE NASDAQ EBITDA EBIT ROE ROA IR PDF CPI PMI LNG CNBC Reuters Bloomberg NEWS News Research Update Daily Summary The This That With From For And But Target Price Buy Sell Strong Investment Finance Monday Tuesday Wednesday Thursday Friday Saturday Sunday'.casefold().split())
 STOP.update('Blended Monthly Upfront Call Option Put Downstream Edition Founders Industri Industry Limited Ltd Sons Group Company Corporation Corp Inc Pte Asia China Europe America American Britain England Korea Korean Japan Japanese Stock Stocks Market Markets Revenue Sales Growth Margin Cost Forecast Estimate Estimates Consensus Preview Review Report Results Quarter Year Years Week Weeks Month Months Million Billion Trillion Investment Earnings Investor Investors Banking Securities Financial Analyst Outlook Top Pick Fair Value Current Previous Total Average Global New First Second Last Next High Low Bull Bear Long Short Positive Negative Neutral Executive President Annual Strategy Strategic Economic Economy Business Credit Operating Guidance Rating Ratings ES CA BMO BOM MOU FY CY YTD'.casefold().split())
+STOP.update({'commodity', 'subindex'})
 KOREAN_STOP = {'시장', '주가', '기업', '업체', '고객사', '증권', '리서치', '수주', '매출', '영업이익', '뉴스', '전망', '목표주가', '투자의견', '오늘', '동사', '당사', '미국', '한국', '중국', '일본', '수출', '가격', '생산', '투자', '자료', '정부', '보고서', '이번', '산업', '사업', '실적'}
 KOREAN_STOP.update({'최대', '최소', '신규', '대형', '주요', '해당', '추가', '기존', '대규모', '글로벌', '국내', '해외', '여러', '모든', '향후', '관련', '핵심', '고부가'})
+KOREAN_STOP.update({'단일', '제조업체들', '제조업체', '공급사', '공급업체들', '유통업체', '경쟁사', '파트너', '이들'})
 BUSINESS = re.compile(r'수주|수출|출하|판매량|생산량|증설|가동률|공급부족|병목|채택|계약|고객사|공급업체|판가|가격|제품.?믹스|마진|이익률|원가|CAPA|capacity|backlog|lead.?time|order|contract|adopt|utilization|margin|shipment|pricing', re.I)
 NUMBER = re.compile(r'\d[\d,.]*\s*(?:%|퍼센트|억|조|만\s*대|대\b|배|개월|주\b|GW|MW|TWh|톤|million|billion|bn\b|mn\b|weeks?|months?)|[$₩]\s*\d[\d,.]*', re.I)
 NOISE = re.compile(r'목표[주]?가|급등|상한가|테마주|관련주|찌라시|루머|소문|매수.?추천|무료.?방|VIP|수익.?인증|종목.?추천|target price|price target|rumou?r', re.I)
@@ -189,7 +191,7 @@ def entities(body):
     for name in re.findall(r'#([가-힣A-Za-z][가-힣A-Za-z0-9_]{1,25})', body):
         add(name, 'tag')
     for name in re.findall(r'([가-힣A-Za-z][가-힣A-Za-z0-9_-]{1,24})\s+(?:프로젝트|Project)', body, re.I):
-        if name not in KOREAN_STOP and name.casefold() not in STOP:
+        if name not in KOREAN_STOP and name.casefold() not in STOP and not name.endswith(('로', '으로', '의', '를', '은', '는')):
             add(name + ' 프로젝트', 'project')
     for name in re.findall(r'([가-힣A-Za-z][가-힣A-Za-z0-9_-]{1,24})(?:의|는|가|에서)\s*(?:신규\s*)?(?:수주|계약|증설|채택|가동률|가격|공급)', body):
         add(name, 'business_entity')
@@ -217,6 +219,8 @@ def signals(body):
         right = body.find('\n', match.end())
         right = len(body) if right == -1 else right
         context = body[max(left, match.start() - 100):min(right, match.end() + 100)]
+        if re.search(r'주가|상한가|급등|목표[주]?가|최대주주|보유목적|주주간|주요계약|취득\s*약|share price|stock (?:rose|fell|gained|dropped)', context, re.I):
+            continue
         if BUSINESS.search(context) and context not in evidence:
             evidence.append(context)
     paths = []
@@ -226,9 +230,11 @@ def signals(body):
         if re.search(terms, body, re.I):
             paths.append(path)
     noise = NOISE.findall(body)
+    administrative = bool(re.search(r'최대주주|대량보유|보유목적|자사주|자기주식|주주간계약', body))
+    operating = bool(re.search(r'수주|수출|출하|증설|가동률|공급계약|라이선스|기술이전|채택|backlog|capacity|shipment|adoption', body, re.I))
     return {'business_numbers': evidence[:8], 'profit_paths': paths,
             'noise_flags': sorted(set(noise)),
-            'eligible': bool(evidence) and not re.search(r'찌라시|루머|소문|무료.?방|VIP|수익.?인증|rumou?r', body, re.I)}
+            'eligible': bool(evidence) and not (administrative and not operating) and not re.search(r'찌라시|루머|소문|무료.?방|VIP|수익.?인증|rumou?r', body, re.I)}
 
 
 def normalized(body):
