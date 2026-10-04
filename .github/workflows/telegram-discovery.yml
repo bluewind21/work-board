@@ -3,9 +3,8 @@ name: Telegram Discovery Scout
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 21 * * *' # 06:20 Asia/Seoul (next day)
-    - cron: '20 3 * * *'  # 12:20 Asia/Seoul
-    - cron: '20 9 * * *'  # 18:20 Asia/Seoul
+    - cron: '20 6,12,18 * * *'
+      timezone: 'Asia/Seoul'
 
 permissions:
   contents: write
