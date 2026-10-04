@@ -13,12 +13,15 @@ Telegram 로그인·secret·봇 토큰·외부 Python 패키지는 사용하지 
 - 수동 실행: GitHub Actions → Telegram Discovery Scout → Run workflow.
 - 당일 누적 원문 게시물: `telegram_discovery/YYYY-MM-DD.json`
 - 후속 AI 분석의 첫 입력: `telegram_discovery/candidates/YYYY-MM-DD.json`
+- 최신 수집 상태·coverage·실제 merge 검증: `telegram_discovery/latest_run.json`
 - 30일 엔티티 통계·coverage·오류: `telegram_discovery/baseline/entities.json`
 - 재현용 30일 게시물과 최초 관측 registry: `telegram_discovery/baseline/state.json`
 - 운영 지침: `telegram_discovery/README.md`
 
-후속 ChatGPT 예약 작업은 서울 날짜의 candidates, daily JSON, baseline entities,
-그리고 이 지침을 읽습니다. candidates가 없거나 수집 오류가 있으면 성공한 부분과
+후속 ChatGPT 예약 작업은 서울 날짜의 candidates, daily JSON, latest_run,
+그리고 이 지침을 읽습니다. 필요할 때 baseline entities/state를 추가로 읽습니다.
+baseline 원본은 1MB를 넘을 수 있으므로 GitHub Contents API의 빈 content를
+빈 데이터라고 판단하지 않습니다. candidates가 없거나 수집 오류가 있으면 성공한 부분과
 빈 후보를 구분하고 보고합니다. 당일 급등 종목을 후보 부족의 대체재로 넣지 않습니다.
 
 ## Phase 1 채널
@@ -76,7 +79,9 @@ seed 별칭 외에도 종목코드, `$TICKER` / 거래소 ticker, 한글 리포�
 엔티티 주변의 수주·CAPA·가동률·수출·backlog·lead time·채택·계약·가격·믹스·마진 문맥에서
 실물 숫자를 찾고 Q/P/mix/margin 경로 태그를 붙입니다. 같은 원문의 SHA256,
 near-copy SimHash, 같은 원기사/리포트 URL을 공유하는 게시물은 하나의 source cluster로 묶습니다.
-독립 채널 수는 channel와 source cluster가 각각 중복되지 않게 maximum matching으로 셉니다.
+추적용 URL 파라미터, 같은 기사 제목, 같은 종목코드·계약 규모 공시, 같은 증권사 리포트
+요약도 보수적으로 같은 원자료로 묶습니다. 독립 채널 수는 channel와 source cluster가
+각각 중복되지 않게 maximum matching으로 셉니다.
 이는 출처 독립성의 근사치입니다. URL 없는 재작성·스크린샷·서로 다른 기사에서 인용한 같은
 원리포트는 완벽하게 제거할 수 없으므로 후속 분석에서 원자료를 재확인해야 합니다.
 
@@ -124,3 +129,5 @@ Telegram은 발견 근거로 인용하고 최종 투자 근거는 공식 자료�
 실물 수집: `python3 scripts/telegram_discovery.py`.
 테스트는 timestamp, 신규 이름, 재전송, cold start, 잡음 제외, D2 제한,
 두 번 실행의 merge/정렬/상태 갱신, baseline expiry/최초 관측 보존, cron·저장 경계를 검사합니다.
+매 실물 실행에서도 저장된 daily/state를 다시 읽어 이전 게시물의 내용 보존,
+ID 중복 0건, 게시시각 정렬을 assert하고 latest_run.json에 검증 수치를 남깁니다.
