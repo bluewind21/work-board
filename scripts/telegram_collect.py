@@ -228,28 +228,31 @@ def collect_channel(channel, today, errors):
     return list(found.values()), summary
 
 
+def post_key(record):
+    """Telegram handles are case-insensitive; IDs are unique within a channel."""
+    return record["channel"].casefold(), record["message_id"].casefold()
+
+
 def merge_existing(output_path, posts, today, errors):
     merged = {}
     if output_path.exists():
         try:
             previous = json.loads(output_path.read_text(encoding="utf-8"))
             for record in previous["posts"]:
-                if record["channel"] not in CHANNELS:
-                    continue
                 if parse_timestamp(record["published_at_kst"]).astimezone(KST).date() != today:
                     continue
                 if not isinstance(record["body"], str):
                     raise ValueError("Previous post body is not text")
                 if not re.fullmatch(re.escape(record["channel"]) + r"/[1-9][0-9]*", record["message_id"]):
                     raise ValueError("Previous post message_id is invalid")
-                merged[record["message_id"].casefold()] = record
+                merged.setdefault(post_key(record), record)
         except (OSError, ValueError, KeyError, TypeError) as exc:
             add_error(errors, "collector", "storage", f"Could not completely read previous daily JSON: {exc}")
     for record in posts:
-        merged[record["message_id"].casefold()] = record
-    order = {channel: index for index, channel in enumerate(CHANNELS)}
+        # Preserve the first saved copy, including its body and collection time.
+        merged.setdefault(post_key(record), record)
     return sorted(merged.values(), key=lambda record: (
-        order[record["channel"]], record["published_at_kst"],
+        parse_timestamp(record["published_at_kst"]), record["channel"].casefold(),
         int(record["message_id"].split("/")[-1]),
     ))
 
@@ -276,7 +279,7 @@ def main(output_dir=Path("telegram"), now=None):
     payload = {
         "collected_at_kst": started.astimezone(KST).isoformat(timespec="seconds"),
         "date_kst": today.isoformat(),
-        "total_collected": len({record["message_id"].casefold() for record in posts}),
+        "total_collected": len({post_key(record) for record in posts}),
         "total_posts": len(saved_posts),
         "channels": summaries, "posts": saved_posts, "errors": errors,
     }
