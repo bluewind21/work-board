@@ -62,9 +62,12 @@ ALIASES = {
     '데이터센터': ('industry', ('데이터센터', 'data center', 'datacenter')),
     'HBM': ('product', ('HBM',)), 'DRAM': ('product', ('DRAM', '디램')),
     'NAND': ('product', ('NAND', '낸드')),
+    'HVAC': ('industry', ('HVAC', '냉난방공조')),
 }
 STOP = set('AI CAPA Q P KST UTC HTTP HTTPS ETF IPO YoY MoM QoQ EPS PER PBR BUY SELL HOLD USD KRW CEO GDP CPI FOMC USA US NYSE NASDAQ EBITDA EBIT ROE ROA IR PDF CPI PMI LNG CNBC Reuters Bloomberg NEWS News Research Update Daily Summary The This That With From For And But Target Price Buy Sell Strong Investment Finance Monday Tuesday Wednesday Thursday Friday Saturday Sunday'.casefold().split())
+STOP.update('Blended Monthly Upfront Call Option Put Downstream Edition Founders Industri Industry Limited Ltd Sons Group Company Corporation Corp Inc Pte Asia China Europe America American Britain England Korea Korean Japan Japanese Stock Stocks Market Markets Revenue Sales Growth Margin Cost Forecast Estimate Estimates Consensus Preview Review Report Results Quarter Year Years Week Weeks Month Months Million Billion Trillion Investment Earnings Investor Investors Banking Securities Financial Analyst Outlook Top Pick Fair Value Current Previous Total Average Global New First Second Last Next High Low Bull Bear Long Short Positive Negative Neutral Executive President Annual Strategy Strategic Economic Economy Business Credit Operating Guidance Rating Ratings ES CA BMO BOM MOU FY CY YTD'.casefold().split())
 KOREAN_STOP = {'시장', '주가', '기업', '업체', '고객사', '증권', '리서치', '수주', '매출', '영업이익', '뉴스', '전망', '목표주가', '투자의견', '오늘', '동사', '당사', '미국', '한국', '중국', '일본', '수출', '가격', '생산', '투자', '자료', '정부', '보고서', '이번', '산업', '사업', '실적'}
+KOREAN_STOP.update({'최대', '최소', '신규', '대형', '주요', '해당', '추가', '기존', '대규모', '글로벌', '국내', '해외', '여러', '모든', '향후', '관련', '핵심', '고부가'})
 BUSINESS = re.compile(r'수주|수출|출하|판매량|생산량|증설|가동률|공급부족|병목|채택|계약|고객사|공급업체|판가|가격|제품.?믹스|마진|이익률|원가|CAPA|capacity|backlog|lead.?time|order|contract|adopt|utilization|margin|shipment|pricing', re.I)
 NUMBER = re.compile(r'\d[\d,.]*\s*(?:%|퍼센트|억|조|만\s*대|대\b|배|개월|주\b|GW|MW|TWh|톤|million|billion|bn\b|mn\b|weeks?|months?)|[$₩]\s*\d[\d,.]*', re.I)
 NOISE = re.compile(r'목표[주]?가|급등|상한가|테마주|관련주|찌라시|루머|소문|매수.?추천|무료.?방|VIP|수익.?인증|종목.?추천|target price|price target|rumou?r', re.I)
@@ -179,17 +182,24 @@ def entities(body):
                 return
         result.setdefault(name.casefold(), (name, category))
 
-    for name in re.findall(r'([가-힣A-Za-z][가-힣A-Za-z0-9& .-]{1,25}?)\s*\(\s*(?:A)?\d{6}\s*\)', body):
+    for name in re.findall(r'([가-힣A-Za-z][가-힣A-Za-z0-9&_-]{1,25})\s*[\[(]\s*(?:A)?\d{6}(?:\.[A-Z]{1,4})?\s*[\])]', body):
         add(name, 'company')
     for ticker in re.findall(r'(?<!\w)\$([A-Z]{1,6})(?![a-zA-Z])|(?:NYSE|NASDAQ)\s*:\s*([A-Z]{1,6})', body):
         add(next(x for x in ticker if x), 'ticker')
     for name in re.findall(r'#([가-힣A-Za-z][가-힣A-Za-z0-9_]{1,25})', body):
         add(name, 'tag')
     for name in re.findall(r'([가-힣A-Za-z][가-힣A-Za-z0-9_-]{1,24})\s+(?:프로젝트|Project)', body, re.I):
-        add(name + ' 프로젝트', 'project')
+        if name not in KOREAN_STOP and name.casefold() not in STOP:
+            add(name + ' 프로젝트', 'project')
     for name in re.findall(r'([가-힣A-Za-z][가-힣A-Za-z0-9_-]{1,24})(?:의|는|가|에서)\s*(?:신규\s*)?(?:수주|계약|증설|채택|가동률|가격|공급)', body):
         add(name, 'business_entity')
-    for name in re.findall(r'\b(?:[A-Z][a-z]+(?:[A-Z][a-zA-Z0-9]+)+|[A-Z][a-z]{2,18}|[A-Z]{2,8}\d{0,3})\b', body):
+    compound_parts = set()
+    for name in re.findall(r'(?<![A-Za-z])(?:(?:[A-Z][A-Za-z.]*|&)\s+){1,5}(?:Biosciences|Electronics|Technologies|Holdings|LIMITED|Limited|Corporation|Corp\.?|Inc\.?|Ltd\.?)', body):
+        add(name.strip(), 'company_or_partner')
+        compound_parts.update(name.casefold().split())
+    for name in re.findall(r'(?<![A-Za-z0-9])(?:[A-Z][a-z]+(?:[A-Z][a-zA-Z0-9]+)+|[A-Z][a-z]{2,18}|[A-Z]{3,8}\d{0,3})(?![A-Za-z0-9])', body):
+        if name.casefold() in compound_parts:
+            continue
         add(name, 'name_or_technology')
     # Korean report titles often put a company after a research label.
     for line in body.splitlines()[:5]:
@@ -202,7 +212,11 @@ def entities(body):
 def signals(body):
     evidence = []
     for match in NUMBER.finditer(body):
-        context = body[max(0, match.start() - 100):match.end() + 100].replace('\n', ' ')
+        # A digest's unrelated item must not lend its number to another entity.
+        left = max(body.rfind('\n', 0, match.start()), body.rfind('。', 0, match.start())) + 1
+        right = body.find('\n', match.end())
+        right = len(body) if right == -1 else right
+        context = body[max(left, match.start() - 100):min(right, match.end() + 100)]
         if BUSINESS.search(context) and context not in evidence:
             evidence.append(context)
     paths = []
@@ -237,9 +251,30 @@ def source_links(body):
             continue
         if not re.search(r'\d{3,}|\.pdf$|/article/|/news/|/report/', parts.path + '?' + parts.query, re.I):
             continue
-        query = '&'.join(q for q in parts.query.split('&') if q and not q.startswith(('utm_', 'fbclid=', 'gclid=')))
+        query = '&'.join(sorted(q for q in parts.query.split('&') if q and not q.casefold().startswith(('utm_', 'fbclid=', 'gclid=', 'ref=', 'source=', 'from='))))
         sources.add(urlunsplit(('https', host, parts.path, query, '')))
     return sources
+
+
+def original_signatures(body):
+    """Conservative extra anchors for rewritten headlines and contract notices."""
+    result = set()
+    if source_links(body) or re.search(r'https?://', body):
+        lines = [line.strip() for line in body.splitlines() if len(normalized(line)) >= 35 and not line.strip().startswith('http')]
+        if lines:
+            headline = normalized(lines[0])
+            if 35 <= len(headline) <= 180:
+                result.add('headline:' + headline)
+    codes = set(re.findall(r'[\[(](\d{6})(?:\.[A-Z]{1,4})?[\])]', body))
+    if len(codes) == 1 and re.search(r'수주|공급계약|계약총액|계약상대', body):
+        for amount, unit in re.findall(r'(\d[\d,.]*)\s*(조|억)\s*(?:원)?', body)[:4]:
+            value = float(amount.replace(',', '')) * (10000 if unit == '조' else 1)
+            bucket = round(value / 10) * 10 if value >= 100 else round(value)
+            result.add(f'contract:{next(iter(codes))}:{bucket}')
+    # Broker report identity survives short digest summaries of the same report.
+    for name, code, broker in re.findall(r'([가-힣A-Za-z0-9]+)\[(\d{6})\][^\n]{0,90}\n\s*([가-힣]+(?:증권|투자증권))', body):
+        result.add(f'report:{code}:{broker}')
+    return result
 
 
 def simhash(text):
@@ -270,7 +305,7 @@ def clusters(posts):
         if text and fingerprint in exact:
             union(i, exact[fingerprint])
         exact[fingerprint] = i
-        for link in source_links(post['body']):
+        for link in source_links(post['body']) | original_signatures(post['body']):
             if link in links:
                 union(i, links[link])
             links[link] = i
@@ -344,6 +379,9 @@ def analyze(posts, now, baseline_complete, first_seen_registry=None):
             # Evidence numbers must be near this entity, not elsewhere in a long digest.
             aliases = ALIASES.get(entity, (category, (entity,)))[1]
             contexts = [s for s in signal['business_numbers'] if any(a.casefold() in s.casefold() for a in aliases)]
+            report_codes = re.findall(r'[\[(](\d{6})(?:\.[A-Z]{1,4})?[\])]', p['body'])
+            if not contexts and category == 'company' and len(set(report_codes)) == 1 and entity in p['body'].split('\n')[0]:
+                contexts = signal['business_numbers']
             if not contexts:
                 continue
             evidence.append({'channel': p['channel'], 'tier': 'D1' if p['channel'] in D1 else 'D2',
@@ -429,6 +467,7 @@ def main(output_dir=Path('telegram_discovery'), now=None):
     posts = sorted(previous.values(), key=lambda p: (parse_timestamp(p['published_at_kst']), post_key(p)))
     today_posts = [p for p in fetched if parse_timestamp(p['published_at_kst']).date() == now.date()]
     daily_path = root / f'{now.date().isoformat()}.json'
+    old_daily = load_json(daily_path, {'posts': []})['posts']
     daily = merge_existing(daily_path, today_posts, now.date(), errors)
     baseline_complete = all(coverage.get(c, {}).get('history_complete') for c in CHANNELS)
     first_seen_registry = state.get('first_seen_registry', {})
@@ -443,6 +482,28 @@ def main(output_dir=Path('telegram_discovery'), now=None):
     save_json(root / 'baseline' / 'entities.json', dict(metadata, total_entities=len(rows), entities=rows))
     save_json(root / 'candidates' / f'{now.date().isoformat()}.json', dict(metadata, date_kst=now.date().isoformat(),
                                                                  total_candidates=len(candidates), candidates=candidates))
+    # Check the actual written files against the pre-run snapshots. Fail loudly
+    # rather than committing any loss or duplication of existing source posts.
+    saved_daily = load_json(daily_path, {})['posts']
+    saved_baseline = load_json(state_path, {})['posts']
+    daily_map = {post_key(p): p for p in saved_daily}
+    baseline_map = {post_key(p): p for p in saved_baseline}
+    retained = [p for p in state['posts'] if cutoff <= parse_timestamp(p['published_at_kst']) <= now]
+    daily_preserved = sum(daily_map.get(post_key(p)) == p for p in old_daily)
+    baseline_preserved = sum(baseline_map.get(post_key(p)) == p for p in retained)
+    assert daily_preserved == len(old_daily), 'Existing daily posts were modified or lost'
+    assert baseline_preserved == len(retained), 'Retained baseline posts were modified or lost'
+    assert len(daily_map) == len(saved_daily), 'Duplicate daily message IDs'
+    assert len(baseline_map) == len(saved_baseline), 'Duplicate baseline message IDs'
+    assert all(parse_timestamp(a['published_at_kst']) <= parse_timestamp(b['published_at_kst']) for a, b in zip(saved_daily, saved_daily[1:])), 'Daily posts not chronological'
+    verification = {'daily_previous_posts': len(old_daily), 'daily_preserved_posts': daily_preserved,
+                    'daily_duplicate_count': len(saved_daily) - len(daily_map),
+                    'baseline_previous_retained_posts': len(retained), 'baseline_preserved_posts': baseline_preserved,
+                    'baseline_duplicate_count': len(saved_baseline) - len(baseline_map), 'chronological': True}
+    save_json(root / 'latest_run.json', dict(metadata, date_kst=now.date().isoformat(),
+              total_posts=len(daily), baseline_posts=len(posts), total_entities=len(rows),
+              total_candidates=len(candidates), channels=summaries, verification=verification))
+    print('MERGE_VERIFICATION=' + json.dumps(verification), flush=True)
     print(f'DAILY={len(daily)} BASELINE_POSTS={len(posts)} ENTITIES={len(rows)} CANDIDATES={len(candidates)} ERRORS={len(errors)} BASELINE_STATUS={metadata["baseline_status"]}', flush=True)
     for candidate in candidates[:3]:
         print('CANDIDATE_EXAMPLE=' + json.dumps(candidate, ensure_ascii=False), flush=True)
