@@ -1,0 +1,73 @@
+name: Telegram public preview probe
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  telegram-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Probe public Telegram previews
+        shell: python3 {0}
+        run: |
+          import sys
+          from http.client import HTTPException
+          from urllib.error import HTTPError, URLError
+          from urllib.request import Request, urlopen
+
+          channels = ("KISemicon", "skitteam")
+          user_agent = (
+              "Mozilla/5.0 (X11; Linux x86_64) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/131.0.0.0 Safari/537.36"
+          )
+          failed = False
+
+          for channel in channels:
+              url = f"https://t.me/s/{channel}"
+              status = None
+              body = b""
+              final_url = url
+              error = None
+              request = Request(
+                  url,
+                  headers={
+                      "User-Agent": user_agent,
+                      "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+                      "Accept-Encoding": "identity",
+                  },
+              )
+
+              try:
+                  with urlopen(request, timeout=30) as response:
+                      status = response.status
+                      final_url = response.geturl()
+                      body = response.read()
+              except HTTPError as exc:
+                  status = exc.code
+                  final_url = exc.geturl()
+                  error = f"HTTPError: {exc.code} {exc.reason}"
+                  try:
+                      with exc:
+                          body = exc.read()
+                  except (HTTPException, OSError, URLError) as read_error:
+                      error += f"; body read failed: {read_error}"
+              except (HTTPException, OSError, URLError) as exc:
+                  error = f"{type(exc).__name__}: {exc}"
+
+              print(f"channel: {channel}")
+              print(f"URL: {url}")
+              print(f"HTTP status: {status if status is not None else 'N/A'}")
+              print(f"HTML bytes: {len(body)}")
+              print(f"Final URL: {final_url}")
+              if error:
+                  print(f"Error: {error}")
+              print(flush=True)
+
+              if error or status != 200 or not body:
+                  failed = True
+
+          sys.exit(1 if failed else 0)
