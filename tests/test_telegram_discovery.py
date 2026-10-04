@@ -78,6 +78,12 @@ class DiscoveryTests(unittest.TestCase):
         names = [name for name, _ in scout.entities('Monthly Blended Upfront Downstream Call Edition Revenue Billion')]
         self.assertEqual(names, [])
 
+    def test_shareholding_contracts_and_stock_moves_are_not_operating_numbers(self):
+        for body in ['메지온(140410) 최대주주 보유목적 경영권 영향, 주요계약 9.51% 약 291만 주',
+                     '가온칩스(399720) 자기주식 취득결과 계약 13억 취득 약 3만 주',
+                     'Seagate 주가 약 10% 하락, 공급부족과 가격 상승 완화 가능성']:
+            self.assertFalse(scout.signals(body)['eligible'])
+
     def test_unrelated_digest_numbers_do_not_create_an_entity_signal(self):
         records = [post('siglab', 1, 'Abogen 소식은 단순 의견\n삼성전자 신규 수주 300억원 확대')]
         candidates = scout.analyze(records, NOW, False)[1]
