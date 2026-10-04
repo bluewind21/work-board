@@ -1,0 +1,711 @@
+{
+  "date_kst": "2026-10-04",
+  "collected_at_kst": "2026-10-04T20:45:49+09:00",
+  "total_posts": 56,
+  "channels": [
+    {
+      "channel": "SK_Research_Asset",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 20,
+      "errors_count": 0,
+      "fetched_pages": 1,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-07T07:12:22+09:00"
+    },
+    {
+      "channel": "sk_smallcap",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 20,
+      "errors_count": 0,
+      "fetched_pages": 1,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-07T07:21:59+09:00"
+    },
+    {
+      "channel": "eqmirae",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 60,
+      "errors_count": 0,
+      "fetched_pages": 3,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T13:18:25+09:00"
+    },
+    {
+      "channel": "opendisco",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 799,
+      "errors_count": 1,
+      "fetched_pages": 40,
+      "history_complete": false,
+      "backfill_next_before": 1567,
+      "earliest_fetched_at_kst": "2026-09-16T17:39:21+09:00"
+    },
+    {
+      "channel": "hanasmallcap",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 20,
+      "errors_count": 0,
+      "fetched_pages": 1,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-08T18:14:56+09:00"
+    },
+    {
+      "channel": "SKSCyclical",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 60,
+      "errors_count": 0,
+      "fetched_pages": 3,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-06T14:28:10+09:00"
+    },
+    {
+      "channel": "HI_GS",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 2,
+      "timestamp_count": 157,
+      "errors_count": 0,
+      "fetched_pages": 8,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T17:18:56+09:00"
+    },
+    {
+      "channel": "hana_us_stock",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 2,
+      "timestamp_count": 178,
+      "errors_count": 0,
+      "fetched_pages": 9,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-04T21:31:34+09:00"
+    },
+    {
+      "channel": "siglab",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 725,
+      "errors_count": 1,
+      "fetched_pages": 40,
+      "history_complete": false,
+      "backfill_next_before": 141132,
+      "earliest_fetched_at_kst": "2026-09-07T22:21:02+09:00"
+    },
+    {
+      "channel": "corevalue",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 3,
+      "timestamp_count": 401,
+      "errors_count": 0,
+      "fetched_pages": 21,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T18:09:11+09:00"
+    },
+    {
+      "channel": "growthresearch",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 6,
+      "timestamp_count": 603,
+      "errors_count": 0,
+      "fetched_pages": 35,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T12:40:06+09:00"
+    },
+    {
+      "channel": "growth_semi",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 7,
+      "timestamp_count": 205,
+      "errors_count": 0,
+      "fetched_pages": 11,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T12:40:18+09:00"
+    },
+    {
+      "channel": "knowledge_to_wealth",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 1,
+      "timestamp_count": 251,
+      "errors_count": 0,
+      "fetched_pages": 15,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T00:26:41+09:00"
+    },
+    {
+      "channel": "sksresearch",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 83,
+      "errors_count": 0,
+      "fetched_pages": 5,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-06T14:28:27+09:00"
+    },
+    {
+      "channel": "HanaResearch",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 1,
+      "timestamp_count": 147,
+      "errors_count": 0,
+      "fetched_pages": 8,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T16:58:40+09:00"
+    },
+    {
+      "channel": "quantum_algo",
+      "tier": "D2",
+      "http_status": 200,
+      "today_post_count": 23,
+      "timestamp_count": 797,
+      "errors_count": 1,
+      "fetched_pages": 40,
+      "history_complete": false,
+      "backfill_next_before": 102009,
+      "earliest_fetched_at_kst": "2026-09-14T12:53:44+09:00"
+    },
+    {
+      "channel": "STANDARDCAPITAL",
+      "tier": "D2",
+      "http_status": 200,
+      "today_post_count": 0,
+      "timestamp_count": 60,
+      "errors_count": 0,
+      "fetched_pages": 3,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T11:14:42+09:00"
+    },
+    {
+      "channel": "FastStockNewsUSA",
+      "tier": "D2",
+      "http_status": 200,
+      "today_post_count": 10,
+      "timestamp_count": 643,
+      "errors_count": 0,
+      "fetched_pages": 34,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-04T22:20:13+09:00"
+    },
+    {
+      "channel": "FastStockNews",
+      "tier": "D2",
+      "http_status": 200,
+      "today_post_count": 1,
+      "timestamp_count": 798,
+      "errors_count": 1,
+      "fetched_pages": 40,
+      "history_complete": false,
+      "backfill_next_before": 125279,
+      "earliest_fetched_at_kst": "2026-09-17T14:11:51+09:00"
+    }
+  ],
+  "posts": [
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23557",
+      "published_at_kst": "2026-10-04T01:19:11+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23557",
+      "body": "사우디아라비아와 예멘이 홍해 진출입로를 장악한 후티 반군을 대상으로 대공세를 계획하고 있다고 로이터통신이 2일(현지시간) 보도했다. 예멘 병력 10만 명이 동원될 가능성이 제기됐다.\n\nhttps://naver.me/51uNztMw"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23558",
+      "published_at_kst": "2026-10-04T01:19:21+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23558",
+      "body": "최근에는 사우디아라비아의 홍해 송유관과 중동 국가들의 '원유 셔틀 서비스'가 가동되면서 수출량이 전쟁 이전 수준에 근접했다는 분석이 나온다.\n\nhttps://naver.me/GlRI3Qho"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23559",
+      "published_at_kst": "2026-10-04T01:23:32+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23559",
+      "body": ""
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23560",
+      "published_at_kst": "2026-10-04T04:32:30+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23560",
+      "body": "이란 대통령실: 이란 최고국가안보회의 사무총장은 협상이 진지하게 진행되고 있음을 강조했습니다. ..."
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102788",
+      "published_at_kst": "2026-10-04T07:01:18+09:00",
+      "permalink": "https://t.me/quantum_algo/102788",
+      "body": "美재무 \"미 국채 금리 상승에 특이점 없어\"…추가 개입 가능성도 시사\n\nhttps://news.einfomax.co.kr/news/articleView.html?idxno=4437708"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102789",
+      "published_at_kst": "2026-10-04T07:26:22+09:00",
+      "permalink": "https://t.me/quantum_algo/102789",
+      "body": "고금리·고유가에도 AI주는 웃었다…S&P500 종목 80%는 하락\n\nhttps://naver.me/5YocXEal"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102790",
+      "published_at_kst": "2026-10-04T07:45:20+09:00",
+      "permalink": "https://t.me/quantum_algo/102790",
+      "body": "[뉴욕증시-주간전망] '좀 말려봐'…고금리의 목에 누가 방울을 채울까\n\nhttps://news.einfomax.co.kr/news/articleView.html?idxno=4437711"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102791",
+      "published_at_kst": "2026-10-04T08:11:40+09:00",
+      "permalink": "https://t.me/quantum_algo/102791",
+      "body": "[마켓인사이트] 삼전 실적발표 앞둔 韓증시…'7천피' 지켜낼까\n\nhttps://naver.me/5PWazWYi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102792",
+      "published_at_kst": "2026-10-04T08:54:40+09:00",
+      "permalink": "https://t.me/quantum_algo/102792",
+      "body": "코스피의 굴욕…3분기 수익률 -19% 주요국 증시 중 '꼴찌'\n\nhttps://naver.me/G8f9ThZu"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102793",
+      "published_at_kst": "2026-10-04T09:36:44+09:00",
+      "permalink": "https://t.me/quantum_algo/102793",
+      "body": "\"뚫리고도 모를 수 있다\"…AI發 무차별 해킹에 금융권 '비상'\n\nhttps://naver.me/xdMFU8z9"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "HI_GS",
+      "message_id": "HI_GS/7169",
+      "published_at_kst": "2026-10-04T09:52:01+09:00",
+      "permalink": "https://t.me/HI_GS/7169",
+      "body": "🛡🇸🇦 GAMI Arab Saudi: Industri Pertahanan dan Visi 2030\n🛡🇸🇦 사우디 GAMI: 방위산업과 비전 2030\n\n출처: Vision 2030 AI (The Vanderbilt Portfolio)\n링크: https://vision2030.ai/id/lembaga/gami-otoritas-industri-militer/\n\n사우디 군수산업청(GAMI)은 2017년 설립되어 비전 2030 프레임워크 아래 국방 지출의 50% 국산화 달성을 핵심 목표로 추진\n\n사우디 연간 국방 예산은 역사적으로 500억800억 달러 규모로 글로벌 56위권이나, GAMI 출범 이전 군 조달의 약 98%를 해외 공급업체에 의존\n\n주요 조달 계약 시 해외 방산 기업에 제조 시설 구축, 기술 이전, 사우디 인력 개발을 의무화하는 오프셋 정책 적용\n\n국부펀드(PIF) 산하 국영 방산기업 SAMI를 필두로 항공우주, 지상체계, 무기·미사일, 방산 전자 분야에서 글로벌 기업과의 합작 및 현지 생산 확대\n\n첨단 전자 시스템(AEC), 장갑차(Intra Defence Technologies) 및 중소 공급망 생태계 조성과 방산 특화 산업단지 개발 가속\n\n방산 50% 국산화 목표 달성을 위해서는 전문 인력 양성, 장기 무기 개발 주기, 방대한 자본 소요 및 기술 격차 극복이 주요 과제로 평가\n\n───────\n📈 텔레그램 공개 채널 https://t.me/HI_GS\n🎴 빨리 좀 시작합시다."
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102794",
+      "published_at_kst": "2026-10-04T10:10:59+09:00",
+      "permalink": "https://t.me/quantum_algo/102794",
+      "body": "\"수익성 불투명한 10조달러 투자\"...월가, AI 거품 붕괴 경고\n\nhttps://www.aitimes.com/news/articleView.html?idxno=215942"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102795",
+      "published_at_kst": "2026-10-04T10:50:03+09:00",
+      "permalink": "https://t.me/quantum_algo/102795",
+      "body": "챗GPT·클로드에도 있는데…메타 '뮤즈'에 월가가 열광한 이유\n\nhttps://naver.me/GlRIC4Wj"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102796",
+      "published_at_kst": "2026-10-04T11:29:29+09:00",
+      "permalink": "https://t.me/quantum_algo/102796",
+      "body": "[만나보니] AI 석학 대니얼 리 \"AI 혁명 이제 시작…개발 멈춰선 안돼\"\n\nhttps://naver.me/539Kmb45"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "corevalue",
+      "message_id": "corevalue/47258",
+      "published_at_kst": "2026-10-04T11:31:42+09:00",
+      "permalink": "https://t.me/corevalue/47258",
+      "body": "https://youtu.be/I7FdG3sZ4OY?si=6Jr9rff1qkv0pb3M"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growth_semi",
+      "message_id": "growth_semi/1595",
+      "published_at_kst": "2026-10-04T11:47:23+09:00",
+      "permalink": "https://t.me/growth_semi/1595",
+      "body": "💻 JP모건 \"메모리 공급 타이트 2028년까지…고객 주문 논의는 이미 2031년까지 확장\"\n\n📌 핵심 전망\nJP모건은 메모리 공급 부족이 2028년까지 이어질 것으로 전망하며, 고객사와의 주문 논의가 이미 2031년까지 확장된 상태라고 언급\n\nHBM 비트 수요 성장률 +63%\n\n일반(Non-HBM) 서버 DRAM 수요 성장률 +37%\n\nCY27 HBM 블렌디드 ASP +54% YoY\n\n📌 장기공급계약(LTA) 관련\n마이크론이 제시한 2030년까지 매출 35% 이상을 커버하는 장기공급계약 비중이 보수적인 수치일 수 있다고 평가\n\n아시아 메모리 경쟁사들은 이미 캐파의 50% 이상을 LTA로 커버하고 있다는 점을 근거로 제시\n\n참고: 마이크론은 이번 실적 발표에서 전략적 고객계약(SCA)이 6월 16건에서 26건으로 늘었고, 총 약정 매출 $32B, 일부 계약은 2031년까지 이어진다고 공개\n\n(전략적 고객계약 커버리지는 DRAM 비트 약 35%, NAND 비트는 이보다 다소 높은 수준)\n\n📌 JP모건 추가 분석(실적 프리뷰 기준)\nHBM 공급 부족률 전망: 2026년 20% → 2027년 19% → 2028년 16%\n\nHBM 시장 규모: 2027년 $160B, 2028년 $282B 전망\n\n마이크론의 SCA 커버리지가 35% 이상에서 50% 초과로 확대될 가능성 언급\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growthresearch",
+      "message_id": "growthresearch/30168",
+      "published_at_kst": "2026-10-04T11:47:26+09:00",
+      "permalink": "https://t.me/growthresearch/30168",
+      "body": "💻 JP모건 \"메모리 공급 타이트 2028년까지…고객 주문 논의는 이미 2031년까지 확장\"\n\n📌 핵심 전망\nJP모건은 메모리 공급 부족이 2028년까지 이어질 것으로 전망하며, 고객사와의 주문 논의가 이미 2031년까지 확장된 상태라고 언급\n\nHBM 비트 수요 성장률 +63%\n\n일반(Non-HBM) 서버 DRAM 수요 성장률 +37%\n\nCY27 HBM 블렌디드 ASP +54% YoY\n\n📌 장기공급계약(LTA) 관련\n마이크론이 제시한 2030년까지 매출 35% 이상을 커버하는 장기공급계약 비중이 보수적인 수치일 수 있다고 평가\n\n아시아 메모리 경쟁사들은 이미 캐파의 50% 이상을 LTA로 커버하고 있다는 점을 근거로 제시\n\n참고: 마이크론은 이번 실적 발표에서 전략적 고객계약(SCA)이 6월 16건에서 26건으로 늘었고, 총 약정 매출 $32B, 일부 계약은 2031년까지 이어진다고 공개\n\n(전략적 고객계약 커버리지는 DRAM 비트 약 35%, NAND 비트는 이보다 다소 높은 수준)\n\n📌 JP모건 추가 분석(실적 프리뷰 기준)\nHBM 공급 부족률 전망: 2026년 20% → 2027년 19% → 2028년 16%\n\nHBM 시장 규모: 2027년 $160B, 2028년 $282B 전망\n\n마이크론의 SCA 커버리지가 35% 이상에서 50% 초과로 확대될 가능성 언급\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102797",
+      "published_at_kst": "2026-10-04T12:08:18+09:00",
+      "permalink": "https://t.me/quantum_algo/102797",
+      "body": "[AI위클리] AI 경쟁 기준 달라졌다…'성능' 넘어 '실행'으로\n\nhttps://naver.me/58q6YiUi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growth_semi",
+      "message_id": "growth_semi/1596",
+      "published_at_kst": "2026-10-04T12:16:49+09:00",
+      "permalink": "https://t.me/growth_semi/1596",
+      "body": "💻 日 Toppan·DNP, 한국 유리기판 장비 발주 임박…2028년 FC-BGA 양산 겨냥\n\nhttps://www.kipost.net/news/articleView.html?idxno=342068\n\n📌 일본 양대 기판업체, 이달 韓 장비 발주 전망\nToppan Holdings와 DNP가 이달 중 한국 업체에 유리기판 제조장비를 발주할 것으로 보도\n\n일본 주요 기판업체의 유리기판 투자가 연구개발 단계를 넘어 실제 생산라인 구축 단계로 진입하는 신호\n\n📌 Toppan, 2028년 글라스코어 FC-BGA 생산 목표\nToppan은 도입 장비를 활용해 2028년부터 유리코어 기반 FC-BGA 기판 생산을 추진\n\n유리코어는 기존 유기 소재 대비 미세배선·대형화·열 및 치수 안정성 측면에서 차세대 반도체 패키징 소재로 주목\n\n📌 국내 유리기판 장비업체 수주 모멘텀 주목\n일본 고객사의 실제 장비 발주가 시작될 경우 국내 유리기판 장비 공급망의 레퍼런스 확보 측면에서 의미\n\n향후 파일럿 장비 → 양산라인 증설로 이어질 경우 추가 수주 가능성이 핵심 투자 포인트\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growthresearch",
+      "message_id": "growthresearch/30169",
+      "published_at_kst": "2026-10-04T12:16:55+09:00",
+      "permalink": "https://t.me/growthresearch/30169",
+      "body": "💻 日 Toppan·DNP, 한국 유리기판 장비 발주 임박…2028년 FC-BGA 양산 겨냥\n\nhttps://www.kipost.net/news/articleView.html?idxno=342068\n\n📌 일본 양대 기판업체, 이달 韓 장비 발주 전망\nToppan Holdings와 DNP가 이달 중 한국 업체에 유리기판 제조장비를 발주할 것으로 보도\n\n일본 주요 기판업체의 유리기판 투자가 연구개발 단계를 넘어 실제 생산라인 구축 단계로 진입하는 신호\n\n📌 Toppan, 2028년 글라스코어 FC-BGA 생산 목표\nToppan은 도입 장비를 활용해 2028년부터 유리코어 기반 FC-BGA 기판 생산을 추진\n\n유리코어는 기존 유기 소재 대비 미세배선·대형화·열 및 치수 안정성 측면에서 차세대 반도체 패키징 소재로 주목\n\n📌 국내 유리기판 장비업체 수주 모멘텀 주목\n일본 고객사의 실제 장비 발주가 시작될 경우 국내 유리기판 장비 공급망의 레퍼런스 확보 측면에서 의미\n\n향후 파일럿 장비 → 양산라인 증설로 이어질 경우 추가 수주 가능성이 핵심 투자 포인트\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "corevalue",
+      "message_id": "corevalue/47259",
+      "published_at_kst": "2026-10-04T12:33:43+09:00",
+      "permalink": "https://t.me/corevalue/47259",
+      "body": "📌 메모리 시장 업데이트\n\nJP모건은 마이크론 4QFY26 실적을 통해 메모리 공급 부족이 2028년까지 이어질 가능성이 높고, 2031년까지 장기 공급계약 논의가 진행되고 있다고 평가했습니다. 이번 사이클의 지속 기간이 시장 예상보다 더 길어지고 있다는 판단입니다.\n\n💾 2028년까지 수급 타이트, 균형 회복 시점도 불투명\n마이크론은 2027~2028년 메모리 수급이 2026년보다 더 타이트할 것으로 전망했습니다. DRAM과 NAND 비트 출하 증가율은 각각 20% 초반, 20% 중반 수준으로 예상되지만, 수요 증가가 공급 증가를 계속 앞서고 있어 수급 균형 회복 시점이 보이지 않는다는 설명입니다.\n특히 DRAM은 클린룸 부족까지 겹치면서 공급 확대가 제한되고 있습니다.\n\n📄 장기계약은 2031년까지 확대\n마이크론은 현재 26건의 장기 공급계약을 체결했으며, 2030년까지 매출의 35% 이상을 커버하고 있다고 밝혔습니다. 고객은 AI 하이퍼스케일러뿐 아니라 모바일, PC, 자동차까지 확대됐습니다.\n2027년 예상 비트 출하의 약 75%가 계약으로 잠겨 있고, JP모건은 아시아 메모리 업체들의 장기계약 비중은 전체 캐파의 50%를 훨씬 넘어서는 수준으로 보고 있습니다.\n\n🚀 2027년 HBM 공급 대부분 이미 판매\n마이크론은 2027년 HBM 비트 공급의 대부분이 이미 판매됐으며 가격도 전년 대비 크게 상승했다고 밝혔습니다. JP모건은 2027년 HBM Blended ASP가 전년 대비 54% 상승할 것으로 추정했습니다.\nHBM 비트 수요 성장률은 63%로, 비HBM 서버 DRAM의 37%보다 훨씬 높을 것으로 전망했습니다.\n\n📈 HBM과 일반 DRAM의 마진 격차도 축소\nHBM 가격 상승과 수율 개선으로 HBM과 일반 DRAM 간의 수익성 격차가 빠르게 줄어들고 있다는 점도 주목할 부분입니다. HBM 출하 증가율은 2028년까지 일반 DRAM을 계속 웃돌 것으로 예상됩니다.\n\n🔎 체크포인트\nJP모건이 이번 마이크론 실적에서 가장 중요하게 본 것은 단순한 가격 상승이 아니라 메모리 수급 타이트가 2028년까지 이어지고, 장기계약이 2031년까지 확장되고 있다는 점입니다.\n과거처럼 공급 확대 이후 급격한 가격 하락으로 이어지는 사이클보다 장기계약, HBM 수요, 클린룸 제약이 메모리 업황의 변동성을 낮추고 사이클을 길게 만들 가능성에 무게를 두고 있습니다.\n\n삼성전자와 SK하이닉스 역시 같은 구조의 수혜를 받을 가능성이 높아, 이번 메모리 사이클을 단순한 단기 업황 반등으로 보기 어려워지고 있습니다.\n출처: J.P. Morgan Asia Pacific Equity Research, 2026.10.01"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growth_semi",
+      "message_id": "growth_semi/1597",
+      "published_at_kst": "2026-10-04T12:34:33+09:00",
+      "permalink": "https://t.me/growth_semi/1597",
+      "body": "💻 모건스탠리 \"엔비디아, 루빈 R200 HBM 단가 최대 91.7% 인상 감내 가능\"\n\n📌 핵심 내용\n모건스탠리는 엔비디아가 차세대 루빈(Rubin) R200 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석\n\n스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대\n\n📌 배경\n모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면\n\n랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지\n\n엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것으로 전망되나, HBM·DRAM·첨단 패키징 비용 상승 압력은 지속\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "corevalue",
+      "message_id": "corevalue/47260",
+      "published_at_kst": "2026-10-04T12:36:49+09:00",
+      "permalink": "https://t.me/corevalue/47260",
+      "body": "💻 모건스탠리 \"엔비디아, 루빈 R200 HBM 단가 최대 91.7% 인상 감내 가능\"\n\n📌 핵심 내용\n모건스탠리는 엔비디아가 차세대 루빈(Rubin) R200 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석\n\n스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대\n\n📌 배경\n모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면\n\n랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지\n\n엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것으로 전망되나, HBM·DRAM·첨단 패키징 비용 상승 압력은 지속\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102798",
+      "published_at_kst": "2026-10-04T12:47:17+09:00",
+      "permalink": "https://t.me/quantum_algo/102798",
+      "body": "[AI픽] \"AI 두뇌값 1년새 13분의 1\"…유례없는 가격 폭락\n\nhttps://naver.me/F8loPwnd"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNews",
+      "message_id": "FastStockNews/126082",
+      "published_at_kst": "2026-10-04T13:22:38+09:00",
+      "permalink": "https://t.me/FastStockNews/126082",
+      "body": "편안한 연휴 되세요\n\n급등일보 드림"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23561",
+      "published_at_kst": "2026-10-04T13:23:28+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23561",
+      "body": "우크라이나가 모스크바의 \"새로운 공습 교리\"에 대한 대응으로 러시아 정유 시설을 공격할 계획이라고 CNBC가 보도했습니다. ..."
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23562",
+      "published_at_kst": "2026-10-04T13:24:19+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23562",
+      "body": "미국과 중국, 각각 300억 달러 규모 품목에 대한 관세 인하 발표. 미국은 소비재 수입을, 중국은 농산물 수입을 주도 - CNBC ..."
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102799",
+      "published_at_kst": "2026-10-04T13:25:24+09:00",
+      "permalink": "https://t.me/quantum_algo/102799",
+      "body": "해고된 개발자, 정비공 될 결심…\"AI가 못하는 일\" 킹산직에 우르르[트민자]\n\nhttps://naver.me/FripGibc"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growth_semi",
+      "message_id": "growth_semi/1598",
+      "published_at_kst": "2026-10-04T13:50:02+09:00",
+      "permalink": "https://t.me/growth_semi/1598",
+      "body": "💻 UBS: AI 공급망 세그먼트별 리드타임…파운드리 3~4년으로 최장\n\n📌 세그먼트별 리드타임 (2026년 9월 기준)\n파운드리: 3~4년\n\n반도체 장비(Semicap): 1~2년\n\n첨단 패키징/기판: 1~1.5년\n\n스토리지 시스템: 1~2년\n\nGPU/AI 가속기: 6~12개월\n\n메모리(HBM/DRAM): 6~12개월\n\n광트랜시버/네트워킹: 3~9개월\n\nCPU: 3~6개월\n\n서버: 1~2개월\n\n칩 제조 단계(파운드리·장비·패키징)로 올라갈수록 리드타임이 길어지는 구조로, 공급망 최상류인 파운드리가 가장 강한 병목\n\n반도체 장비 리드타임 1~2년은 현재 발주가 2027~2028년 캐파로 반영\n\n첨단 패키징·기판 역시 1년 이상 소요되어 HBM·CoWoS 등 후공정 병목이 쉽게 해소되기 어려운 구조\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growth_semi",
+      "message_id": "growth_semi/1599",
+      "published_at_kst": "2026-10-04T13:59:04+09:00",
+      "permalink": "https://t.me/growth_semi/1599",
+      "body": "💻 \"논의 중이나 결실 맺을 수도\"…머스크 테라팹, TSMC와 연합 전선 추진\n\nhttps://www.ddaily.co.kr/page/view/2026100409235952350\n\n📌 TSMC와 ‘전용 팹’ 공동 구축 검토\n머스크의 테라팹과 TSMC가 테슬라·스페이스X·xAI용 반도체 전용 생산시설 구축을 논의 중\n\n머스크가 협의 사실을 직접 인정했으며, 현재는 아직 초기 논의 단계\n\nTSMC는 공식 입장을 내놓지 않은 상태\n\n📌 JASM·ESMC식 합작 모델 거론\nTSMC가 시설을 소유·운영하고 테라팹·스페이스X가 자본과 물량을 보장하는 구조가 유력 시나리오로 거론\n\n스페이스X 과반 지분+TSMC 제조 기술 지원 방식도 검토 대상\n\n미국 텍사스 신규 팹 가능성과 연계될 수 있다는 관측도 존재\n\n📌 인텔 14A 활용 여부에도 변수\n기존에는 인텔 14A 공정과 TSMC 첨단 패키징을 결합하는 방안이 거론됨\n\n이번 TSMC 직접 협력이 구체화되면 인텔 공정 채택 범위와 역할에도 변화 가능성\n\n아직 협의 단계지만 현실화될 경우 TSMC·인텔·첨단패키징까지 연결되는 이슈\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growthresearch",
+      "message_id": "growthresearch/30170",
+      "published_at_kst": "2026-10-04T13:59:13+09:00",
+      "permalink": "https://t.me/growthresearch/30170",
+      "body": "💻 \"논의 중이나 결실 맺을 수도\"…머스크 테라팹, TSMC와 연합 전선 추진\n\nhttps://www.ddaily.co.kr/page/view/2026100409235952350\n\n📌 TSMC와 ‘전용 팹’ 공동 구축 검토\n머스크의 테라팹과 TSMC가 테슬라·스페이스X·xAI용 반도체 전용 생산시설 구축을 논의 중\n\n머스크가 협의 사실을 직접 인정했으며, 현재는 아직 초기 논의 단계\n\nTSMC는 공식 입장을 내놓지 않은 상태\n\n📌 JASM·ESMC식 합작 모델 거론\nTSMC가 시설을 소유·운영하고 테라팹·스페이스X가 자본과 물량을 보장하는 구조가 유력 시나리오로 거론\n\n스페이스X 과반 지분+TSMC 제조 기술 지원 방식도 검토 대상\n\n미국 텍사스 신규 팹 가능성과 연계될 수 있다는 관측도 존재\n\n📌 인텔 14A 활용 여부에도 변수\n기존에는 인텔 14A 공정과 TSMC 첨단 패키징을 결합하는 방안이 거론됨\n\n이번 TSMC 직접 협력이 구체화되면 인텔 공정 채택 범위와 역할에도 변화 가능성\n\n아직 협의 단계지만 현실화될 경우 TSMC·인텔·첨단패키징까지 연결되는 이슈\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102800",
+      "published_at_kst": "2026-10-04T14:01:24+09:00",
+      "permalink": "https://t.me/quantum_algo/102800",
+      "body": "빚내서 사면 돈 벌던 시대 끝났다…월가 사모펀드 ‘황금시대’ 흔들\n\nhttps://naver.me/FAAgDeiL"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102801",
+      "published_at_kst": "2026-10-04T14:43:41+09:00",
+      "permalink": "https://t.me/quantum_algo/102801",
+      "body": "생산캐파 30% 차에도 마이크론 턱밑 추격, 'SK하이닉스 위기론' 실체는\n\nhttps://naver.me/xZKpvCnr"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growth_semi",
+      "message_id": "growth_semi/1600",
+      "published_at_kst": "2026-10-04T15:18:10+09:00",
+      "permalink": "https://t.me/growth_semi/1600",
+      "body": "💻 화웨이 ‘기린 9050 프로’ 공개…미국 제재 뚫고 여기까지 왔다\n\nhttps://nownews.seoul.co.kr/news/newsView.php?id=20261004601007&wlog_tag3\n\n📌 2나노 대신 ‘칩을 위아래로 쌓는’ 전략\n화웨이는 TSMC 등 해외 파운드리 사용이 제한되면서 SMIC의 N+3 공정에 의존\n\n최신 2나노 공정과의 격차를 줄이기 위해 로직 회로 자체를 상하로 적층하는 ‘로직폴딩’ 적용\n\n화웨이 설명 기준 실효 트랜지스터 밀도는 ㎡당이 아니라 ㎟당 2억3,800만개 수준까지 상승\n\n📌 공정 미세화 한계를 3D 적층으로 보완\nSMIC N+3는 DUV 멀티패터닝과 설계 최적화를 통해 TSMC 5나노급 밀도에 접근\n\n로직폴딩은 신호 이동 거리를 줄여 전력·발열을 낮추고 동일 면적에서 집적도를 높이는 방식\n\n👉 중국은 EUV 공정 미세화 대신 3D 집적·패키징으로 성능 격차를 줄이는 전략\n\n📌 애플과 격차는 ‘4년→3년’ 평가\n기린 9050 프로는 애플 A20 프로 대비 싱글코어 성능 약 절반, 멀티코어 약 30% 낮은 수준\n\n대신 약 3년 전 A17 프로와 비슷하거나 일부 앞서는 수준으로 평가\n\n최신 공정 자체의 격차는 여전히 크지만 제품 성능 기준 추격 속도는 빨라지고 있다는 해석\n\n📌 결국 관건은 ‘성능보다 제조 비용’\nDUV 멀티패터닝과 로직폴딩은 공정 단계 증가로 수율 저하·제조원가 상승 가능성이 큼\n\n향후 화웨이는 로직폴딩을 3~4층으로 확대하고 SMIC N+4·N+5로 발전시키는 전략을 검토\n\n👉 핵심은 “중국이 미세공정 격차를 패키징·3D 적층으로 얼마나 경제성 있게 우회할 수 있느냐”\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growthresearch",
+      "message_id": "growthresearch/30171",
+      "published_at_kst": "2026-10-04T15:18:21+09:00",
+      "permalink": "https://t.me/growthresearch/30171",
+      "body": "💻 화웨이 ‘기린 9050 프로’ 공개…미국 제재 뚫고 여기까지 왔다\n\nhttps://nownews.seoul.co.kr/news/newsView.php?id=20261004601007&wlog_tag3\n\n📌 2나노 대신 ‘칩을 위아래로 쌓는’ 전략\n화웨이는 TSMC 등 해외 파운드리 사용이 제한되면서 SMIC의 N+3 공정에 의존\n\n최신 2나노 공정과의 격차를 줄이기 위해 로직 회로 자체를 상하로 적층하는 ‘로직폴딩’ 적용\n\n화웨이 설명 기준 실효 트랜지스터 밀도는 ㎡당이 아니라 ㎟당 2억3,800만개 수준까지 상승\n\n📌 공정 미세화 한계를 3D 적층으로 보완\nSMIC N+3는 DUV 멀티패터닝과 설계 최적화를 통해 TSMC 5나노급 밀도에 접근\n\n로직폴딩은 신호 이동 거리를 줄여 전력·발열을 낮추고 동일 면적에서 집적도를 높이는 방식\n\n👉 중국은 EUV 공정 미세화 대신 3D 집적·패키징으로 성능 격차를 줄이는 전략\n\n📌 애플과 격차는 ‘4년→3년’ 평가\n기린 9050 프로는 애플 A20 프로 대비 싱글코어 성능 약 절반, 멀티코어 약 30% 낮은 수준\n\n대신 약 3년 전 A17 프로와 비슷하거나 일부 앞서는 수준으로 평가\n\n최신 공정 자체의 격차는 여전히 크지만 제품 성능 기준 추격 속도는 빨라지고 있다는 해석\n\n📌 결국 관건은 ‘성능보다 제조 비용’\nDUV 멀티패터닝과 로직폴딩은 공정 단계 증가로 수율 저하·제조원가 상승 가능성이 큼\n\n향후 화웨이는 로직폴딩을 3~4층으로 확대하고 SMIC N+4·N+5로 발전시키는 전략을 검토\n\n👉 핵심은 “중국이 미세공정 격차를 패키징·3D 적층으로 얼마나 경제성 있게 우회할 수 있느냐”\n\n💻반도체 소부장💻[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102802",
+      "published_at_kst": "2026-10-04T15:24:25+09:00",
+      "permalink": "https://t.me/quantum_algo/102802",
+      "body": "美는 260만원인데 왜 한국에선 180만원?…속타는 SK하이닉스 투자자들의 의문 [증시레이더]\n\nhttps://naver.me/5SKQZxs5"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102803",
+      "published_at_kst": "2026-10-04T15:58:23+09:00",
+      "permalink": "https://t.me/quantum_algo/102803",
+      "body": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"\n\nhttps://naver.me/G2YwieTS"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growthresearch",
+      "message_id": "growthresearch/30172",
+      "published_at_kst": "2026-10-04T16:35:13+09:00",
+      "permalink": "https://t.me/growthresearch/30172",
+      "body": "✅ “삼전닉스 잘먹고 갑니다” 한달새 17조 던진 외국인…보유율 최저\n\nhttps://n.news.naver.com/mnews/article/009/0005743708\n\n📌 외국인, 한 달간 코스피 20.3조원 순매도\n9/1~10/2 외국인 코스피 20조3,050억원 순매도\n\nSK하이닉스 12조90억원 순매도\n\n삼성전자 5조1,860억원 순매도\n\n두 종목 합산 17.2조원, 전체 외국인 순매도의 84.7%\n\n📌 외국인 보유율 연중 최저 수준\n\nSK하이닉스: 50.57% → 49.76%(-0.81%p)\n→ 2023년 5월 이후 약 3년 4개월 만의 최저\n\n삼성전자: 46.71% → 46.41%\n→ 9/30에는 46.40%로 연중 최저\n\n📌 그런데 외국인 보유 평가액은 오히려 증가\n\nSK하이닉스: 보유주식 588만주 감소\n→ 평가액 625.4조 → 669.2조원(+7.0%)\n\n삼성전자: 보유주식 1,750만주 감소\n→ 평가액 712.8조 → 748.9조원(+5.1%)\n\n두 종목 외국인 보유 평가액 합산 약 80조원 증가\n\n📌 이유는 주가 상승\n같은 기간 삼성전자 +2.41%\n\nSK하이닉스 +8.8%\n\n외국인의 대규모 차익실현 물량에도 주가 상승폭이 이를 상쇄\n\n자사주 매수 + AI 인프라 투자 확대 + HBM·D램 가격 상승 + 실적 개선 기대가 주가를 지지\n\n📌 체크포인트\n외국인이 반도체 업황을 비관해 전면 이탈했다기보다, 주가 상승 과정에서 삼전·하이닉스에 집중된 대규모 차익실현이 나타난 모습.\n\n특히 주목할 부분은 17조원 넘게 팔았는데도 두 종목 주가가 상승했다는 점.\n\n외국인 매물을 받아낸 수급 주체와 향후 외국인 보유율의 반등 여부가 다음 수급 방향을 판단할 핵심 포인트.\n\n✅ 독립리서치 그로쓰리서치\nhttps://t.me/growthresearch"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102804",
+      "published_at_kst": "2026-10-04T16:36:08+09:00",
+      "permalink": "https://t.me/quantum_algo/102804",
+      "body": "HBM 가격 치솟자 AI칩 ‘메모리 다이어트’…삼전닉스 전략도 바뀌나\n\nhttps://naver.me/FgEICWUZ"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "hana_us_stock",
+      "message_id": "hana_us_stock/10657",
+      "published_at_kst": "2026-10-04T16:47:42+09:00",
+      "permalink": "https://t.me/hana_us_stock/10657",
+      "body": "◈하나증권 해외주식분석◈\n\n선진국 기업분석 강재구(T.02-3771-3386)\n*텔레그램 채널: https://t.me/hana_us_stock\n\n★ [HANA US Weekly] 앤트로픽 IPO 2조 달러 가치가 요구하는 성장 조건\n▶ 자료: https://buly.kr/1GMW8Li\n\n- 앤트로픽은 플랫폼화와 장기 고성장이 동시에 필요\n- AI 시장 성장만으로 2조 달러 가치를 설명하기는 어려우며, 기업 고객과 개발자 생태계를 확보한 플랫폼으로의 전환과 장기 점유율 유지가 핵심\n- 최근 사모라운드 가치 9,650억 달러는 기본 시나리오에서 2029~2035년 연평균 21.4%의 매출 성장을 요구하며, AI 시장의 높은 성장 전망을 감안하면 설명 가능한 수준\n- 2조 달러는 기본 시나리오에서 연평균 35.4%, 플랫폼화를 가정한 낙관 시나리오에서도 31.0%의 성장이 필요하며, 2035년 매출이 약 1.29조 달러까지 확대돼야 함\n\n- 지난주(9월 28일~10월 2일) 리뷰: 나스닥 상승, 엔비디아 역사적 고점 경신\n- 이번 주(10월 5일~10월 9일) 프리뷰: 기술주 투자심리 회복, FOMC 의사록, 미-이란 갈등, 장기금리 등\n\n(위 문자의 내용은 컴플라이언스의 승인을 득하였음)"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "HanaResearch",
+      "message_id": "HanaResearch/20555",
+      "published_at_kst": "2026-10-04T16:47:45+09:00",
+      "permalink": "https://t.me/HanaResearch/20555",
+      "body": "◈하나증권 해외주식분석◈\n\n선진국 기업분석 강재구(T.02-3771-3386)\n*텔레그램 채널: https://t.me/hana_us_stock\n\n★ [HANA US Weekly] 앤트로픽 IPO 2조 달러 가치가 요구하는 성장 조건\n▶ 자료: https://buly.kr/1GMW8Li\n\n- 앤트로픽은 플랫폼화와 장기 고성장이 동시에 필요\n- AI 시장 성장만으로 2조 달러 가치를 설명하기는 어려우며, 기업 고객과 개발자 생태계를 확보한 플랫폼으로의 전환과 장기 점유율 유지가 핵심\n- 최근 사모라운드 가치 9,650억 달러는 기본 시나리오에서 2029~2035년 연평균 21.4%의 매출 성장을 요구하며, AI 시장의 높은 성장 전망을 감안하면 설명 가능한 수준\n- 2조 달러는 기본 시나리오에서 연평균 35.4%, 플랫폼화를 가정한 낙관 시나리오에서도 31.0%의 성장이 필요하며, 2035년 매출이 약 1.29조 달러까지 확대돼야 함\n\n- 지난주(9월 28일~10월 2일) 리뷰: 나스닥 상승, 엔비디아 역사적 고점 경신\n- 이번 주(10월 5일~10월 9일) 프리뷰: 기술주 투자심리 회복, FOMC 의사록, 미-이란 갈등, 장기금리 등\n\n(위 문자의 내용은 컴플라이언스의 승인을 득하였음)"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "hana_us_stock",
+      "message_id": "hana_us_stock/10658",
+      "published_at_kst": "2026-10-04T17:03:07+09:00",
+      "permalink": "https://t.me/hana_us_stock/10658",
+      "body": "◈하나증권 해외주식분석◈ 선진국 기업분석 강재구(T.02-3771-3386) *텔레그램 채널: https://t.me/hana_us_stock ★ [HANA US Weekly] 앤트로픽 IPO 2조 달러 가치가 요구하는 성장 조건 ▶ 자료: https://buly.kr/1GMW8Li - 앤트로픽은 플랫폼화와 장기 고성장이 동시에 필요 - AI 시장 성장만으로 2조 달러 가치를 설명하기는 어려우며, 기업 고객과 개발자 생태계를 확보한 플랫폼으로의 전환과…\n\n이번 위클리 이슈는 앤트로픽의 가치평가 입니다\n아직 상장신고서 s1이 비공개 제출 상태이기 때문에 공개된 정보만으로 추정했습니다\n기본 시나리오는 플랫폼이 아닌 기업용 소프트웨어상태이며, 낙관적 시나리오에 플랫폼화를 적용했습니다\n인공지능 시장의 고성장 감안하면 최근 사모투자라운지 가치는 기본시나리오로도 정당화 가능하다고 판단합니다\n다만 ipo목표 가치 2조 달러는 플랫폼으로 전환하면서 높은 점유율과 고성장이 필요할 것으로 보입니다\n물론 s1이 공개되면 가치평가를 보완해야 겠지만\n추수감사절(11월 26일) 전 상장을 목표로 하는 앤트로픽의 가치를 간략하게 나마 가늠해보고자 작성했습니다"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102805",
+      "published_at_kst": "2026-10-04T17:31:12+09:00",
+      "permalink": "https://t.me/quantum_algo/102805",
+      "body": "사상 최대 실적에도 \"주가 왜 이래?\"…메모리 호황 속 변수\n\nhttps://naver.me/xfbMEMjH"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102806",
+      "published_at_kst": "2026-10-04T17:59:03+09:00",
+      "permalink": "https://t.me/quantum_algo/102806",
+      "body": "“돈은 미장·파킹형 갔는데”… 수익은 코스닥 ‘소부장’서 터졌다 [선데이 머니카페]\n\nhttps://naver.me/FqItUJiq"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102807",
+      "published_at_kst": "2026-10-04T18:31:41+09:00",
+      "permalink": "https://t.me/quantum_algo/102807",
+      "body": "\"논의 중이나 결실 맺을 수도\"…머스크 테라팹, TSMC와 연합 전선 추진\n\nhttps://naver.me/GLhJQ9pp"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102808",
+      "published_at_kst": "2026-10-04T19:03:34+09:00",
+      "permalink": "https://t.me/quantum_algo/102808",
+      "body": "“삼전닉스 잘먹고 갑니다” 한달새 17조 던진 외국인…보유율 최저\n\nhttps://naver.me/Ge7OoAWp"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102809",
+      "published_at_kst": "2026-10-04T19:32:38+09:00",
+      "permalink": "https://t.me/quantum_algo/102809",
+      "body": "내 삼성전자도 '토큰'이 된다고?…익숙한 주식도 새옷 입는다\n\nhttps://naver.me/GfrktpTe"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growth_semi",
+      "message_id": "growth_semi/1601",
+      "published_at_kst": "2026-10-04T19:59:52+09:00",
+      "permalink": "https://t.me/growth_semi/1601",
+      "body": "🖥 9월 5주차, 한 주간 반도체 소부장 섹터 핵심 정리\n\n📌 마이크론, 2030년 예상 매출의 35% 이상 장기계약 확보…메모리 공급부족 장기화에 선제 투자 확대\n\n📌 삼성전자, 평택 P5 첫 양산라인 장비 반입 일정 앞당겨…D램·HBM CAPA 확대 가속\n\n📌 심텍·ISC·테크윙 등 AI·HBM 수요 대응 위한 증설 본격화…소부장 CAPEX 사이클 확대\n\n📌 미래산업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회\n\n🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미\n\n• 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 발생하는 장비 기업\n\n• 올해 상반기 매출 515억원·영업이익 152억원으로 이미 지난해 연간 매출과 영업이익을 넘어선 상황\n\n• 이번 YILING 계약은 530.7억원으로 지난해 연매출의 104.7%, 올해 누적 공시 수주는 약 1,352억원으로 지난해 매출의 266% 수준\n\n• 9월부터 아산 신공장을 가동하면서 장비 생산능력도 기존 대비 2.8배 확대해 늘어난 수주를 소화할 생산 기반 확보\n\n• YILING 계약의 선적 전 대금 비중도 과거 50%에서 70%로 높아져 대형 수주 확대 과정에서 운전자본 부담을 낮출 수 있는 구조\n\n• 다만 매출의 상당 부분이 중국 고객에 집중된 만큼 중국 메모리 업체의 장비 국산화가 빨라질 경우 중장기 수주 지속성에는 부담이 될 가능성\n\n🔥 한 주 동안의 반도체 소부장 흐름과 함께 미래산업이 지난해 연매출을 넘어서는 대형 수주를 확보한 배경과 향후 실적에 어떤 영향을 미칠지 자세히 정리해드립니다!\nhttps://contents.premium.naver.com/growthresearch/growth\n\n🖥반도체 소부장🖥[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102810",
+      "published_at_kst": "2026-10-04T20:02:22+09:00",
+      "permalink": "https://t.me/quantum_algo/102810",
+      "body": "\"블루 웨이브 오면 '이 종목' 뜬다\"…깜짝 전망에 개미 '들썩' [노정동의 어쩌다 투자자]\n\nhttps://naver.me/G8fuvuqt"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "knowledge_to_wealth",
+      "message_id": "knowledge_to_wealth/8722",
+      "published_at_kst": "2026-10-04T20:14:11+09:00",
+      "permalink": "https://t.me/knowledge_to_wealth/8722",
+      "body": "🔥 주식투자를 더 쉽게 시작할 수 없을까?\n\n📚 반도체부터 화장품까지\n27개 섹터의 핵심을 한 번에\n\n🎉하루 2시간, 2주 마스터\n전산업 기초강의 NEW 버전 OPEN!\n\n⏳얼리버드 할인 혜택으로\n27개 섹터를 가장 합리적으로 만나보세요!\n\n✔️ 산업 핵심개념\n✔️ 산업별 밸류체인\n✔️ 섹터별 투자전략\n\n💥하루 딱 2시간, 27개섹터, 2주 마스터!\n바로 보기👉https://vo.la/zZsI4vC"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "HI_GS",
+      "message_id": "HI_GS/7170",
+      "published_at_kst": "2026-10-04T20:15:52+09:00",
+      "permalink": "https://t.me/HI_GS/7170",
+      "body": "[HD현대重 노사 합의안 부결… 조합원 투표서 52%가 반대]\n• HD현대중공업 노사의 2026년 임단협 첫 잠정합의안이 찬반투표 결과 반대 52.14%(3932표)로 부결\n• 2016년부터 2026년까지 11년 연속 1차 잠정합의안 조합원 찬반투표 부결 기록\n• 합의안은 기본급 12만 원(호봉승급분 5만 원 포함) 인상, 일시금 1100만 원, 수주 경쟁력 확보 지원금 200% 등 포함\n• 1인당 연간 총 보상 효과가 평균 4056만 원으로 역대 최고 수준이었으나 일회성 보상 대비 기본급 인상 폭 기대치 미달로 표심 확보 실패\n\n❗️ 1인당 평균 4056만 원의 역대 최고 수준 보상안에도 기본급 인상 폭 부족으로 11년 연속 1차 잠정합의안 부결\n출처: [부산일보]\nURL: [https://mobile.busan.com/view/busan/view.php?code=2026100417420459617](https://mobile.busan.com/view/busan/view.php?code=2026100417420459617)\n─────────────────────\n📈 텔레그램 공개 채널 [https://t.me/HI_GS](https://t.me/HI_GS)\n🎴 쩜쩜쩜"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "growthresearch",
+      "message_id": "growthresearch/30173",
+      "published_at_kst": "2026-10-04T20:21:50+09:00",
+      "permalink": "https://t.me/growthresearch/30173",
+      "body": "🖥 9월 5주차, 한 주간 반도체 소부장 섹터 핵심 정리\n\n📌 마이크론, 2030년 예상 매출의 35% 이상 장기계약 확보…메모리 공급부족 장기화에 선제 투자 확대\n\n📌 삼성전자, 평택 P5 첫 양산라인 장비 반입 일정 앞당겨…D램·HBM CAPA 확대 가속\n\n📌 심텍·ISC·테크윙 등 AI·HBM 수요 대응 위한 증설 본격화…소부장 CAPEX 사이클 확대\n\n📌 미래산업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회\n\n🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미\n\n• 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 발생하는 장비 기업\n\n• 올해 상반기 매출 515억원·영업이익 152억원으로 이미 지난해 연간 매출과 영업이익을 넘어선 상황\n\n• 이번 YILING 계약은 530.7억원으로 지난해 연매출의 104.7%, 올해 누적 공시 수주는 약 1,352억원으로 지난해 매출의 266% 수준\n\n• 9월부터 아산 신공장을 가동하면서 장비 생산능력도 기존 대비 2.8배 확대해 늘어난 수주를 소화할 생산 기반 확보\n\n• YILING 계약의 선적 전 대금 비중도 과거 50%에서 70%로 높아져 대형 수주 확대 과정에서 운전자본 부담을 낮출 수 있는 구조\n\n• 다만 매출의 상당 부분이 중국 고객에 집중된 만큼 중국 메모리 업체의 장비 국산화가 빨라질 경우 중장기 수주 지속성에는 부담이 될 가능성\n\n🔥 한 주 동안의 반도체 소부장 흐름과 함께 미래산업이 지난해 연매출을 넘어서는 대형 수주를 확보한 배경과 향후 실적에 어떤 영향을 미칠지 자세히 정리해드립니다!\nhttps://contents.premium.naver.com/growthresearch/growth\n\n🖥반도체 소부장🖥[그로쓰리서치]\nhttps://telegram.me/growth_semi"
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23563",
+      "published_at_kst": "2026-10-04T20:29:29+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23563",
+      "body": "트럼프, 북한 김정은과의 관계는 \"훌륭하다\"며 평양을 이란과 비교 ..."
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23564",
+      "published_at_kst": "2026-10-04T20:29:50+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23564",
+      "body": "이란, 호르무즈 해협 재개방 거부\n\n이란은 미국이 지난 6월 이슬라마바드 합의에서 제시된 7가지 조건을 충족할 때까지 호르무즈 해협을 폐쇄 상태로 유지할 것이라고 밝혔습니다.\n\n테헤란은 현재 최우선 과제는 핵 협상이 아니라 해협의 안보 회복이라고 강조하며, 제재 완화를 대가로 사찰을 제안했다는 보도를 부인했습니다.\n\n핵심 쟁점은 미국과 이란의 양보 순서인 것으로 알려졌습니다. ..."
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23565",
+      "published_at_kst": "2026-10-04T20:29:55+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23565",
+      "body": "OPEC+는 일요일 회의에서 11월 원유 생산 할당량을 변경하지 않기로 했다고 성명에서 밝혔습니다. ..."
+    },
+    {
+      "collected_at_kst": "2026-10-04T20:45:49+09:00",
+      "channel": "FastStockNewsUSA",
+      "message_id": "FastStockNewsUSA/23566",
+      "published_at_kst": "2026-10-04T20:37:05+09:00",
+      "permalink": "https://t.me/FastStockNewsUSA/23566",
+      "body": "1. 트럼프, 공화당의 중간선거 승리 촉구: \"공화당은 2026년 중간선거에서 반드시 승리해야 합니다. 조기 투표, 부재자 투표, 우편 투표, 직접 투표 등 모든 적절한 수단을 동원하여 대규모 투표 참여로 급진 좌파를 압도해야 합니다! 이는 매우 중요합니다. 부디 투표에 참여해 주십시오. 미국을 다시 위대하게 만들자!\"\n\n2. 트럼프, 상원 의원들에게 정보공개법 통과 촉구: 트럼프는 아칸소 주민들에게 톰 코튼 상원 의원에게 전화하여 정보공개법(Sunshine Protection Act)의 통과를 막지 말 것을 요구하고, 상원이 즉시 이 법안을 통과시켜 연 2회 시행되는 서머타임제를 폐지하도록 촉구했습니다.\n\n3. 트럼프, 오하이오에서 공화당 후보 지원 유세: 오하이오에서 열린 유세에서 트럼프는 11월 중간선거를 앞두고 주요 지역구의 공화당 후보들을 지원하기 위해 여러 대기업의 투자 계획을 언급했습니다. 그는 스트랜디스, 일렉트라 에어로, 바이엘이 주에 투자할 계획을 언급하며, 이러한 투자 유치는 자신의 관세 정책 덕분에 가능했다고 주장했습니다.\n\n4. 백악관 AI 태스크포스, AI 위험 평가 보고서 작성 예정 - 월스트리트 저널에 따르면, 백악관은 국가정보국장 클레이튼을 위원장으로 하는 인공지능 특별 태스크포스를 구성했으며, 클레이튼 국장은 예상대로 트럼프 행정부의 \"AI 총괄 책임자\"로 임명되었습니다. 이 태스크포스는 120일 이내에 AI가 제기하는 위험과 이 기술에 대한 연방 정부의 규제 책임에 대한 보고서를 작성할 예정입니다."
+    }
+  ],
+  "errors": [
+    {
+      "channel": "opendisco",
+      "type": "pagination",
+      "message": "Page budget reached; history incomplete.",
+      "url": "https://t.me/s/opendisco?before=1567"
+    },
+    {
+      "channel": "siglab",
+      "type": "pagination",
+      "message": "Page budget reached; history incomplete.",
+      "url": "https://t.me/s/siglab?before=141132"
+    },
+    {
+      "channel": "quantum_algo",
+      "type": "pagination",
+      "message": "Page budget reached; history incomplete.",
+      "url": "https://t.me/s/quantum_algo?before=102009"
+    },
+    {
+      "channel": "FastStockNews",
+      "type": "pagination",
+      "message": "Page budget reached; history incomplete.",
+      "url": "https://t.me/s/FastStockNews?before=125279"
+    }
+  ]
+}
