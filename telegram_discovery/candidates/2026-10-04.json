@@ -1,13 +1,13 @@
 {
-  "collected_at_kst": "2026-10-04T20:45:49+09:00",
-  "window_start_kst": "2026-09-04T20:45:49+09:00",
-  "window_end_kst": "2026-10-04T20:45:49+09:00",
+  "collected_at_kst": "2026-10-04T21:01:59+09:00",
+  "window_start_kst": "2026-09-04T21:01:59+09:00",
+  "window_end_kst": "2026-10-04T21:01:59+09:00",
   "schema_version": 1,
   "baseline_status": "partial",
   "coverage": {
     "SK_Research_Asset": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:12:22+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -15,7 +15,7 @@
     },
     "sk_smallcap": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:21:59+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -23,23 +23,23 @@
     },
     "eqmirae": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T13:18:25+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
       "backfill_next_before": null
     },
     "opendisco": {
-      "history_complete": false,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
-      "earliest_observed_at_kst": "2026-09-16T17:39:21+09:00",
-      "latest_run_complete": false,
-      "errors_count": 1,
-      "backfill_next_before": 1567
+      "history_complete": true,
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
+      "earliest_observed_at_kst": "2026-09-07T07:30:35+09:00",
+      "latest_run_complete": true,
+      "errors_count": 0,
+      "backfill_next_before": null
     },
     "hanasmallcap": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-08T18:14:56+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -47,7 +47,7 @@
     },
     "SKSCyclical": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-06T14:28:10+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -55,7 +55,7 @@
     },
     "HI_GS": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T17:18:56+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -63,23 +63,23 @@
     },
     "hana_us_stock": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-04T21:31:34+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
       "backfill_next_before": null
     },
     "siglab": {
-      "history_complete": false,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
-      "earliest_observed_at_kst": "2026-09-07T22:21:02+09:00",
-      "latest_run_complete": false,
-      "errors_count": 1,
-      "backfill_next_before": 141132
+      "history_complete": true,
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
+      "earliest_observed_at_kst": "2026-09-04T21:05:15+09:00",
+      "latest_run_complete": true,
+      "errors_count": 0,
+      "backfill_next_before": null
     },
     "corevalue": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T18:09:11+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -87,7 +87,7 @@
     },
     "growthresearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T12:40:06+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -95,7 +95,7 @@
     },
     "growth_semi": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T12:40:18+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -103,7 +103,7 @@
     },
     "knowledge_to_wealth": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T00:26:41+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -111,7 +111,7 @@
     },
     "sksresearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-06T14:28:27+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -119,23 +119,23 @@
     },
     "HanaResearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T16:58:40+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
       "backfill_next_before": null
     },
     "quantum_algo": {
-      "history_complete": false,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
-      "earliest_observed_at_kst": "2026-09-14T12:53:44+09:00",
-      "latest_run_complete": false,
-      "errors_count": 1,
-      "backfill_next_before": 102009
+      "history_complete": true,
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
+      "earliest_observed_at_kst": "2026-09-05T07:03:03+09:00",
+      "latest_run_complete": true,
+      "errors_count": 0,
+      "backfill_next_before": null
     },
     "STANDARDCAPITAL": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-05T11:14:42+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -143,7 +143,7 @@
     },
     "FastStockNewsUSA": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-04T20:45:49+09:00",
+      "last_success_at_kst": "2026-10-04T21:01:59+09:00",
       "earliest_observed_at_kst": "2026-09-04T22:20:13+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -152,528 +152,26 @@
     "FastStockNews": {
       "history_complete": false,
       "last_success_at_kst": "2026-10-04T20:45:49+09:00",
-      "earliest_observed_at_kst": "2026-09-17T14:11:51+09:00",
+      "earliest_observed_at_kst": "2026-09-08T08:19:45+09:00",
       "latest_run_complete": false,
       "errors_count": 1,
-      "backfill_next_before": 125279
+      "backfill_next_before": 124470
     }
   },
   "errors": [
     {
-      "channel": "opendisco",
-      "type": "pagination",
-      "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/opendisco?before=1567"
-    },
-    {
-      "channel": "siglab",
-      "type": "pagination",
-      "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/siglab?before=141132"
-    },
-    {
-      "channel": "quantum_algo",
-      "type": "pagination",
-      "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/quantum_algo?before=102009"
-    },
-    {
       "channel": "FastStockNews",
       "type": "pagination",
       "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/FastStockNews?before=125279"
+      "url": "https://t.me/s/FastStockNews?before=124470"
     }
   ],
   "date_kst": "2026-10-04",
-  "total_candidates": 78,
+  "total_candidates": 26,
   "candidates": [
     {
-      "entity": "MURPHY",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T07:36:51+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "FastStockNews",
-        "opendisco"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 2,
-      "status": "follow_up",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2204",
-          "permalink": "https://t.me/opendisco/2204",
-          "published_at_kst": "2026-10-02T07:36:51+09:00",
-          "source_cluster": "source-46",
-          "business_numbers": [
-            "📈 수주공시 · 일진전기(103590.KS) [2026-10-02 접수 07:36][원문보기]  👉 1,871.7억 · 매출대비 9.15% - 최근매출: 2.04조 - 상대: J. MURPHY & SONS LIMITED - 내용: 400kV 송전망 케이블 공급 및 설치"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "FastStockNews",
-          "tier": "D2",
-          "message_id": "FastStockNews/126017",
-          "permalink": "https://t.me/FastStockNews/126017",
-          "published_at_kst": "2026-10-02T08:00:35+09:00",
-          "source_cluster": "source-57",
-          "business_numbers": [
-            "일진전기(103590) 단일판매ㆍ공급계약체결  📌 규모 매출대비 : 9.15 % 계약총액 : 1,872 억원  📌 내용 계약상대 : J. MURPHY & SONS LIMITED (영국) 계약내용 : 400kV 송전망 케이블 공급 및 설치 계약조건 : 공급계약",
-            "일진전기(103590) 단일판매ㆍ공급계약체결  📌 규모 매출대비 : 9.15 % 계약총액 : 1,872 억원  📌 내용 계약상대 : J. MURPHY & SONS LIMITED (영국) 계약내용 : 400kV 송전망 케이블 공급 및 설치 계약조건 : 공급계약 진행에 따른 청구 및 지급"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 2개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "SONS",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T07:36:51+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "FastStockNews",
-        "opendisco"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 2,
-      "status": "follow_up",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2204",
-          "permalink": "https://t.me/opendisco/2204",
-          "published_at_kst": "2026-10-02T07:36:51+09:00",
-          "source_cluster": "source-46",
-          "business_numbers": [
-            "📈 수주공시 · 일진전기(103590.KS) [2026-10-02 접수 07:36][원문보기]  👉 1,871.7억 · 매출대비 9.15% - 최근매출: 2.04조 - 상대: J. MURPHY & SONS LIMITED - 내용: 400kV 송전망 케이블 공급 및 설치"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "FastStockNews",
-          "tier": "D2",
-          "message_id": "FastStockNews/126017",
-          "permalink": "https://t.me/FastStockNews/126017",
-          "published_at_kst": "2026-10-02T08:00:35+09:00",
-          "source_cluster": "source-57",
-          "business_numbers": [
-            "일진전기(103590) 단일판매ㆍ공급계약체결  📌 규모 매출대비 : 9.15 % 계약총액 : 1,872 억원  📌 내용 계약상대 : J. MURPHY & SONS LIMITED (영국) 계약내용 : 400kV 송전망 케이블 공급 및 설치 계약조건 : 공급계약",
-            "일진전기(103590) 단일판매ㆍ공급계약체결  📌 규모 매출대비 : 9.15 % 계약총액 : 1,872 억원  📌 내용 계약상대 : J. MURPHY & SONS LIMITED (영국) 계약내용 : 400kV 송전망 케이블 공급 및 설치 계약조건 : 공급계약 진행에 따른 청구 및 지급"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 2개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "최대 프로젝트",
-      "category": "project",
-      "first_seen": "2026-10-02T08:45:09+09:00",
-      "mentions_72h": 4,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "FastStockNews",
-        "growthresearch"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 2,
-      "status": "follow_up",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNews",
-          "tier": "D2",
-          "message_id": "FastStockNews/126023",
-          "permalink": "https://t.me/FastStockNews/126023",
-          "published_at_kst": "2026-10-02T08:45:09+09:00",
-          "source_cluster": "source-74",
-          "business_numbers": [
-            "✅ 일진전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트  https://biz.heraldcorp.com/article/10891270?ref=naver"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30142",
-          "permalink": "https://t.me/growthresearch/30142",
-          "published_at_kst": "2026-10-02T08:46:58+09:00",
-          "source_cluster": "source-78",
-          "business_numbers": [
-            "✅ 일진전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트  https://biz.heraldcorp.com/article/10891270  📌 추가 수주로 프로젝트 규모 2,716억원",
-            ", 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트  https://biz.heraldcorp.com/article/10891270  📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원  - 전"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30143",
-          "permalink": "https://t.me/growthresearch/30143",
-          "published_at_kst": "2026-10-02T08:59:10+09:00",
-          "source_cluster": "source-78",
-          "business_numbers": [
-            "✅ 일진전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트 https://biz.heraldcorp.com/article/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지",
-            "전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트 https://biz.heraldcorp.com/article/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원 - 전선"
-          ],
-          "profit_paths": [
-            "Q",
-            "margin"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "quantum_algo",
-          "tier": "D2",
-          "message_id": "quantum_algo/102745",
-          "permalink": "https://t.me/quantum_algo/102745",
-          "published_at_kst": "2026-10-02T10:48:49+09:00",
-          "source_cluster": "source-74",
-          "business_numbers": [
-            "일진전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트  https://naver.me/FUisbAe1"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 4개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 4개 게시물, 숫자 근거 독립 채널 2개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "ES",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-29T09:15:50+09:00",
-      "mentions_72h": 3,
-      "independent_channels": 3,
-      "independent_channel_names": [
-        "FastStockNewsUSA",
-        "quantum_algo",
-        "siglab"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 2,
-      "status": "follow_up",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "quantum_algo",
-          "tier": "D2",
-          "message_id": "quantum_algo/102740",
-          "permalink": "https://t.me/quantum_algo/102740",
-          "published_at_kst": "2026-10-02T07:49:59+09:00",
-          "source_cluster": "source-53",
-          "business_numbers": [
-            "4Q26~1Q27 수주 확대 및 CES 모멘텀 기대 - 신사업 부각에 따른 밸류에이션 레벨업 전망  ▶️ 안정적 실적 체력 확인, 2027년 신성장 동력 기대 - 3Q26 매출 +10%, 영업이익 +45% 전망 - LG이노텍 영향 제외 시 주요 사업부 성장 체력 견고 - HVAC 수주 확대·로봇 사업화로 2027년 성장 가속 기대  ▶️ URL: http://b",
-            "주 확대 및 CES 모멘텀 기대 - 신사업 부각에 따른 밸류에이션 레벨업 전망  ▶️ 안정적 실적 체력 확인, 2027년 신성장 동력 기대 - 3Q26 매출 +10%, 영업이익 +45% 전망 - LG이노텍 영향 제외 시 주요 사업부 성장 체력 견고 - HVAC 수주 확대·로봇 사업화로 2027년 성장 가속 기대  ▶️ URL: http://bbs2.shinhan"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": [
-            "목표주가"
-          ]
-        },
-        {
-          "channel": "siglab",
-          "tier": "D1",
-          "message_id": "siglab/141903",
-          "permalink": "https://t.me/siglab/141903",
-          "published_at_kst": "2026-10-02T08:35:18+09:00",
-          "source_cluster": "source-68",
-          "business_numbers": [
-            "임주 TOP-PICK 유지  <인텍플러스[064290] 멈추지 않는 수주 모멘텀> 메리츠증권 김동관 ㆍ 3Q26E Preview: 컨센서스 부합 전망 ㆍ 27년 영업이익 추정치 +79% 상향 조정 ㆍ 우려는 줄어들고, 좋아지기만 하는 상황  <LG전자[066570] 지금부터 달라진다> 신한투자증권 오강호 ㆍ 로봇, ES(HVAC) 성장 스토리 부각, 주가 레벨업"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": [
-            "목표주가"
-          ]
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 3개 게시물, 재전송 제거 후 3개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 2개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 2
-    },
-    {
-      "entity": "HVAC",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-21T10:03:18+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "quantum_algo",
-        "siglab"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 2,
-      "status": "follow_up",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "quantum_algo",
-          "tier": "D2",
-          "message_id": "quantum_algo/102740",
-          "permalink": "https://t.me/quantum_algo/102740",
-          "published_at_kst": "2026-10-02T07:49:59+09:00",
-          "source_cluster": "source-53",
-          "business_numbers": [
-            "4Q26~1Q27 수주 확대 및 CES 모멘텀 기대 - 신사업 부각에 따른 밸류에이션 레벨업 전망  ▶️ 안정적 실적 체력 확인, 2027년 신성장 동력 기대 - 3Q26 매출 +10%, 영업이익 +45% 전망 - LG이노텍 영향 제외 시 주요 사업부 성장 체력 견고 - HVAC 수주 확대·로봇 사업화로 2027년 성장 가속 기대  ▶️ URL: http://b",
-            "주 확대 및 CES 모멘텀 기대 - 신사업 부각에 따른 밸류에이션 레벨업 전망  ▶️ 안정적 실적 체력 확인, 2027년 신성장 동력 기대 - 3Q26 매출 +10%, 영업이익 +45% 전망 - LG이노텍 영향 제외 시 주요 사업부 성장 체력 견고 - HVAC 수주 확대·로봇 사업화로 2027년 성장 가속 기대  ▶️ URL: http://bbs2.shinhan"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": [
-            "목표주가"
-          ]
-        },
-        {
-          "channel": "siglab",
-          "tier": "D1",
-          "message_id": "siglab/141903",
-          "permalink": "https://t.me/siglab/141903",
-          "published_at_kst": "2026-10-02T08:35:18+09:00",
-          "source_cluster": "source-68",
-          "business_numbers": [
-            "임주 TOP-PICK 유지  <인텍플러스[064290] 멈추지 않는 수주 모멘텀> 메리츠증권 김동관 ㆍ 3Q26E Preview: 컨센서스 부합 전망 ㆍ 27년 영업이익 추정치 +79% 상향 조정 ㆍ 우려는 줄어들고, 좋아지기만 하는 상황  <LG전자[066570] 지금부터 달라진다> 신한투자증권 오강호 ㆍ 로봇, ES(HVAC) 성장 스토리 부각, 주가 레벨업"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": [
-            "목표주가"
-          ]
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 2개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 2
-    },
-    {
-      "entity": "Blended",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-30T17:03:23+09:00",
-      "mentions_72h": 3,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "FastStockNews",
-        "corevalue"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "corevalue",
-          "tier": "D1",
-          "message_id": "corevalue/47259",
-          "permalink": "https://t.me/corevalue/47259",
-          "published_at_kst": "2026-10-04T12:33:43+09:00",
-          "source_cluster": "source-533",
-          "business_numbers": [
-            "매 마이크론은 2027년 HBM 비트 공급의 대부분이 이미 판매됐으며 가격도 전년 대비 크게 상승했다고 밝혔습니다. JP모건은 2027년 HBM Blended ASP가 전년 대비 54% 상승할 것으로 추정했습니다. HBM 비트 수요 성장률은 63%로, 비HBM 서버 DRAM의 37%보다 훨씬 높을 것으로 전망했습니다.  📈 HBM과 일반 DRAM의 마진 격차도 ",
-            "됐으며 가격도 전년 대비 크게 상승했다고 밝혔습니다. JP모건은 2027년 HBM Blended ASP가 전년 대비 54% 상승할 것으로 추정했습니다. HBM 비트 수요 성장률은 63%로, 비HBM 서버 DRAM의 37%보다 훨씬 높을 것으로 전망했습니다.  📈 HBM과 일반 DRAM의 마진 격차도 축소 HBM 가격 상승과 수율 개선으로 HBM과 일반 DRAM ",
-            "다고 밝혔습니다. JP모건은 2027년 HBM Blended ASP가 전년 대비 54% 상승할 것으로 추정했습니다. HBM 비트 수요 성장률은 63%로, 비HBM 서버 DRAM의 37%보다 훨씬 높을 것으로 전망했습니다.  📈 HBM과 일반 DRAM의 마진 격차도 축소 HBM 가격 상승과 수율 개선으로 HBM과 일반 DRAM 간의 수익성 격차가 빠르게 줄어들고 "
-          ],
-          "profit_paths": [
-            "Q",
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 3개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Monthly",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-30T08:25:17+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "HanaResearch",
-        "siglab"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "siglab",
-          "tier": "D1",
-          "message_id": "siglab/141902",
-          "permalink": "https://t.me/siglab/141902",
-          "published_at_kst": "2026-10-02T08:25:13+09:00",
-          "source_cluster": "source-63",
-          "business_numbers": [
-            " 파업의 잔해 ㆍ 더욱 벌어지는 EV 전환 속도 차이 ㆍ 수익성 방어는 미국에서  [자동차] 자동차/2차전지 - Monthly IBK투자증권 이현욱 ㆍ 글로벌 자동차 출하량 : -7.2%(MoM), -4.3 %(YoY) ㆍ 글로벌 전기차 출하량 : -2.5%(MoM), +1.8%(YoY) ㆍ 글로벌 배터리 출하량 : -0.4%(MoM), +14.3%(YoY)  [",
-            " 벌어지는 EV 전환 속도 차이 ㆍ 수익성 방어는 미국에서  [자동차] 자동차/2차전지 - Monthly IBK투자증권 이현욱 ㆍ 글로벌 자동차 출하량 : -7.2%(MoM), -4.3 %(YoY) ㆍ 글로벌 전기차 출하량 : -2.5%(MoM), +1.8%(YoY) ㆍ 글로벌 배터리 출하량 : -0.4%(MoM), +14.3%(YoY)  [화장품] 10월은 더 좋",
-            "미국에서  [자동차] 자동차/2차전지 - Monthly IBK투자증권 이현욱 ㆍ 글로벌 자동차 출하량 : -7.2%(MoM), -4.3 %(YoY) ㆍ 글로벌 전기차 출하량 : -2.5%(MoM), +1.8%(YoY) ㆍ 글로벌 배터리 출하량 : -0.4%(MoM), +14.3%(YoY)  [화장품] 10월은 더 좋을텐데 NH투자증권 정지윤 ㆍ 9월 화장품 수출액"
-          ],
-          "profit_paths": [
-            "Q",
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "RNA",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-18T15:29:04+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "corevalue",
-        "growthresearch"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "corevalue",
-          "tier": "D1",
-          "message_id": "corevalue/47254",
-          "permalink": "https://t.me/corevalue/47254",
-          "published_at_kst": "2026-10-02T21:07:27+09:00",
-          "source_cluster": "source-423",
-          "business_numbers": [
-            "[키움 허혜민] 노바티스, 중국 Abogen RNA 치료제 최대 $7.8bn에 도입  노바티스, 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 ",
-            "Abogen RNA 치료제 최대 $7.8bn에 도입  노바티스, 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급  계약에는 Abogen의 선두 파이프라인 ABO2203에 대한 글로벌 독점 라이선",
-            ", 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급  계약에는 Abogen의 선두 파이프라인 ABO2203에 대한 글로벌 독점 라이선스와 Abogen RNA 플랫폼 기반 차세대 치료제 다수에 대"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Upfront",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T18:46:33+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 2,
-      "independent_channel_names": [
-        "corevalue",
-        "growthresearch"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "corevalue",
-          "tier": "D1",
-          "message_id": "corevalue/47254",
-          "permalink": "https://t.me/corevalue/47254",
-          "published_at_kst": "2026-10-02T21:07:27+09:00",
-          "source_cluster": "source-423",
-          "business_numbers": [
-            "[키움 허혜민] 노바티스, 중국 Abogen RNA 치료제 최대 $7.8bn에 도입  노바티스, 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 ",
-            "Abogen RNA 치료제 최대 $7.8bn에 도입  노바티스, 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급  계약에는 Abogen의 선두 파이프라인 ABO2203에 대한 글로벌 독점 라이선",
-            ", 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급  계약에는 Abogen의 선두 파이프라인 ABO2203에 대한 글로벌 독점 라이선스와 Abogen RNA 플랫폼 기반 차세대 치료제 다수에 대"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 2개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Abogen",
-      "category": "name_or_technology",
+      "entity": "Abogen Biosciences",
+      "category": "company_or_partner",
       "first_seen": "2026-10-02T21:07:27+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
@@ -694,9 +192,8 @@
           "published_at_kst": "2026-10-02T21:07:27+09:00",
           "source_cluster": "source-423",
           "business_numbers": [
-            "[키움 허혜민] 노바티스, 중국 Abogen RNA 치료제 최대 $7.8bn에 도입  노바티스, 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 ",
-            "Abogen RNA 치료제 최대 $7.8bn에 도입  노바티스, 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급  계약에는 Abogen의 선두 파이프라인 ABO2203에 대한 글로벌 독점 라이선",
-            ", 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급  계약에는 Abogen의 선두 파이프라인 ABO2203에 대한 글로벌 독점 라이선스와 Abogen RNA 플랫폼 기반 차세대 치료제 다수에 대"
+            "노바티스, 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급",
+            ", 중국 Abogen Biosciences와 RNA 기반 치료제 라이선스 및 옵션 계약 체결. 계약금(Upfront) $575mn, 모든 프로그램 옵션 행사 시 잠재 마일스톤 약 $7.2bn 및 향후 제품 매출 로열티 지급"
           ],
           "profit_paths": [
             "Q"
@@ -712,51 +209,13 @@
       "noise_penalty": 0
     },
     {
-      "entity": "ADA",
+      "entity": "Ding",
       "category": "name_or_technology",
-      "first_seen": "2026-09-29T11:11:08+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2268",
-          "permalink": "https://t.me/opendisco/2268",
-          "published_at_kst": "2026-10-02T14:02:26+09:00",
-          "source_cluster": "source-232",
-          "business_numbers": [
-            "관측 14:02][원문보기]  보고자: Aramco Downstream Asia Pte. Ltd. (\"ADA\") 위 대리인 변호사 심준교 · 최대주주 보유 약 7,141만 주 · 63.43% (신규보고) - 특별관계자 3명 - 보유목적: 경영권 영향 - 보고사유: - 보고자의 주식매매계약 체결 및 종결 (장외매수) - 대표보고자 변동에 따른 신규보고"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "ADM",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T17:04:33+09:00",
+      "first_seen": "2026-10-02T07:54:19+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
-        "opendisco"
+        "quantum_algo"
       ],
       "prior_mentions": 0,
       "business_independent_channels": 1,
@@ -765,479 +224,17 @@
       "official_verification": "pending",
       "evidence_posts": [
         {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2362",
-          "permalink": "https://t.me/opendisco/2362",
-          "published_at_kst": "2026-10-02T17:04:33+09:00",
-          "source_cluster": "source-373",
-          "business_numbers": [
-            "· 계약: 합작법인 설립을 위한 출자계약(CA) 체결 · 출자 예정자: CJ Bio America, Inc. 및 ADM · 합작법인 지분율: CJ Bio America, Inc. 63%, ADM 37% · 결정/확인: 2026-10-02  👾 supported by AI (gpt-6-luna)",
-            "인 설립을 위한 출자계약(CA) 체결 · 출자 예정자: CJ Bio America, Inc. 및 ADM · 합작법인 지분율: CJ Bio America, Inc. 63%, ADM 37% · 결정/확인: 2026-10-02  👾 supported by AI (gpt-6-luna)"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "APS",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-14T10:28:32+09:00",
-      "mentions_72h": 3,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2352",
-          "permalink": "https://t.me/opendisco/2352",
-          "published_at_kst": "2026-10-02T16:22:30+09:00",
-          "source_cluster": "source-355",
-          "business_numbers": [
-            "APS(054620.KQ) [2026-10-02 관측 16:22][원문보기]  보고자: 정 기 로 · 최대주주 보유 약 696만 주 · 37.83% · 증감 약 36.8만 주 (+2.00%p ▲) - 본인 약 691만 주 · 37.57% (+2.00%p ▲) - 특별관계자 6명 약 4.7만 주 · 0.26% (-0.00%p) - 주요계약 2.00% · 약 36.8만"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 3개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "BMO",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-08T09:25:25+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
+          "channel": "quantum_algo",
           "tier": "D2",
-          "message_id": "FastStockNewsUSA/23532",
-          "permalink": "https://t.me/FastStockNewsUSA/23532",
-          "published_at_kst": "2026-10-02T21:24:23+09:00",
-          "source_cluster": "source-426",
+          "message_id": "quantum_algo/102741",
+          "permalink": "https://t.me/quantum_algo/102741",
+          "published_at_kst": "2026-10-02T07:54:19+09:00",
+          "source_cluster": "source-55",
           "business_numbers": [
-            " 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $A",
-            "ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 8",
-            "현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 80억 달러 규모의 NVDA 그레이스 블랙웰 칩 매각 및 "
+            "- 9/28 삼성전기는 4.3조원 규모 패키지기판 증설 공시를 발표. 해당 고객사 외에도 Unimicron, Zhen Ding 등 해외 기판 업체들의 2027년 투자가 추가 상향될 전망"
           ],
           "profit_paths": [
             "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "BOM",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-30T17:03:23+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "corevalue"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1597",
-          "permalink": "https://t.me/growth_semi/1597",
-          "published_at_kst": "2026-10-04T12:34:33+09:00",
-          "source_cluster": "source-534",
-          "business_numbers": [
-            "00 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석  스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7",
-            "-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지  엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것",
-            " 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지  엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것으로 전망되나, HBM·DRAM"
-          ],
-          "profit_paths": [
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "corevalue",
-          "tier": "D1",
-          "message_id": "corevalue/47260",
-          "permalink": "https://t.me/corevalue/47260",
-          "published_at_kst": "2026-10-04T12:36:49+09:00",
-          "source_cluster": "source-534",
-          "business_numbers": [
-            "00 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석  스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7",
-            "-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지  엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것",
-            " 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지  엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것으로 전망되나, HBM·DRAM"
-          ],
-          "profit_paths": [
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "CA",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-21T10:01:54+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2362",
-          "permalink": "https://t.me/opendisco/2362",
-          "published_at_kst": "2026-10-02T17:04:33+09:00",
-          "source_cluster": "source-373",
-          "business_numbers": [
-            "· 계약: 합작법인 설립을 위한 출자계약(CA) 체결 · 출자 예정자: CJ Bio America, Inc. 및 ADM · 합작법인 지분율: CJ Bio America, Inc. 63%, ADM 37% · 결정/확인: 2026-10-02  👾 supported by AI (gpt-6-luna)",
-            "인 설립을 위한 출자계약(CA) 체결 · 출자 예정자: CJ Bio America, Inc. 및 ADM · 합작법인 지분율: CJ Bio America, Inc. 63%, ADM 37% · 결정/확인: 2026-10-02  👾 supported by AI (gpt-6-luna)"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "CALB",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-17T11:44:33+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "HanaResearch"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "HanaResearch",
-          "tier": "D1",
-          "message_id": "HanaResearch/20553",
-          "permalink": "https://t.me/HanaResearch/20553",
-          "published_at_kst": "2026-10-03T14:50:58+09:00",
-          "source_cluster": "source-483",
-          "business_numbers": [
-            ", 비중 27.7%) (2) HEV: 9.9만대(+18%, 비중 17.7%) (3) 전기차: 5.6만대(-2% (YoY), 비중 10.0%), 현대차/기아 합산 M/S 3.2%(-0.7%p(MoM), -0.1%p (YoY))  4. 2차전지 현황 - 8월 배터리 출하량 116.8GWh(+14%) - CATL +19%, BYD +13%, LGES -20%, CALB",
-            "2) HEV: 9.9만대(+18%, 비중 17.7%) (3) 전기차: 5.6만대(-2% (YoY), 비중 10.0%), 현대차/기아 합산 M/S 3.2%(-0.7%p(MoM), -0.1%p (YoY))  4. 2차전지 현황 - 8월 배터리 출하량 116.8GWh(+14%) - CATL +19%, BYD +13%, LGES -20%, CALB +23%, SK on ",
-            " 5.6만대(-2% (YoY), 비중 10.0%), 현대차/기아 합산 M/S 3.2%(-0.7%p(MoM), -0.1%p (YoY))  4. 2차전지 현황 - 8월 배터리 출하량 116.8GWh(+14%) - CATL +19%, BYD +13%, LGES -20%, CALB +23%, SK on -42%, Panasonic -27%, 삼성SDI -50% - 리튬/니켈/"
-          ],
-          "profit_paths": [
-            "Q",
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Call",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-14T08:46:13+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2352",
-          "permalink": "https://t.me/opendisco/2352",
-          "published_at_kst": "2026-10-02T16:22:30+09:00",
-          "source_cluster": "source-355",
-          "business_numbers": [
-            "696만 주 · 37.83% · 증감 약 36.8만 주 (+2.00%p ▲) - 본인 약 691만 주 · 37.57% (+2.00%p ▲) - 특별관계자 6명 약 4.7만 주 · 0.26% (-0.00%p) - 주요계약 2.00% · 약 36.8만 주 - 보유목적: 경영권 영향 - 보고사유: 주주간계약 체결에 따른 매수청구권(Call Option) 취득",
-            " 37.83% · 증감 약 36.8만 주 (+2.00%p ▲) - 본인 약 691만 주 · 37.57% (+2.00%p ▲) - 특별관계자 6명 약 4.7만 주 · 0.26% (-0.00%p) - 주요계약 2.00% · 약 36.8만 주 - 보유목적: 경영권 영향 - 보고사유: 주주간계약 체결에 따른 매수청구권(Call Option) 취득",
-            "36.8만 주 (+2.00%p ▲) - 본인 약 691만 주 · 37.57% (+2.00%p ▲) - 특별관계자 6명 약 4.7만 주 · 0.26% (-0.00%p) - 주요계약 2.00% · 약 36.8만 주 - 보유목적: 경영권 영향 - 보고사유: 주주간계약 체결에 따른 매수청구권(Call Option) 취득"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Cerebras",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-03T16:37:40+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "growth_semi"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1594",
-          "permalink": "https://t.me/growth_semi/1594",
-          "published_at_kst": "2026-10-03T16:37:40+09:00",
-          "source_cluster": "source-488",
-          "business_numbers": [
-            " 📌 Cerebras는 SRAM으로 병목 축소 웨이퍼 스케일 칩에 대규모 SRAM을 분산 배치해 가중치를 연산부 가까이에 둠  회사 설명 기준 가중치 이동 속도는 GPU 대비 약 2,500배  📌 핵심은 연산력이 아니라 메모리 구조 LLM 추론은 FLOPS보다 가중치를 얼마나 빨리 공급하느냐가 중요  AI 추론 경쟁의 병목이 Compute→Memory Movement"
-          ],
-          "profit_paths": [],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30167",
-          "permalink": "https://t.me/growthresearch/30167",
-          "published_at_kst": "2026-10-03T16:50:23+09:00",
-          "source_cluster": "source-488",
-          "business_numbers": [
-            " 📌 Cerebras는 SRAM으로 병목 축소 웨이퍼 스케일 칩에 대규모 SRAM을 분산 배치해 가중치를 연산부 가까이에 둠  회사 설명 기준 가중치 이동 속도는 GPU 대비 약 2,500배  📌 핵심은 연산력이 아니라 메모리 구조 LLM 추론은 FLOPS보다 가중치를 얼마나 빨리 공급하느냐가 중요  AI 추론 경쟁의 병목이 Compute→Memory Movement"
-          ],
-          "profit_paths": [],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "DGX",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T22:15:15+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23552",
-          "permalink": "https://t.me/FastStockNewsUSA/23552",
-          "published_at_kst": "2026-10-03T18:06:00+09:00",
-          "source_cluster": "source-493",
-          "business_numbers": [
-            "출시…메모리 절반으로 줄이고 4,999달러부터 판매, 128GB 버전은 6,950달러로 가격 인상  •엔비디아가 로컬 AI 수요를 겨냥해 새로운 DGX Spark를 출시함. 최대 1,000억 개 파라미터 규모의 모델을 로컬에서 실행할 수 있으며, 10월 23일부터 OEM 업체를 통해 판매될 예정  •신제품은 GB10 Blackwell 칩, DGX OS, 엔비디아의 전",
-            " 기능을 그대로 유지하지만, 통합 메모리는 기존 128GB에서 64GB로 절반 감소. 테스트 결과 64GB 제품 2대를 ‘연결’해 128GB로 사용할 수 있으며, 성능은 최대 약 70% 향상되는 것으로 나타남.  •엔비디아는 128GB Founders Edition의 가격 인상에 대해 메모리 공급 부족과 비용 상승 때문이라고 설명  >英伟达推出64GB版DGX S"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Downstream",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-01T15:27:56+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2268",
-          "permalink": "https://t.me/opendisco/2268",
-          "published_at_kst": "2026-10-02T14:02:26+09:00",
-          "source_cluster": "source-232",
-          "business_numbers": [
-            "관측 14:02][원문보기]  보고자: Aramco Downstream Asia Pte. Ltd. (\"ADA\") 위 대리인 변호사 심준교 · 최대주주 보유 약 7,141만 주 · 63.43% (신규보고) - 특별관계자 3명 - 보유목적: 경영권 영향 - 보고사유: - 보고자의 주식매매계약 체결 및 종결 (장외매수) - 대표보고자 변동에 따른 신규보고"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "DSR",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-03T14:51:05+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "HanaResearch"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "HanaResearch",
-          "tier": "D1",
-          "message_id": "HanaResearch/20554",
-          "permalink": "https://t.me/HanaResearch/20554",
-          "published_at_kst": "2026-10-03T14:51:05+09:00",
-          "source_cluster": "source-484",
-          "business_numbers": [
-            "증가했으나 이를 조정한 DSR 기준으로는 flat. 9월 누적으로는 -2% (YoY) 기록하면서 감소 - 시장 수요는 EV에서 HEV로 이전. 9월 누적 EV/HEV 비중이 각각 7.3%/15.6%로 전년 동기 10.4%/12.5% 대비 -3.1%p/+3.1%p씩 변동 - EV의 가격 경쟁력 약화와 유가 상승에 따른 HEV 선호 현상이 지속되면서 HEV 라인업을 ",
-            " 이를 조정한 DSR 기준으로는 flat. 9월 누적으로는 -2% (YoY) 기록하면서 감소 - 시장 수요는 EV에서 HEV로 이전. 9월 누적 EV/HEV 비중이 각각 7.3%/15.6%로 전년 동기 10.4%/12.5% 대비 -3.1%p/+3.1%p씩 변동 - EV의 가격 경쟁력 약화와 유가 상승에 따른 HEV 선호 현상이 지속되면서 HEV 라인업을 갖춘 한국/"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Edition",
-      "category": "business_entity",
-      "first_seen": "2026-10-03T18:06:00+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23552",
-          "permalink": "https://t.me/FastStockNewsUSA/23552",
-          "published_at_kst": "2026-10-03T18:06:00+09:00",
-          "source_cluster": "source-493",
-          "business_numbers": [
-            " 기능을 그대로 유지하지만, 통합 메모리는 기존 128GB에서 64GB로 절반 감소. 테스트 결과 64GB 제품 2대를 ‘연결’해 128GB로 사용할 수 있으며, 성능은 최대 약 70% 향상되는 것으로 나타남.  •엔비디아는 128GB Founders Edition의 가격 인상에 대해 메모리 공급 부족과 비용 상승 때문이라고 설명  >英伟达推出64GB版DGX S"
-          ],
-          "profit_paths": [
-            "P"
           ],
           "noise_flags": []
         }
@@ -1272,47 +269,7 @@
           "published_at_kst": "2026-10-02T06:16:17+09:00",
           "source_cluster": "source-25",
           "business_numbers": [
-            "[PJM, 6.8GW 백스톱 조달 연기…FERC, 데이터센터 비용배분 방식에 제동]  *PJM, 9월30일 예정 백스톱 조달 경매 연기 -PJM이 데이터센터 전력수요 증가에 따른 공급부족을 보완하기 ",
-            "ERC는 최신 부하전망을 기준으로 비용을 배분하는 방식을 대안으로 제시. 신규 데이터센터 등 향후 부하 증가가 예상되는 지역과 고객을 보다 정확하게 반영하라는 취지  *경매 상한 $555/MW-day는 승인 -FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인  -반면 송전사업자 탈퇴 시 비용배분 방식",
-            "는 지역과 고객을 보다 정확하게 반영하라는 취지  *경매 상한 $555/MW-day는 승인 -FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인  -반면 송전사업자 탈퇴 시 비용배분 방식과 전력판매사업자(LSE)의 담보요건은 수정이 필요하다고 판단. Northern Virginia Electric Co"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Founders",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-03T18:06:00+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23552",
-          "permalink": "https://t.me/FastStockNewsUSA/23552",
-          "published_at_kst": "2026-10-03T18:06:00+09:00",
-          "source_cluster": "source-493",
-          "business_numbers": [
-            " 기능을 그대로 유지하지만, 통합 메모리는 기존 128GB에서 64GB로 절반 감소. 테스트 결과 64GB 제품 2대를 ‘연결’해 128GB로 사용할 수 있으며, 성능은 최대 약 70% 향상되는 것으로 나타남.  •엔비디아는 128GB Founders Edition의 가격 인상에 대해 메모리 공급 부족과 비용 상승 때문이라고 설명  >英伟达推出64GB版DGX S"
+            "-FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인"
           ],
           "profit_paths": [
             "P"
@@ -1350,9 +307,7 @@
           "published_at_kst": "2026-10-04T09:52:01+09:00",
           "source_cluster": "source-523",
           "business_numbers": [
-            ".ai/id/lembaga/gami-otoritas-industri-militer/  사우디 군수산업청(GAMI)은 2017년 설립되어 비전 2030 프레임워크 아래 국방 지출의 50% 국산화 달성을 핵심 목표로 추진  사우디 연간 국방 예산은 역사적으로 500억800억 달러 규모로 글로벌 56위권이나, GAMI 출범 이전 군 조달의 약 98%를 해외 공급업체에",
-            "er/  사우디 군수산업청(GAMI)은 2017년 설립되어 비전 2030 프레임워크 아래 국방 지출의 50% 국산화 달성을 핵심 목표로 추진  사우디 연간 국방 예산은 역사적으로 500억800억 달러 규모로 글로벌 56위권이나, GAMI 출범 이전 군 조달의 약 98%를 해외 공급업체에 의존  주요 조달 계약 시 해외 방산 기업에 제조 시설 구축, 기술 이전, 사",
-            " 사우디 군수산업청(GAMI)은 2017년 설립되어 비전 2030 프레임워크 아래 국방 지출의 50% 국산화 달성을 핵심 목표로 추진  사우디 연간 국방 예산은 역사적으로 500억800억 달러 규모로 글로벌 56위권이나, GAMI 출범 이전 군 조달의 약 98%를 해외 공급업체에 의존  주요 조달 계약 시 해외 방산 기업에 제조 시설 구축, 기술 이전, 사우디 인"
+            "사우디 연간 국방 예산은 역사적으로 500억800억 달러 규모로 글로벌 56위권이나, GAMI 출범 이전 군 조달의 약 98%를 해외 공급업체에 의존"
           ],
           "profit_paths": [
             "Q"
@@ -1368,295 +323,9 @@
       "noise_penalty": 0
     },
     {
-      "entity": "GB10",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-03T18:06:00+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23552",
-          "permalink": "https://t.me/FastStockNewsUSA/23552",
-          "published_at_kst": "2026-10-03T18:06:00+09:00",
-          "source_cluster": "source-493",
-          "business_numbers": [
-            "출시…메모리 절반으로 줄이고 4,999달러부터 판매, 128GB 버전은 6,950달러로 가격 인상  •엔비디아가 로컬 AI 수요를 겨냥해 새로운 DGX Spark를 출시함. 최대 1,000억 개 파라미터 규모의 모델을 로컬에서 실행할 수 있으며, 10월 23일부터 OEM 업체를 통해 판매될 예정  •신제품은 GB10 Blackwell 칩, DGX OS, 엔비디아의 전"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "IDM",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-07T13:07:24+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "quantum_algo"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "quantum_algo",
-          "tier": "D2",
-          "message_id": "quantum_algo/102741",
-          "permalink": "https://t.me/quantum_algo/102741",
-          "published_at_kst": "2026-10-02T07:54:19+09:00",
-          "source_cluster": "source-55",
-          "business_numbers": [
-            "시황을 감안 시 실제 수주금액은 이를 크게 상회할 것으로 전망  - 11월 발표될 3Q26 말 수주잔고는 1,700억원 수준으로 전분기 대비 대폭 확대될 것으로 추정 (vs 2Q 1,261억원)  ▶ 27년 영업이익 추정치 +79% 상향 조정  - 동사의 2027년 매출액/영업이익 추정치를 직전 대비 각각 +36%/+79% 상향 조정  - 북미 IDM 고객사의 패키징",
-            "할 것으로 전망  - 11월 발표될 3Q26 말 수주잔고는 1,700억원 수준으로 전분기 대비 대폭 확대될 것으로 추정 (vs 2Q 1,261억원)  ▶ 27년 영업이익 추정치 +79% 상향 조정  - 동사의 2027년 매출액/영업이익 추정치를 직전 대비 각각 +36%/+79% 상향 조정  - 북미 IDM 고객사의 패키징 검사장비 발주가 견조한 가운데, 기판 검"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Industri",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-04T09:52:01+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "HI_GS"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "HI_GS",
-          "tier": "D1",
-          "message_id": "HI_GS/7169",
-          "permalink": "https://t.me/HI_GS/7169",
-          "published_at_kst": "2026-10-04T09:52:01+09:00",
-          "source_cluster": "source-523",
-          "business_numbers": [
-            ".ai/id/lembaga/gami-otoritas-industri-militer/  사우디 군수산업청(GAMI)은 2017년 설립되어 비전 2030 프레임워크 아래 국방 지출의 50% 국산화 달성을 핵심 목표로 추진  사우디 연간 국방 예산은 역사적으로 500억800억 달러 규모로 글로벌 56위권이나, GAMI 출범 이전 군 조달의 약 98%를 해외 공급업체에"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "ISAPS",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T08:25:13+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "siglab"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "siglab",
-          "tier": "D1",
-          "message_id": "siglab/141902",
-          "permalink": "https://t.me/siglab/141902",
-          "published_at_kst": "2026-10-02T08:25:13+09:00",
-          "source_cluster": "source-63",
-          "business_numbers": [
-            "), +1.8%(YoY) ㆍ 글로벌 배터리 출하량 : -0.4%(MoM), +14.3%(YoY)  [화장품] 10월은 더 좋을텐데 NH투자증권 정지윤 ㆍ 9월 화장품 수출액 최초 12억달러로 상단 돌파 ㆍ 10월 업종 전망: 4분기 성수기 효과 남았다  [건강관리장비와용품] ISAPS 2025 Review: 조정을 지나, 회복으로 유진투자증권 이다빈 ㆍ [미용의"
-          ],
-          "profit_paths": [
-            "Q",
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "K-온디바이스 프로젝트",
-      "category": "project",
-      "first_seen": "2026-10-02T18:07:59+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "growth_semi"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1592",
-          "permalink": "https://t.me/growth_semi/1592",
-          "published_at_kst": "2026-10-02T18:07:59+09:00",
-          "source_cluster": "source-388",
-          "business_numbers": [
-            "·시놉시스·케이던스 3곳에 불과  오픈엣지는 경쟁사가 집중하지 않는 4~12나노 매스마켓 공정을 선점해 고객 확대 중  📌 2. K-온디바이스 프로젝트 직접 수혜 기대 정부 주도 1조원 규모 K-온디바이스 AI 반도체 사업에서 국내 IP 활용이 권고되는 구조  자동차·로봇·가전·방산용 맞춤형 칩 개발 확대 시 라이선스 수주 증가 가능  현대차·LG전자 등 수요"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30163",
-          "permalink": "https://t.me/growthresearch/30163",
-          "published_at_kst": "2026-10-02T18:08:26+09:00",
-          "source_cluster": "source-388",
-          "business_numbers": [
-            "·시놉시스·케이던스 3곳에 불과  오픈엣지는 경쟁사가 집중하지 않는 4~12나노 매스마켓 공정을 선점해 고객 확대 중  📌 2. K-온디바이스 프로젝트 직접 수혜 기대 정부 주도 1조원 규모 K-온디바이스 AI 반도체 사업에서 국내 IP 활용이 권고되는 구조  자동차·로봇·가전·방산용 맞춤형 칩 개발 확대 시 라이선스 수주 증가 가능  현대차·LG전자 등 수요"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "LSE",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T06:16:17+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "hana_us_stock"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "hana_us_stock",
-          "tier": "D1",
-          "message_id": "hana_us_stock/10643",
-          "permalink": "https://t.me/hana_us_stock/10643",
-          "published_at_kst": "2026-10-02T06:16:17+09:00",
-          "source_cluster": "source-25",
-          "business_numbers": [
-            "는 지역과 고객을 보다 정확하게 반영하라는 취지  *경매 상한 $555/MW-day는 승인 -FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인  -반면 송전사업자 탈퇴 시 비용배분 방식과 전력판매사업자(LSE)의 담보요건은 수정이 필요하다고 판단. Northern Virginia Electric Co"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "MRNA",
+      "entity": "ON",
       "category": "ticker",
-      "first_seen": "2026-09-16T00:52:13+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23532",
-          "permalink": "https://t.me/FastStockNewsUSA/23532",
-          "published_at_kst": "2026-10-02T21:24:23+09:00",
-          "source_cluster": "source-426",
-          "business_numbers": [
-            " 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $A",
-            "ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 8",
-            "현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 80억 달러 규모의 NVDA 그레이스 블랙웰 칩 매각 및 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "NDX",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T21:24:23+09:00",
+      "first_seen": "2026-09-15T23:57:09+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
@@ -1676,432 +345,7 @@
           "published_at_kst": "2026-10-02T21:24:23+09:00",
           "source_cluster": "source-426",
           "business_numbers": [
-            " 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $A",
-            "ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 8",
-            "현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 80억 달러 규모의 NVDA 그레이스 블랙웰 칩 매각 및 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "NKE",
-      "category": "ticker",
-      "first_seen": "2026-09-05T17:34:33+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23532",
-          "permalink": "https://t.me/FastStockNewsUSA/23532",
-          "published_at_kst": "2026-10-02T21:24:23+09:00",
-          "source_cluster": "source-426",
-          "business_numbers": [
-            "배로 늘릴 계획  $NKE -10%: 매출 부진 및 중국, 스포츠웨어, 조던 브랜드 부문의 약세로 1년 매출 감소 예상; 구조조정 계획 및 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "NMSI",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T16:35:52+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2355",
-          "permalink": "https://t.me/opendisco/2355",
-          "published_at_kst": "2026-10-02T16:35:52+09:00",
-          "source_cluster": "source-362",
-          "business_numbers": [
-            "👥 최대주주 변경 · 주식양수도 계약 · 버킷스튜디오(066410.KQ) [2026-10-02 접수 16:35][원문보기]  · 대금: 1,000.9억 · 약 4,537만 주 · 1주 2,206원 · 양도: 이니셜 1호 투자조합외 1인(변경전 최대주주 및 최대주주의 특수관계인) · 양수: NMSI, Inc.(변경예정 최대주주) ",
-            "👥 최대주주 변경 · 주식양수도 계약 · 버킷스튜디오(066410.KQ) [2026-10-02 접수 16:35][원문보기]  · 대금: 1,000.9억 · 약 4,537만 주 · 1주 2,206원 · 양도: 이니셜 1호 투자조합외 1인(변경전 최대주주 및 최대주주의 특수관계인) · 양수: NMSI, Inc.(변경예정 최대주주) · 변경예정: 2. 계약 내역 양",
-            "자조합외 1인(변경전 최대주주 및 최대주주의 특수관계인) · 양수: NMSI, Inc.(변경예정 최대주주) · 변경예정: 2. 계약 내역 양수도 주식수(주) 45,370,127… 32.77% · 2027-01-14 · 계약일: 2026-10-02"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "North",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-07T09:06:54+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "siglab"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "siglab",
-          "tier": "D1",
-          "message_id": "siglab/141906",
-          "permalink": "https://t.me/siglab/141906",
-          "published_at_kst": "2026-10-02T08:55:17+09:00",
-          "source_cluster": "source-79",
-          "business_numbers": [
-            "Project North: 알래스카 LNG 프로젝트 - 가스관은 약 1,300km, 수출용 액화플랜트(LNG 터미널)은 약 2,000만톤 Capa 건설 프로젝트 - 총 규모는 약 500억 달러(약 68조원) 예상 - 건설사 입장에선 가스관보단 LNG 터미널에 초점을 맞출 필요가 있으며 대우건설, 삼성E&A 수혜 가능성 존재 - 다만, 이미 미국 내에서 가스관이나 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Northern",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-14T08:46:00+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "hana_us_stock"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "hana_us_stock",
-          "tier": "D1",
-          "message_id": "hana_us_stock/10643",
-          "permalink": "https://t.me/hana_us_stock/10643",
-          "published_at_kst": "2026-10-02T06:16:17+09:00",
-          "source_cluster": "source-25",
-          "business_numbers": [
-            "는 지역과 고객을 보다 정확하게 반영하라는 취지  *경매 상한 $555/MW-day는 승인 -FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인  -반면 송전사업자 탈퇴 시 비용배분 방식과 전력판매사업자(LSE)의 담보요건은 수정이 필요하다고 판단. Northern Virginia Electric Co"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "NT",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-28T13:01:19+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "growth_semi"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1577",
-          "permalink": "https://t.me/growth_semi/1577",
-          "published_at_kst": "2026-10-02T08:45:14+09:00",
-          "source_cluster": "source-75",
-          "business_numbers": [
-            "증설, HBM 생산능력 확대 가속  https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=770184&wpidx=4  📌 대만 누적 투자 50조원대, 최근 4년에 절반 집중 마이크론은 타오위안·타이중·퉁뤄·타이난 등 대만 4대 주요 생산거점에서 동시 증설 진행  대만 누적 투자액은 NT$1.6조(약 US$500억) 이상 ",
-            "w/tech/dt/n/shwnws.asp?id=770184&wpidx=4  📌 대만 누적 투자 50조원대, 최근 4년에 절반 집중 마이크론은 타오위안·타이중·퉁뤄·타이난 등 대만 4대 주요 생산거점에서 동시 증설 진행  대만 누적 투자액은 NT$1.6조(약 US$500억) 이상  누적 투자액의 약 절반이 최근 4년간 집행되며 AI 메모리 수요 대응을 위한 투자",
-            "dx=4  📌 대만 누적 투자 50조원대, 최근 4년에 절반 집중 마이크론은 타오위안·타이중·퉁뤄·타이난 등 대만 4대 주요 생산거점에서 동시 증설 진행  대만 누적 투자액은 NT$1.6조(약 US$500억) 이상  누적 투자액의 약 절반이 최근 4년간 집행되며 AI 메모리 수요 대응을 위한 투자 강도 확대  📌 타이중 2공장, 10월 중순 HBM 테스트·패키징 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30141",
-          "permalink": "https://t.me/growthresearch/30141",
-          "published_at_kst": "2026-10-02T08:45:20+09:00",
-          "source_cluster": "source-75",
-          "business_numbers": [
-            "증설, HBM 생산능력 확대 가속  https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=770184&wpidx=4  📌 대만 누적 투자 50조원대, 최근 4년에 절반 집중 마이크론은 타오위안·타이중·퉁뤄·타이난 등 대만 4대 주요 생산거점에서 동시 증설 진행  대만 누적 투자액은 NT$1.6조(약 US$500억) 이상 ",
-            "w/tech/dt/n/shwnws.asp?id=770184&wpidx=4  📌 대만 누적 투자 50조원대, 최근 4년에 절반 집중 마이크론은 타오위안·타이중·퉁뤄·타이난 등 대만 4대 주요 생산거점에서 동시 증설 진행  대만 누적 투자액은 NT$1.6조(약 US$500억) 이상  누적 투자액의 약 절반이 최근 4년간 집행되며 AI 메모리 수요 대응을 위한 투자",
-            "dx=4  📌 대만 누적 투자 50조원대, 최근 4년에 절반 집중 마이크론은 타오위안·타이중·퉁뤄·타이난 등 대만 4대 주요 생산거점에서 동시 증설 진행  대만 누적 투자액은 NT$1.6조(약 US$500억) 이상  누적 투자액의 약 절반이 최근 4년간 집행되며 AI 메모리 수요 대응을 위한 투자 강도 확대  📌 타이중 2공장, 10월 중순 HBM 테스트·패키징 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Option",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-22T10:22:57+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2352",
-          "permalink": "https://t.me/opendisco/2352",
-          "published_at_kst": "2026-10-02T16:22:30+09:00",
-          "source_cluster": "source-355",
-          "business_numbers": [
-            "696만 주 · 37.83% · 증감 약 36.8만 주 (+2.00%p ▲) - 본인 약 691만 주 · 37.57% (+2.00%p ▲) - 특별관계자 6명 약 4.7만 주 · 0.26% (-0.00%p) - 주요계약 2.00% · 약 36.8만 주 - 보유목적: 경영권 영향 - 보고사유: 주주간계약 체결에 따른 매수청구권(Call Option) 취득",
-            " 37.83% · 증감 약 36.8만 주 (+2.00%p ▲) - 본인 약 691만 주 · 37.57% (+2.00%p ▲) - 특별관계자 6명 약 4.7만 주 · 0.26% (-0.00%p) - 주요계약 2.00% · 약 36.8만 주 - 보유목적: 경영권 영향 - 보고사유: 주주간계약 체결에 따른 매수청구권(Call Option) 취득",
-            "36.8만 주 (+2.00%p ▲) - 본인 약 691만 주 · 37.57% (+2.00%p ▲) - 특별관계자 6명 약 4.7만 주 · 0.26% (-0.00%p) - 주요계약 2.00% · 약 36.8만 주 - 보유목적: 경영권 영향 - 보고사유: 주주간계약 체결에 따른 매수청구권(Call Option) 취득"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Panasonic",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-03T14:50:58+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "HanaResearch"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "HanaResearch",
-          "tier": "D1",
-          "message_id": "HanaResearch/20553",
-          "permalink": "https://t.me/HanaResearch/20553",
-          "published_at_kst": "2026-10-03T14:50:58+09:00",
-          "source_cluster": "source-483",
-          "business_numbers": [
-            " 5.6만대(-2% (YoY), 비중 10.0%), 현대차/기아 합산 M/S 3.2%(-0.7%p(MoM), -0.1%p (YoY))  4. 2차전지 현황 - 8월 배터리 출하량 116.8GWh(+14%) - CATL +19%, BYD +13%, LGES -20%, CALB +23%, SK on -42%, Panasonic -27%, 삼성SDI -50% - 리튬/니켈/",
-            " (YoY), 비중 10.0%), 현대차/기아 합산 M/S 3.2%(-0.7%p(MoM), -0.1%p (YoY))  4. 2차전지 현황 - 8월 배터리 출하량 116.8GWh(+14%) - CATL +19%, BYD +13%, LGES -20%, CALB +23%, SK on -42%, Panasonic -27%, 삼성SDI -50% - 리튬/니켈/코발트/망간"
-          ],
-          "profit_paths": [
-            "Q",
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "PHY",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-30T09:06:16+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "growth_semi"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1592",
-          "permalink": "https://t.me/growth_semi/1592",
-          "published_at_kst": "2026-10-02T18:07:59+09:00",
-          "source_cluster": "source-388",
-          "business_numbers": [
-            "rowth/contents/260325170329177sz  📌 1. AI 메모리 병목이 키우는 PHY IP 수요 온디바이스 AI 확산으로 LPDDR 시장은 2030년까지 연평균 18% 성장 전망  최신 LPDDR5X·6 PHY 지원 업체는 오픈엣지·시놉시스·케이던스 3곳에 불과  오픈엣지는 경쟁사가 집중하지 않는 4~12나노 매스마켓 공정을 선점해 고객 확대 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30163",
-          "permalink": "https://t.me/growthresearch/30163",
-          "published_at_kst": "2026-10-02T18:08:26+09:00",
-          "source_cluster": "source-388",
-          "business_numbers": [
-            "rowth/contents/260325170329177sz  📌 1. AI 메모리 병목이 키우는 PHY IP 수요 온디바이스 AI 확산으로 LPDDR 시장은 2030년까지 연평균 18% 성장 전망  최신 LPDDR5X·6 PHY 지원 업체는 오픈엣지·시놉시스·케이던스 3곳에 불과  오픈엣지는 경쟁사가 집중하지 않는 4~12나노 매스마켓 공정을 선점해 고객 확대 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "PIF",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-04T09:52:01+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "HI_GS"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "HI_GS",
-          "tier": "D1",
-          "message_id": "HI_GS/7169",
-          "permalink": "https://t.me/HI_GS/7169",
-          "published_at_kst": "2026-10-04T09:52:01+09:00",
-          "source_cluster": "source-523",
-          "business_numbers": [
-            "아래 국방 지출의 50% 국산화 달성을 핵심 목표로 추진  사우디 연간 국방 예산은 역사적으로 500억800억 달러 규모로 글로벌 56위권이나, GAMI 출범 이전 군 조달의 약 98%를 해외 공급업체에 의존  주요 조달 계약 시 해외 방산 기업에 제조 시설 구축, 기술 이전, 사우디 인력 개발을 의무화하는 오프셋 정책 적용  국부펀드(PIF) 산하 국영 방산기"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "PIS",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T14:50:04+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "siglab"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "siglab",
-          "tier": "D1",
-          "message_id": "siglab/141931",
-          "permalink": "https://t.me/siglab/141931",
-          "published_at_kst": "2026-10-02T14:50:04+09:00",
-          "source_cluster": "source-273",
-          "business_numbers": [
-            "[단독] 건설사 해외 수주 지원 펀드 450억 손실 위기  - 정부, 민간과 2.6조 규모 PIS펀드 조성 - 350억 확정에 100억 추가 손실 전망 - PIS 2단계 펀드 결성률도 18% 그쳐 - 유상범 “펀드 집행 대책",
-            "[단독] 건설사 해외 수주 지원 펀드 450억 손실 위기  - 정부, 민간과 2.6조 규모 PIS펀드 조성 - 350억 확정에 100억 추가 손실 전망 - PIS 2단계 펀드 결성률도 18% 그쳐 - 유상범 “펀드 집행 대책 재점검해야” - 국토부 “여러 프로젝트",
-            "[단독] 건설사 해외 수주 지원 펀드 450억 손실 위기  - 정부, 민간과 2.6조 규모 PIS펀드 조성 - 350억 확정에 100억 추가 손실 전망 - PIS 2단계 펀드 결성률도 18% 그쳐 - 유상범 “펀드 집행 대책 재점검해야” - 국토부 “여러 프로젝트 순항하고 있어”  https://"
+            "$ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당"
           ],
           "profit_paths": [
             "Q"
@@ -2119,13 +363,13 @@
     {
       "entity": "PJM",
       "category": "business_entity",
-      "first_seen": "2026-09-18T12:40:31+09:00",
+      "first_seen": "2026-09-11T08:33:03+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
         "hana_us_stock"
       ],
-      "prior_mentions": 1,
+      "prior_mentions": 2,
       "business_independent_channels": 1,
       "status": "radar_only",
       "novelty": "unconfirmed",
@@ -2139,9 +383,7 @@
           "published_at_kst": "2026-10-02T06:16:17+09:00",
           "source_cluster": "source-25",
           "business_numbers": [
-            "[PJM, 6.8GW 백스톱 조달 연기…FERC, 데이터센터 비용배분 방식에 제동]  *PJM, 9월30일 예정 백스톱 조달 경매 연기 -PJM이 데이터센터 전력수요 증가에 따른 공급부족을 보완하기 ",
-            "ERC는 최신 부하전망을 기준으로 비용을 배분하는 방식을 대안으로 제시. 신규 데이터센터 등 향후 부하 증가가 예상되는 지역과 고객을 보다 정확하게 반영하라는 취지  *경매 상한 $555/MW-day는 승인 -FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인  -반면 송전사업자 탈퇴 시 비용배분 방식",
-            "는 지역과 고객을 보다 정확하게 반영하라는 취지  *경매 상한 $555/MW-day는 승인 -FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인  -반면 송전사업자 탈퇴 시 비용배분 방식과 전력판매사업자(LSE)의 담보요건은 수정이 필요하다고 판단. Northern Virginia Electric Co"
+            "-FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인"
           ],
           "profit_paths": [
             "P"
@@ -2151,101 +393,6 @@
       ],
       "why_unusual": [
         "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "PSC",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T09:41:57+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "growth_semi"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1579",
-          "permalink": "https://t.me/growth_semi/1579",
-          "published_at_kst": "2026-10-02T09:41:57+09:00",
-          "source_cluster": "source-97",
-          "business_numbers": [
-            " 6GW까지 확대 PSC는 TPU 운영 용량이 2026년 1GW에서 2027년 3GW로 증가할 것으로 전망  2028년에는 Compute SPV 5GW와 Blackstone JV 1GW를 합쳐 총 6GW까지 확대 예상  1GW당 약 100만 개의 TPU가 필요한 것으로 추정하며 대규모 인프라 구축이 이어질 전망  📌 TPU 판매량, 2년 만에 13배 증가 전망 ",
-            "PSC는 TPU 운영 용량이 2026년 1GW에서 2027년 3GW로 증가할 것으로 전망  2028년에는 Compute SPV 5GW와 Blackstone JV 1GW를 합쳐 총 6GW까지 확대 예상  1GW당 약 100만 개의 TPU가 필요한 것으로 추정하며 대규모 인프라 구축이 이어질 전망  📌 TPU 판매량, 2년 만에 13배 증가 전망 실제 TPU 판매량",
-            " 만에 13배 증가 전망 실제 TPU 판매량은 2026년 36.6만 개에서 2027년 237.7만 개로 급증 예상  2028년에는 481.4만 개까지 늘어나며 2026년 대비 약 13배 성장 전망  Compute SPV뿐 아니라 Blackstone JV까지 가동되면서 TPU 수요 확대 예상  📌 TPU 매출, 2028년 1,037억 달러 전망 PSC는 TPU 매"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30145",
-          "permalink": "https://t.me/growthresearch/30145",
-          "published_at_kst": "2026-10-02T09:42:04+09:00",
-          "source_cluster": "source-97",
-          "business_numbers": [
-            " 6GW까지 확대 PSC는 TPU 운영 용량이 2026년 1GW에서 2027년 3GW로 증가할 것으로 전망  2028년에는 Compute SPV 5GW와 Blackstone JV 1GW를 합쳐 총 6GW까지 확대 예상  1GW당 약 100만 개의 TPU가 필요한 것으로 추정하며 대규모 인프라 구축이 이어질 전망  📌 TPU 판매량, 2년 만에 13배 증가 전망 ",
-            "PSC는 TPU 운영 용량이 2026년 1GW에서 2027년 3GW로 증가할 것으로 전망  2028년에는 Compute SPV 5GW와 Blackstone JV 1GW를 합쳐 총 6GW까지 확대 예상  1GW당 약 100만 개의 TPU가 필요한 것으로 추정하며 대규모 인프라 구축이 이어질 전망  📌 TPU 판매량, 2년 만에 13배 증가 전망 실제 TPU 판매량",
-            " 만에 13배 증가 전망 실제 TPU 판매량은 2026년 36.6만 개에서 2027년 237.7만 개로 급증 예상  2028년에는 481.4만 개까지 늘어나며 2026년 대비 약 13배 성장 전망  Compute SPV뿐 아니라 Blackstone JV까지 가동되면서 TPU 수요 확대 예상  📌 TPU 매출, 2028년 1,037억 달러 전망 PSC는 TPU 매"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Pte",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-28T11:15:27+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "opendisco"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "opendisco",
-          "tier": "D1",
-          "message_id": "opendisco/2268",
-          "permalink": "https://t.me/opendisco/2268",
-          "published_at_kst": "2026-10-02T14:02:26+09:00",
-          "source_cluster": "source-232",
-          "business_numbers": [
-            "관측 14:02][원문보기]  보고자: Aramco Downstream Asia Pte. Ltd. (\"ADA\") 위 대리인 변호사 심준교 · 최대주주 보유 약 7,141만 주 · 63.43% (신규보고) - 특별관계자 3명 - 보유목적: 경영권 영향 - 보고사유: - 보고자의 주식매매계약 체결 및 종결 (장외매수) - 대표보고자 변동에 따른 신규보고"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
         "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],
@@ -2274,9 +421,7 @@
           "published_at_kst": "2026-10-02T22:38:21+09:00",
           "source_cluster": "source-445",
           "business_numbers": [
-            "HDD 사업에서 대규모 증설에 나섬  -필리핀 HDD 생산시설에 약 600억엔, 약 3.8억달러를 투자해 신규 생산라인을 구축. 기존 제품 증산과 함께 드라이브당 저장용량을 최대 40% 높인 신제품 생산에도 대응할 계획  *중장기 HDD 점유율 10%대에서 30% 목표 -글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체",
-            "HDD 점유율 10%대에서 30% 목표 -글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체가 사실상 과점. 도시바는 현재 저장용량 기준 10%대 초반인 시장점유율을 중장기적으로 30%까지 높이는 것을 목표로 제시  -도시바의 대규모 증설이 현실화될 경우 최근 AI 데이터센터 수요와 공급부족으로 강한 가격협상력을 누려온 ",
-            "글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체가 사실상 과점. 도시바는 현재 저장용량 기준 10%대 초반인 시장점유율을 중장기적으로 30%까지 높이는 것을 목표로 제시  -도시바의 대규모 증설이 현실화될 경우 최근 AI 데이터센터 수요와 공급부족으로 강한 가격협상력을 누려온 Seagate와 Western Digita"
+            "-도시바 증설 보도가 전해진 뒤 Seagate 주가는 장중 약 10~11%, Western Digital은 약 7~8% 하락. 시장은 신규 공급능력 확대가 향후 HDD 공급부족과 가격 상승을 완화할 가능성을 반영"
           ],
           "profit_paths": [
             "Q",
@@ -2287,44 +432,6 @@
       ],
       "why_unusual": [
         "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Spark",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-09T21:26:49+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23552",
-          "permalink": "https://t.me/FastStockNewsUSA/23552",
-          "published_at_kst": "2026-10-03T18:06:00+09:00",
-          "source_cluster": "source-493",
-          "business_numbers": [
-            "출시…메모리 절반으로 줄이고 4,999달러부터 판매, 128GB 버전은 6,950달러로 가격 인상  •엔비디아가 로컬 AI 수요를 겨냥해 새로운 DGX Spark를 출시함. 최대 1,000억 개 파라미터 규모의 모델을 로컬에서 실행할 수 있으며, 10월 23일부터 OEM 업체를 통해 판매될 예정  •신제품은 GB10 Blackwell 칩, DGX OS, 엔비디아의 전"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
         "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],
@@ -2353,49 +460,7 @@
           "published_at_kst": "2026-10-02T09:18:06+09:00",
           "source_cluster": "source-91",
           "business_numbers": [
-            " 수 있었던 파업을 피하게 됨  *계약 체결 즉시 기본급 10% 인상 -새 계약은 비준 직후 기본급을 10% 인상하고 2027년 3월 추가로 최소 4% 인상. 이후에도 연간 최소 4%의 임금 인상을 보장하며 성과에 따라 연간 인상폭이 최대 6%까지 확대  -보잉은 지난 8월 제시했던 첫 계약안이 노조원 투표에서 부결되자 조건을 상향. SPEEA는 새 계약안의 ",
-            "% 인상 -새 계약은 비준 직후 기본급을 10% 인상하고 2027년 3월 추가로 최소 4% 인상. 이후에도 연간 최소 4%의 임금 인상을 보장하며 성과에 따라 연간 인상폭이 최대 6%까지 확대  -보잉은 지난 8월 제시했던 첫 계약안이 노조원 투표에서 부결되자 조건을 상향. SPEEA는 새 계약안의 가치가 기존 제안보다 약 4억달러 늘었다고 설명  *첫 계약안",
-            "성과에 따라 연간 인상폭이 최대 6%까지 확대  -보잉은 지난 8월 제시했던 첫 계약안이 노조원 투표에서 부결되자 조건을 상향. SPEEA는 새 계약안의 가치가 기존 제안보다 약 4억달러 늘었다고 설명  *첫 계약안 압도적 부결 후 조건 개선 -지난 8월 투표에서 엔지니어 부문은 64.25%, 기술직은 71.87%가 첫 계약안에 반대. 동시에 각각 87.82%"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "SPX",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-29T22:47:44+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 1,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23532",
-          "permalink": "https://t.me/FastStockNewsUSA/23532",
-          "published_at_kst": "2026-10-02T21:24:23+09:00",
-          "source_cluster": "source-426",
-          "business_numbers": [
-            "E -10%: 매출 부진 및 중국, 스포츠웨어, 조던 브랜드 부문의 약세로 1년 매출 감소 예상; 구조조정 계획 및 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예",
-            " 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $A",
-            "ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 8"
+            "-보잉은 지난 8월 제시했던 첫 계약안이 노조원 투표에서 부결되자 조건을 상향. SPEEA는 새 계약안의 가치가 기존 제안보다 약 4억달러 늘었다고 설명"
           ],
           "profit_paths": [
             "Q"
@@ -2433,9 +498,7 @@
           "published_at_kst": "2026-10-02T21:24:23+09:00",
           "source_cluster": "source-426",
           "business_numbers": [
-            "배로 늘릴 계획  $NKE -10%: 매출 부진 및 중국, 스포츠웨어, 조던 브랜드 부문의 약세로 1년 매출 감소 예상; 구조조정 계획 및 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 ",
-            "E -10%: 매출 부진 및 중국, 스포츠웨어, 조던 브랜드 부문의 약세로 1년 매출 감소 예상; 구조조정 계획 및 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예",
-            " 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $A"
+            "$ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당"
           ],
           "profit_paths": [
             "Q"
@@ -2451,94 +514,13 @@
       "noise_penalty": 0
     },
     {
-      "entity": "Toshiba",
+      "entity": "Unimicron",
       "category": "name_or_technology",
-      "first_seen": "2026-10-02T22:38:21+09:00",
+      "first_seen": "2026-09-18T08:32:06+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
-        "hana_us_stock"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "hana_us_stock",
-          "tier": "D1",
-          "message_id": "hana_us_stock/10651",
-          "permalink": "https://t.me/hana_us_stock/10651",
-          "published_at_kst": "2026-10-02T22:38:21+09:00",
-          "source_cluster": "source-445",
-          "business_numbers": [
-            "HDD 사업에서 대규모 증설에 나섬  -필리핀 HDD 생산시설에 약 600억엔, 약 3.8억달러를 투자해 신규 생산라인을 구축. 기존 제품 증산과 함께 드라이브당 저장용량을 최대 40% 높인 신제품 생산에도 대응할 계획  *중장기 HDD 점유율 10%대에서 30% 목표 -글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체",
-            "HDD 점유율 10%대에서 30% 목표 -글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체가 사실상 과점. 도시바는 현재 저장용량 기준 10%대 초반인 시장점유율을 중장기적으로 30%까지 높이는 것을 목표로 제시  -도시바의 대규모 증설이 현실화될 경우 최근 AI 데이터센터 수요와 공급부족으로 강한 가격협상력을 누려온 ",
-            "글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체가 사실상 과점. 도시바는 현재 저장용량 기준 10%대 초반인 시장점유율을 중장기적으로 30%까지 높이는 것을 목표로 제시  -도시바의 대규모 증설이 현실화될 경우 최근 AI 데이터센터 수요와 공급부족으로 강한 가격협상력을 누려온 Seagate와 Western Digita"
-          ],
-          "profit_paths": [
-            "Q",
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "TWLO",
-      "category": "ticker",
-      "first_seen": "2026-10-02T21:24:23+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23532",
-          "permalink": "https://t.me/FastStockNewsUSA/23532",
-          "published_at_kst": "2026-10-02T21:24:23+09:00",
-          "source_cluster": "source-426",
-          "business_numbers": [
-            " 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $A",
-            "ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 8",
-            "현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $AMZN +0.6%: 약 80억 달러 규모의 NVDA 그레이스 블랙웰 칩 매각 및 "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Virginia",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-22T07:49:02+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "hana_us_stock"
+        "quantum_algo"
       ],
       "prior_mentions": 1,
       "business_independent_channels": 1,
@@ -2547,168 +529,14 @@
       "official_verification": "pending",
       "evidence_posts": [
         {
-          "channel": "hana_us_stock",
-          "tier": "D1",
-          "message_id": "hana_us_stock/10643",
-          "permalink": "https://t.me/hana_us_stock/10643",
-          "published_at_kst": "2026-10-02T06:16:17+09:00",
-          "source_cluster": "source-25",
-          "business_numbers": [
-            "는 지역과 고객을 보다 정확하게 반영하라는 취지  *경매 상한 $555/MW-day는 승인 -FERC는 PJM 제안 전체를 거부한 것은 아니며, 백스톱 조달의 가중평균 가격상한인 $555/MW-day는 승인  -반면 송전사업자 탈퇴 시 비용배분 방식과 전력판매사업자(LSE)의 담보요건은 수정이 필요하다고 판단. Northern Virginia Electric Co"
-          ],
-          "profit_paths": [
-            "P"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "Visible",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T22:15:43+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
+          "channel": "quantum_algo",
           "tier": "D2",
-          "message_id": "FastStockNewsUSA/23543",
-          "permalink": "https://t.me/FastStockNewsUSA/23543",
-          "published_at_kst": "2026-10-02T22:15:43+09:00",
-          "source_cluster": "source-439",
+          "message_id": "quantum_algo/102741",
+          "permalink": "https://t.me/quantum_algo/102741",
+          "published_at_kst": "2026-10-02T07:54:19+09:00",
+          "source_cluster": "source-55",
           "business_numbers": [
-            "했습니다. (TSLA)  테슬라의 3분기 총 인도량은 486,532대로, Visible Alpha의 예상치인 456,896대를 넘어섰습니다.  3분기 테슬라 모델 3/Y 생산량: 457,387대, 인도량: 478,237대  기타 테슬라 모델의 3분기 생산량: 7,004대, 인도량: 8,295대  테슬라는 3분기에 13.7GWh의 에너지 저장 장치를 설치했습니다.",
-            "슬라의 3분기 총 인도량은 486,532대로, Visible Alpha의 예상치인 456,896대를 넘어섰습니다.  3분기 테슬라 모델 3/Y 생산량: 457,387대, 인도량: 478,237대  기타 테슬라 모델의 3분기 생산량: 7,004대, 인도량: 8,295대  테슬라는 3분기에 13.7GWh의 에너지 저장 장치를 설치했습니다."
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23544",
-          "permalink": "https://t.me/FastStockNewsUSA/23544",
-          "published_at_kst": "2026-10-02T22:17:23+09:00",
-          "source_cluster": "source-439",
-          "business_numbers": [
-            "했습니다. (TSLA)  테슬라의 3분기 총 인도량은 486,532대로, Visible Alpha의 예상치인 456,896대를 넘어섰습니다.  3분기 테슬라 모델 3/Y 생산량: 457,387대, 인도량: 478,237대  기타 테슬라 모델의 3분기 생산량: 7,004대, 인도량: 8,295대  테슬라는 3분기에 13.7GWh의 에너지 저장 장치를 설치했습니다.",
-            "슬라의 3분기 총 인도량은 486,532대로, Visible Alpha의 예상치인 456,896대를 넘어섰습니다.  3분기 테슬라 모델 3/Y 생산량: 457,387대, 인도량: 478,237대  기타 테슬라 모델의 3분기 생산량: 7,004대, 인도량: 8,295대  테슬라는 3분기에 13.7GWh의 에너지 저장 장치를 설치했습니다."
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "VR200",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-04T12:34:33+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "corevalue"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1597",
-          "permalink": "https://t.me/growth_semi/1597",
-          "published_at_kst": "2026-10-04T12:34:33+09:00",
-          "source_cluster": "source-534",
-          "business_numbers": [
-            " 91.7% 인상 감내 가능\"  📌 핵심 내용 모건스탠리는 엔비디아가 차세대 루빈(Rubin) R200 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석  스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BO",
-            "00 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석  스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7",
-            "-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지  엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것"
-          ],
-          "profit_paths": [
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "corevalue",
-          "tier": "D1",
-          "message_id": "corevalue/47260",
-          "permalink": "https://t.me/corevalue/47260",
-          "published_at_kst": "2026-10-04T12:36:49+09:00",
-          "source_cluster": "source-534",
-          "business_numbers": [
-            " 91.7% 인상 감내 가능\"  📌 핵심 내용 모건스탠리는 엔비디아가 차세대 루빈(Rubin) R200 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석  스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BO",
-            "00 칩의 HBM 비용 상승을 최대 91.7%까지 감내하면서도 매출총이익률 하단 72%를 방어할 수 있다고 분석  스펙 다운(de-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7",
-            "-spec)을 감안하면 감내 가능한 단가 인상폭은 187.5%까지 확대  📌 배경 모건스탠리의 베라 루빈(VR200) NVL72 랙 BOM 분석에 따르면  랙당 메모리 비용은 약 $2M으로 직전 세대 대비 435% 급증, 랙 가격은 약 $7.8M으로 메모리가 전체 비용의 약 25~30% 차지  엔비디아는 FY27 매출총이익률 mid-70% 가이던스를 유지할 것"
-          ],
-          "profit_paths": [
-            "P",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "VYLR",
-      "category": "ticker",
-      "first_seen": "2026-10-02T21:24:23+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNewsUSA"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNewsUSA",
-          "tier": "D2",
-          "message_id": "FastStockNewsUSA/23532",
-          "permalink": "https://t.me/FastStockNewsUSA/23532",
-          "published_at_kst": "2026-10-02T21:24:23+09:00",
-          "source_cluster": "source-426",
-          "business_numbers": [
-            "배로 늘릴 계획  $NKE -10%: 매출 부진 및 중국, 스포츠웨어, 조던 브랜드 부문의 약세로 1년 매출 감소 예상; 구조조정 계획 및 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 ",
-            "E -10%: 매출 부진 및 중국, 스포츠웨어, 조던 브랜드 부문의 약세로 1년 매출 감소 예상; 구조조정 계획 및 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예",
-            " 추가 감원 발표로 우려 증폭  $ON +7.5%, $SYNA +6% 주당 123달러 현금 인수 계약 체결; 조정 주당순이익(EPS) 즉시 증가 예상; SYNA 인수 목요일 완료 $106.15/주당  $VYLR +3%: 10월 1일 SPX 상장 예정  $TWLO +1.6%: 10월 6일 SPX 상장 예정  $MRNA +1%: 10월 9일 NDX BMO 상장 예정  $A"
+            "- 9/28 삼성전기는 4.3조원 규모 패키지기판 증설 공시를 발표. 해당 고객사 외에도 Unimicron, Zhen Ding 등 해외 기판 업체들의 2027년 투자가 추가 상향될 전망"
           ],
           "profit_paths": [
             "Q"
@@ -2746,9 +574,7 @@
           "published_at_kst": "2026-10-02T22:38:21+09:00",
           "source_cluster": "source-445",
           "business_numbers": [
-            "HDD 사업에서 대규모 증설에 나섬  -필리핀 HDD 생산시설에 약 600억엔, 약 3.8억달러를 투자해 신규 생산라인을 구축. 기존 제품 증산과 함께 드라이브당 저장용량을 최대 40% 높인 신제품 생산에도 대응할 계획  *중장기 HDD 점유율 10%대에서 30% 목표 -글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체",
-            "HDD 점유율 10%대에서 30% 목표 -글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체가 사실상 과점. 도시바는 현재 저장용량 기준 10%대 초반인 시장점유율을 중장기적으로 30%까지 높이는 것을 목표로 제시  -도시바의 대규모 증설이 현실화될 경우 최근 AI 데이터센터 수요와 공급부족으로 강한 가격협상력을 누려온 ",
-            "글로벌 HDD 시장은 Seagate, Western Digital, Toshiba 3개 업체가 사실상 과점. 도시바는 현재 저장용량 기준 10%대 초반인 시장점유율을 중장기적으로 30%까지 높이는 것을 목표로 제시  -도시바의 대규모 증설이 현실화될 경우 최근 AI 데이터센터 수요와 공급부족으로 강한 가격협상력을 누려온 Seagate와 Western Digita"
+            "-도시바 증설 보도가 전해진 뒤 Seagate 주가는 장중 약 10~11%, Western Digital은 약 7~8% 하락. 시장은 신규 공급능력 확대가 향후 HDD 공급부족과 가격 상승을 완화할 가능성을 반영"
           ],
           "profit_paths": [
             "Q",
@@ -2787,9 +613,9 @@
           "published_at_kst": "2026-10-04T19:59:52+09:00",
           "source_cluster": "source-560",
           "business_numbers": [
-            "·HBM CAPA 확대 가속  📌 심텍·ISC·테크윙 등 AI·HBM 수요 대응 위한 증설 본격화…소부장 CAPEX 사이클 확대  📌 미래산업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회  🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미  • 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 ",
-            "업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회  🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미  • 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 발생하는 장비 기업  • 올해 상반기 매출 515억원·영업이익 152억원으로 이미 지난해 연간 매출과 영업이익을 넘어선 상황  • 이번 Y",
-            "회  🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미  • 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 발생하는 장비 기업  • 올해 상반기 매출 515억원·영업이익 152억원으로 이미 지난해 연간 매출과 영업이익을 넘어선 상황  • 이번 YILING 계약은 530.7억원으로 지난해 연매출의 104.7%, 올해 누적 공시 수주는 약"
+            "📌 미래산업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회",
+            "• 이번 YILING 계약은 530.7억원으로 지난해 연매출의 104.7%, 올해 누적 공시 수주는 약 1,352억원으로 지난해 매출의 266% 수준",
+            "• YILING 계약의 선적 전 대금 비중도 과거 50%에서 70%로 높아져 대형 수주 확대 과정에서 운전자본 부담을 낮출 수 있는 구조"
           ],
           "profit_paths": [
             "Q"
@@ -2804,9 +630,9 @@
           "published_at_kst": "2026-10-04T20:21:50+09:00",
           "source_cluster": "source-560",
           "business_numbers": [
-            "·HBM CAPA 확대 가속  📌 심텍·ISC·테크윙 등 AI·HBM 수요 대응 위한 증설 본격화…소부장 CAPEX 사이클 확대  📌 미래산업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회  🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미  • 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 ",
-            "업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회  🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미  • 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 발생하는 장비 기업  • 올해 상반기 매출 515억원·영업이익 152억원으로 이미 지난해 연간 매출과 영업이익을 넘어선 상황  • 이번 Y",
-            "회  🔎 이번 주 포커스: 미래산업, 연매출을 넘어선 수주의 의미  • 미래산업은 매출의 90% 이상이 반도체 후공정 테스트 핸들러에서 발생하는 장비 기업  • 올해 상반기 매출 515억원·영업이익 152억원으로 이미 지난해 연간 매출과 영업이익을 넘어선 상황  • 이번 YILING 계약은 530.7억원으로 지난해 연매출의 104.7%, 올해 누적 공시 수주는 약"
+            "📌 미래산업, 중국 YILING TRADING과 530억원 규모 테스트 장비 계약…지난해 연매출 상회",
+            "• 이번 YILING 계약은 530.7억원으로 지난해 연매출의 104.7%, 올해 누적 공시 수주는 약 1,352억원으로 지난해 매출의 266% 수준",
+            "• YILING 계약의 선적 전 대금 비중도 과거 50%에서 70%로 높아져 대형 수주 확대 과정에서 운전자본 부담을 낮출 수 있는 구조"
           ],
           "profit_paths": [
             "Q"
@@ -2822,13 +648,51 @@
       "noise_penalty": 0
     },
     {
-      "entity": "건설 프로젝트",
-      "category": "project",
-      "first_seen": "2026-09-22T18:14:06+09:00",
+      "entity": "Zhen",
+      "category": "name_or_technology",
+      "first_seen": "2026-10-02T07:54:19+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
-        "siglab"
+        "quantum_algo"
+      ],
+      "prior_mentions": 0,
+      "business_independent_channels": 1,
+      "status": "radar_only",
+      "novelty": "unconfirmed",
+      "official_verification": "pending",
+      "evidence_posts": [
+        {
+          "channel": "quantum_algo",
+          "tier": "D2",
+          "message_id": "quantum_algo/102741",
+          "permalink": "https://t.me/quantum_algo/102741",
+          "published_at_kst": "2026-10-02T07:54:19+09:00",
+          "source_cluster": "source-55",
+          "business_numbers": [
+            "- 9/28 삼성전기는 4.3조원 규모 패키지기판 증설 공시를 발표. 해당 고객사 외에도 Unimicron, Zhen Ding 등 해외 기판 업체들의 2027년 투자가 추가 상향될 전망"
+          ],
+          "profit_paths": [
+            "Q"
+          ],
+          "noise_flags": []
+        }
+      ],
+      "why_unusual": [
+        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
+        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
+        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
+      ],
+      "noise_penalty": 0
+    },
+    {
+      "entity": "가온칩스",
+      "category": "company",
+      "first_seen": "2026-09-29T16:29:49+09:00",
+      "mentions_72h": 1,
+      "independent_channels": 1,
+      "independent_channel_names": [
+        "opendisco"
       ],
       "prior_mentions": 1,
       "business_independent_channels": 1,
@@ -2837,15 +701,14 @@
       "official_verification": "pending",
       "evidence_posts": [
         {
-          "channel": "siglab",
+          "channel": "opendisco",
           "tier": "D1",
-          "message_id": "siglab/141906",
-          "permalink": "https://t.me/siglab/141906",
-          "published_at_kst": "2026-10-02T08:55:17+09:00",
-          "source_cluster": "source-79",
+          "message_id": "opendisco/2298",
+          "permalink": "https://t.me/opendisco/2298",
+          "published_at_kst": "2026-10-02T15:04:39+09:00",
+          "source_cluster": "source-282",
           "business_numbers": [
-            "Project North: 알래스카 LNG 프로젝트 - 가스관은 약 1,300km, 수출용 액화플랜트(LNG 터미널)은 약 2,000만톤 Capa 건설 프로젝트 - 총 규모는 약 500억 달러(약 68조원) 예상 - 건설사 입장에선 가스관보단 LNG 터미널에 초점을 맞출 필요가 있으며 대우건설, 삼성E&A 수혜 가능성 존재 - 다만, 이미 미국 내에서 가스관이나 ",
-            "rth: 알래스카 LNG 프로젝트 - 가스관은 약 1,300km, 수출용 액화플랜트(LNG 터미널)은 약 2,000만톤 Capa 건설 프로젝트 - 총 규모는 약 500억 달러(약 68조원) 예상 - 건설사 입장에선 가스관보단 LNG 터미널에 초점을 맞출 필요가 있으며 대우건설, 삼성E&A 수혜 가능성 존재 - 다만, 이미 미국 내에서 가스관이나 LNG 터미널 프"
+            "👉 계약 13억 → 취득 약 3만 주 · 13억 (99.9%)"
           ],
           "profit_paths": [
             "Q"
@@ -2878,31 +741,14 @@
         {
           "channel": "growthresearch",
           "tier": "D1",
-          "message_id": "growthresearch/30142",
-          "permalink": "https://t.me/growthresearch/30142",
-          "published_at_kst": "2026-10-02T08:46:58+09:00",
-          "source_cluster": "source-78",
-          "business_numbers": [
-            " https://biz.heraldcorp.com/article/10891270  📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원  - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모  📌",
-            "iz.heraldcorp.com/article/10891270  📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원  - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모  📌 일부 구간에서 전 구간 ",
-            "10891270  📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원  - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모  📌 일부 구간에서 전 구간 구축으로 계약 확대 - 영국 해상풍력 단지를"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "growthresearch",
-          "tier": "D1",
           "message_id": "growthresearch/30143",
           "permalink": "https://t.me/growthresearch/30143",
           "published_at_kst": "2026-10-02T08:59:10+09:00",
-          "source_cluster": "source-78",
+          "source_cluster": "source-74",
           "business_numbers": [
             "트 https://biz.heraldcorp.com/article/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원 - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모 📌 일",
-            "biz.heraldcorp.com/article/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원 - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모 📌 일부 구간에서 전…  ✅ 일",
-            "/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원 - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모 📌 일부 구간에서 전…  ✅ 일진전기가 상당히 의미 있는 수주를 공시했습니"
+            "biz.heraldcorp.com/article/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원 - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모 📌 일부 구간에서 전…",
+            "/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원 - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모 📌 일부 구간에서 전…"
           ],
           "profit_paths": [
             "Q",
@@ -2913,19 +759,19 @@
       ],
       "why_unusual": [
         "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
+        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],
       "noise_penalty": 0
     },
     {
-      "entity": "세대",
-      "category": "business_entity",
-      "first_seen": "2026-10-02T15:22:55+09:00",
-      "mentions_72h": 2,
+      "entity": "메지온",
+      "category": "company",
+      "first_seen": "2026-10-02T17:58:05+09:00",
+      "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
-        "growth_semi"
+        "opendisco"
       ],
       "prior_mentions": 0,
       "business_independent_channels": 1,
@@ -2934,47 +780,62 @@
       "official_verification": "pending",
       "evidence_posts": [
         {
-          "channel": "growth_semi",
+          "channel": "opendisco",
           "tier": "D1",
-          "message_id": "growth_semi/1590",
-          "permalink": "https://t.me/growth_semi/1590",
-          "published_at_kst": "2026-10-02T15:22:55+09:00",
-          "source_cluster": "source-303",
+          "message_id": "opendisco/2368",
+          "permalink": "https://t.me/opendisco/2368",
+          "published_at_kst": "2026-10-02T17:58:05+09:00",
+          "source_cluster": "source-386",
           "business_numbers": [
-            "💻 [단독] 삼성, 내년 HBM4 가격 3배 높인다  https://www.mk.co.kr/news/business/12167164  📌 HBM4 가격 ‘3배’ 승부수 삼성전자, 2027년 HBM4 공급 가격으로 1Gb당 4달러대 중후반 제시  현 주력 HBM3E의 1Gb당 약 1.5달러 대비 3배 이상 높은 수준  차세대 HBM4의 ",
-            "12167164  📌 HBM4 가격 ‘3배’ 승부수 삼성전자, 2027년 HBM4 공급 가격으로 1Gb당 4달러대 중후반 제시  현 주력 HBM3E의 1Gb당 약 1.5달러 대비 3배 이상 높은 수준  차세대 HBM4의 성능 경쟁력을 가격 프리미엄으로 연결하는 전략  📌 HBM4 세대교체가 ASP 상승 견인 2027년부터 HBM 주력 제품이 HBM3E에서 HB"
+            "- 주요계약 9.51% · 약 291만 주"
           ],
           "profit_paths": [
-            "Q",
-            "P",
-            "mix",
-            "margin"
+            "Q"
           ],
           "noise_flags": []
-        },
+        }
+      ],
+      "why_unusual": [
+        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
+        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
+        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
+      ],
+      "noise_penalty": 0
+    },
+    {
+      "entity": "버킷스튜디오",
+      "category": "company",
+      "first_seen": "2026-10-02T16:35:52+09:00",
+      "mentions_72h": 2,
+      "independent_channels": 1,
+      "independent_channel_names": [
+        "opendisco"
+      ],
+      "prior_mentions": 0,
+      "business_independent_channels": 1,
+      "status": "radar_only",
+      "novelty": "unconfirmed",
+      "official_verification": "pending",
+      "evidence_posts": [
         {
-          "channel": "growthresearch",
+          "channel": "opendisco",
           "tier": "D1",
-          "message_id": "growthresearch/30160",
-          "permalink": "https://t.me/growthresearch/30160",
-          "published_at_kst": "2026-10-02T15:23:00+09:00",
-          "source_cluster": "source-303",
+          "message_id": "opendisco/2355",
+          "permalink": "https://t.me/opendisco/2355",
+          "published_at_kst": "2026-10-02T16:35:52+09:00",
+          "source_cluster": "source-362",
           "business_numbers": [
-            "💻 [단독] 삼성, 내년 HBM4 가격 3배 높인다  https://www.mk.co.kr/news/business/12167164  📌 HBM4 가격 ‘3배’ 승부수 삼성전자, 2027년 HBM4 공급 가격으로 1Gb당 4달러대 중후반 제시  현 주력 HBM3E의 1Gb당 약 1.5달러 대비 3배 이상 높은 수준  차세대 HBM4의 ",
-            "12167164  📌 HBM4 가격 ‘3배’ 승부수 삼성전자, 2027년 HBM4 공급 가격으로 1Gb당 4달러대 중후반 제시  현 주력 HBM3E의 1Gb당 약 1.5달러 대비 3배 이상 높은 수준  차세대 HBM4의 성능 경쟁력을 가격 프리미엄으로 연결하는 전략  📌 HBM4 세대교체가 ASP 상승 견인 2027년부터 HBM 주력 제품이 HBM3E에서 HB"
+            "· 변경예정: 2. 계약 내역 양수도 주식수(주) 45,370,127… 32.77% · 2027-01-14"
           ],
           "profit_paths": [
-            "Q",
-            "P",
-            "mix",
-            "margin"
+            "Q"
           ],
           "noise_flags": []
         }
       ],
       "why_unusual": [
         "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
+        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],
       "noise_penalty": 0
@@ -3000,11 +861,9 @@
           "message_id": "growthresearch/30142",
           "permalink": "https://t.me/growthresearch/30142",
           "published_at_kst": "2026-10-02T08:46:58+09:00",
-          "source_cluster": "source-78",
+          "source_cluster": "source-74",
           "business_numbers": [
-            "✅ 일진전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트  https://biz.heraldcorp.com/article/10891270  📌 추가 수주로 프로젝트 규모 2,716억원",
-            ", 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트  https://biz.heraldcorp.com/article/10891270  📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원  - 전",
-            " https://biz.heraldcorp.com/article/10891270  📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원  - 전선 사업 단일 프로젝트 기준 창사 이래 최대 수주 규모  📌"
+            "📌 추가 수주로 프로젝트 규모 2,716억원까지 확대"
           ],
           "profit_paths": [
             "Q"
@@ -3017,7 +876,7 @@
           "message_id": "growthresearch/30143",
           "permalink": "https://t.me/growthresearch/30143",
           "published_at_kst": "2026-10-02T08:59:10+09:00",
-          "source_cluster": "source-78",
+          "source_cluster": "source-74",
           "business_numbers": [
             "✅ 일진전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트 https://biz.heraldcorp.com/article/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지",
             "전기, 1871억원 규모 英 사업 추가 수주…창사 이래 최대 프로젝트 https://biz.heraldcorp.com/article/10891270 📌 추가 수주로 프로젝트 규모 2,716억원까지 확대 - 영국 해상풍력 전력망 확충 사업에서 약 1억400만파운드(1,871억원) 규모 추가 수주 - 지난 7월 845억원 수주에 이어 누적 계약금액 2,716억원 - 전선",
@@ -3038,31 +897,29 @@
       "noise_penalty": 0
     },
     {
-      "entity": "여러 프로젝트",
-      "category": "project",
-      "first_seen": "2026-10-02T14:50:04+09:00",
+      "entity": "씨싸이트",
+      "category": "company",
+      "first_seen": "2026-09-23T17:15:20+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
-        "siglab"
+        "opendisco"
       ],
-      "prior_mentions": 0,
+      "prior_mentions": 2,
       "business_independent_channels": 1,
       "status": "radar_only",
       "novelty": "unconfirmed",
       "official_verification": "pending",
       "evidence_posts": [
         {
-          "channel": "siglab",
+          "channel": "opendisco",
           "tier": "D1",
-          "message_id": "siglab/141931",
-          "permalink": "https://t.me/siglab/141931",
-          "published_at_kst": "2026-10-02T14:50:04+09:00",
-          "source_cluster": "source-273",
+          "message_id": "opendisco/2209",
+          "permalink": "https://t.me/opendisco/2209",
+          "published_at_kst": "2026-10-02T10:48:24+09:00",
+          "source_cluster": "source-124",
           "business_numbers": [
-            "[단독] 건설사 해외 수주 지원 펀드 450억 손실 위기  - 정부, 민간과 2.6조 규모 PIS펀드 조성 - 350억 확정에 100억 추가 손실 전망 - PIS 2단계 펀드 결성률도 18% 그쳐 - 유상범 “펀드 집행 대책 재점검해야” - 국토부 “여러 프로젝트",
-            "[단독] 건설사 해외 수주 지원 펀드 450억 손실 위기  - 정부, 민간과 2.6조 규모 PIS펀드 조성 - 350억 확정에 100억 추가 손실 전망 - PIS 2단계 펀드 결성률도 18% 그쳐 - 유상범 “펀드 집행 대책 재점검해야” - 국토부 “여러 프로젝트 순항하고 있어”  https://",
-            "[단독] 건설사 해외 수주 지원 펀드 450억 손실 위기  - 정부, 민간과 2.6조 규모 PIS펀드 조성 - 350억 확정에 100억 추가 손실 전망 - PIS 2단계 펀드 결성률도 18% 그쳐 - 유상범 “펀드 집행 대책 재점검해야” - 국토부 “여러 프로젝트 순항하고 있어”  https://www.sedai"
+            "- 주요계약 44.61% · 약 260만 주"
           ],
           "profit_paths": [
             "Q"
@@ -3080,11 +937,11 @@
     {
       "entity": "오픈엣지테크놀로지",
       "category": "company",
-      "first_seen": "2026-10-02T13:54:53+09:00",
-      "mentions_72h": 1,
+      "first_seen": "2026-10-02T13:54:33+09:00",
+      "mentions_72h": 2,
       "independent_channels": 1,
       "independent_channel_names": [
-        "FastStockNews"
+        "opendisco"
       ],
       "prior_mentions": 0,
       "business_independent_channels": 1,
@@ -3098,11 +955,9 @@
           "message_id": "FastStockNews/126053",
           "permalink": "https://t.me/FastStockNews/126053",
           "published_at_kst": "2026-10-02T13:54:53+09:00",
-          "source_cluster": "source-222",
+          "source_cluster": "source-221",
           "business_numbers": [
-            "오픈엣지테크놀로지(394280) 단일판매ㆍ공급계약체결  📌 규모 기간대비 : 13.9 % 매출대비 : 41.7 % 계약총액 : 67 억원  📌 내용 계약상대 : AI 반도체 기업 (국내) 주요사업 : 반도체 제품 기획 및 설계 계약내용 : 반도체 설계자산(IP) 라이",
-            "오픈엣지테크놀로지(394280) 단일판매ㆍ공급계약체결  📌 규모 기간대비 : 13.9 % 매출대비 : 41.7 % 계약총액 : 67 억원  📌 내용 계약상대 : AI 반도체 기업 (국내) 주요사업 : 반도체 제품 기획 및 설계 계약내용 : 반도체 설계자산(IP) 라이선스 계약 계약조건 : 지",
-            "오픈엣지테크놀로지(394280) 단일판매ㆍ공급계약체결  📌 규모 기간대비 : 13.9 % 매출대비 : 41.7 % 계약총액 : 67 억원  📌 내용 계약상대 : AI 반도체 기업 (국내) 주요사업 : 반도체 제품 기획 및 설계 계약내용 : 반도체 설계자산(IP) 라이선스 계약 계약조건 : 지급조건 충족에 따른 청"
+            "계약총액 : 67 억원"
           ],
           "profit_paths": [
             "Q"
@@ -3111,47 +966,7 @@
         }
       ],
       "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "인텍플러스",
-      "category": "company",
-      "first_seen": "2026-10-02T07:54:19+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "quantum_algo"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "quantum_algo",
-          "tier": "D2",
-          "message_id": "quantum_algo/102741",
-          "permalink": "https://t.me/quantum_algo/102741",
-          "published_at_kst": "2026-10-02T07:54:19+09:00",
-          "source_cluster": "source-55",
-          "business_numbers": [
-            "[메리츠증권 IT 소재장비 김동관]  인텍플러스(064290): 멈추지 않는 수주 모멘텀  ▶ 3Q26E Preview: 컨센서스 부합 전망  - 인텍플러스는 3Q26E 매출액 231억원(+133% YoY; 이하 YoY), 영업이익 10억원(흑자전환; OPM 4.5%)을 기록할 전망  - 기보유한 수주잔고의 점진적인 매출 인식이 시작되며 3개 분기만에 흑자 전환",
-            " IT 소재장비 김동관]  인텍플러스(064290): 멈추지 않는 수주 모멘텀  ▶ 3Q26E Preview: 컨센서스 부합 전망  - 인텍플러스는 3Q26E 매출액 231억원(+133% YoY; 이하 YoY), 영업이익 10억원(흑자전환; OPM 4.5%)을 기록할 전망  - 기보유한 수주잔고의 점진적인 매출 인식이 시작되며 3개 분기만에 흑자 전환에 성공할 것",
-            "290): 멈추지 않는 수주 모멘텀  ▶ 3Q26E Preview: 컨센서스 부합 전망  - 인텍플러스는 3Q26E 매출액 231억원(+133% YoY; 이하 YoY), 영업이익 10억원(흑자전환; OPM 4.5%)을 기록할 전망  - 기보유한 수주잔고의 점진적인 매출 인식이 시작되며 3개 분기만에 흑자 전환에 성공할 것으로 예상  - 3Q26 중 발표된 수주공"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
+        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
         "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],
@@ -3160,13 +975,13 @@
     {
       "entity": "일진전기",
       "category": "company",
-      "first_seen": "2026-10-02T08:00:35+09:00",
-      "mentions_72h": 1,
+      "first_seen": "2026-09-15T08:45:14+09:00",
+      "mentions_72h": 2,
       "independent_channels": 1,
       "independent_channel_names": [
-        "FastStockNews"
+        "opendisco"
       ],
-      "prior_mentions": 0,
+      "prior_mentions": 1,
       "business_independent_channels": 1,
       "status": "radar_only",
       "novelty": "unconfirmed",
@@ -3178,10 +993,9 @@
           "message_id": "FastStockNews/126017",
           "permalink": "https://t.me/FastStockNews/126017",
           "published_at_kst": "2026-10-02T08:00:35+09:00",
-          "source_cluster": "source-57",
+          "source_cluster": "source-46",
           "business_numbers": [
-            "일진전기(103590) 단일판매ㆍ공급계약체결  📌 규모 매출대비 : 9.15 % 계약총액 : 1,872 억원  📌 내용 계약상대 : J. MURPHY & SONS LIMITED (영국) 계약내용 : 400kV 송전망 케이블 공급 및 설치 계약조건 : 공급계약",
-            "일진전기(103590) 단일판매ㆍ공급계약체결  📌 규모 매출대비 : 9.15 % 계약총액 : 1,872 억원  📌 내용 계약상대 : J. MURPHY & SONS LIMITED (영국) 계약내용 : 400kV 송전망 케이블 공급 및 설치 계약조건 : 공급계약 진행에 따른 청구 및 지급"
+            "계약총액 : 1,872 억원"
           ],
           "profit_paths": [
             "Q"
@@ -3190,7 +1004,7 @@
         }
       ],
       "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
+        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
         "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],
@@ -3219,9 +1033,7 @@
           "published_at_kst": "2026-10-02T15:07:40+09:00",
           "source_cluster": "source-288",
           "business_numbers": [
-            "의 증가, AI 칩 외의 전력 소모 부품 증가 등이 반영된 결과 - 타이트한 수급으로 인한 MLCC 가격 인상에 따라 AI MLCC TAM은 2026년~2028년 연평균 성장률이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%,",
-            "연평균 성장률이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10",
-            "이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10%에 못미칠 "
+            "- 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정"
           ],
           "profit_paths": [
             "Q",
@@ -3239,9 +1051,7 @@
           "published_at_kst": "2026-10-03T12:27:59+09:00",
           "source_cluster": "source-288",
           "business_numbers": [
-            "의 증가, AI 칩 외의 전력 소모 부품 증가 등이 반영된 결과 - 타이트한 수급으로 인한 MLCC 가격 인상에 따라 AI MLCC TAM은 2026년~2028년 연평균 성장률이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%,",
-            "연평균 성장률이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10",
-            "이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10%에 못미칠 "
+            "- 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정"
           ],
           "profit_paths": [
             "Q",
@@ -3260,13 +1070,13 @@
       "noise_penalty": 0
     },
     {
-      "entity": "제품",
-      "category": "business_entity",
-      "first_seen": "2026-09-22T09:04:25+09:00",
-      "mentions_72h": 2,
+      "entity": "창해에탄올",
+      "category": "company",
+      "first_seen": "2026-09-30T18:00:37+09:00",
+      "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
-        "FastStockNews"
+        "opendisco"
       ],
       "prior_mentions": 1,
       "business_independent_channels": 1,
@@ -3275,124 +1085,19 @@
       "official_verification": "pending",
       "evidence_posts": [
         {
-          "channel": "quantum_algo",
-          "tier": "D2",
-          "message_id": "quantum_algo/102753",
-          "permalink": "https://t.me/quantum_algo/102753",
-          "published_at_kst": "2026-10-02T15:07:40+09:00",
-          "source_cluster": "source-288",
-          "business_numbers": [
-            "연평균 성장률이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10",
-            "이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10%에 못미칠 ",
-            " 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10%에 못미칠 것이며, 20"
-          ],
-          "profit_paths": [
-            "Q",
-            "P",
-            "mix",
-            "margin"
-          ],
-          "noise_flags": []
-        },
-        {
-          "channel": "FastStockNews",
-          "tier": "D2",
-          "message_id": "FastStockNews/126078",
-          "permalink": "https://t.me/FastStockNews/126078",
-          "published_at_kst": "2026-10-03T12:27:59+09:00",
-          "source_cluster": "source-288",
-          "business_numbers": [
-            "연평균 성장률이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10",
-            "이 134%로 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10%에 못미칠 ",
-            " 고성장을 지속할 것으로 추정 - 글로벌 MLCC 제조업체들의 증설 계획 등을 고려했을 때, 2026년, 2027년, 2028년의 Capa 증가율은 각각 11.0%, 12.4%, 14.7%가 될 것으로 추정 - 하지만, AI향 제품으로 Capa를 할당하게 되면, 기존 제품의 Capa가 더 크게 줄어듦 - 글로벌 실질 Capa의 증가율은 10%에 못미칠 것이며, 20"
-          ],
-          "profit_paths": [
-            "Q",
-            "P",
-            "mix",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "판매",
-      "category": "business_entity",
-      "first_seen": "2026-10-02T14:24:28+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "FastStockNews"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "FastStockNews",
-          "tier": "D2",
-          "message_id": "FastStockNews/126055",
-          "permalink": "https://t.me/FastStockNews/126055",
-          "published_at_kst": "2026-10-02T14:24:28+09:00",
-          "source_cluster": "source-249",
-          "business_numbers": [
-            "플 테스트 중  -올해 판매량 2천톤에서 내년 2만톤 예상  -별도기준 실적이 지난 해부터 부진했던 주원인이 니켈도금강판 부문의 적자 때문. 니켈도금강판 부문은 작년 7월부터 월 10억원 이상 영업적자 기록하는 것으로 추정. 다만 내년에는 BEP 수준으로 예상되고 정상화되는 2028년부터는 미드 싱글에서 하이싱글 수준의 영업이익 예상  -46파이 원통형 시장 확"
-          ],
-          "profit_paths": [
-            "Q",
-            "mix",
-            "margin"
-          ],
-          "noise_flags": []
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 0
-    },
-    {
-      "entity": "AION2",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T08:35:18+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "siglab"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "siglab",
+          "channel": "opendisco",
           "tier": "D1",
-          "message_id": "siglab/141903",
-          "permalink": "https://t.me/siglab/141903",
-          "published_at_kst": "2026-10-02T08:35:18+09:00",
-          "source_cluster": "source-68",
+          "message_id": "opendisco/2366",
+          "permalink": "https://t.me/opendisco/2366",
+          "published_at_kst": "2026-10-02T17:31:46+09:00",
+          "source_cluster": "source-383",
           "business_numbers": [
-            " 글로벌 말고도 사야 할 이유가 많다> 현대차증권 최승호 ㆍ AION2: 기대를 뛰어넘은 초기 흥행세 ㆍ 아이온2 이후에도 사야 할 이유: 주요 3개 신작 합쳐 FY 27 매출액 5,103억원 전망 ㆍ 주가전망 및 Valuation - 게임주 TOP-PICK 유지  <인텍플러스[064290] 멈추지 않는 수주 모멘텀> 메리츠증권 김동관 ㆍ 3Q26E Preview: "
+            "- 주요계약 3.03% · 약 27.8만 주"
           ],
           "profit_paths": [
             "Q"
           ],
-          "noise_flags": [
-            "목표주가"
-          ]
+          "noise_flags": []
         }
       ],
       "why_unusual": [
@@ -3400,59 +1105,18 @@
         "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],
-      "noise_penalty": 1
-    },
-    {
-      "entity": "CES",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-08T18:14:56+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "quantum_algo"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "quantum_algo",
-          "tier": "D2",
-          "message_id": "quantum_algo/102740",
-          "permalink": "https://t.me/quantum_algo/102740",
-          "published_at_kst": "2026-10-02T07:49:59+09:00",
-          "source_cluster": "source-53",
-          "business_numbers": [
-            "4Q26~1Q27 수주 확대 및 CES 모멘텀 기대 - 신사업 부각에 따른 밸류에이션 레벨업 전망  ▶️ 안정적 실적 체력 확인, 2027년 신성장 동력 기대 - 3Q26 매출 +10%, 영업이익 +45% 전망 - LG이노텍 영향 제외 시 주요 사업부 성장 체력 견고 - HVAC 수주 확대·로봇 사업화로 2027년 성장 가속 기대  ▶️ URL: http://b",
-            "주 확대 및 CES 모멘텀 기대 - 신사업 부각에 따른 밸류에이션 레벨업 전망  ▶️ 안정적 실적 체력 확인, 2027년 신성장 동력 기대 - 3Q26 매출 +10%, 영업이익 +45% 전망 - LG이노텍 영향 제외 시 주요 사업부 성장 체력 견고 - HVAC 수주 확대·로봇 사업화로 2027년 성장 가속 기대  ▶️ URL: http://bbs2.shinhan"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": [
-            "목표주가"
-          ]
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 1
+      "noise_penalty": 0
     },
     {
       "entity": "Commodity",
       "category": "name_or_technology",
-      "first_seen": "2026-10-01T22:34:57+09:00",
+      "first_seen": "2026-09-14T22:47:21+09:00",
       "mentions_72h": 1,
       "independent_channels": 1,
       "independent_channel_names": [
         "FastStockNewsUSA"
       ],
-      "prior_mentions": 0,
+      "prior_mentions": 1,
       "business_independent_channels": 1,
       "status": "radar_only",
       "novelty": "unconfirmed",
@@ -3466,9 +1130,8 @@
           "published_at_kst": "2026-10-01T22:34:57+09:00",
           "source_cluster": "source-6",
           "business_numbers": [
-            "원자재 가격이 급등하고 있습니다.  블룸버그 상품 지수(Bloomberg Commodity Index)는 전년 동기 대비 37.3% 상승하며 2022년 에너지 위기 이후 최대 12개월 상승폭에 근접했습니다. 이 지수는 에너지, 금속, 농산물 등 25개 상장 선물 계약을 추적합니다.  이 지수는 연초 대비 32",
-            "원자재 가격이 급등하고 있습니다.  블룸버그 상품 지수(Bloomberg Commodity Index)는 전년 동기 대비 37.3% 상승하며 2022년 에너지 위기 이후 최대 12개월 상승폭에 근접했습니다. 이 지수는 에너지, 금속, 농산물 등 25개 상장 선물 계약을 추적합니다.  이 지수는 연초 대비 32% 상승하여 2008년 금융 위기 이전 상승률을 넘어",
-            "3% 상승하며 2022년 에너지 위기 이후 최대 12개월 상승폭에 근접했습니다. 이 지수는 에너지, 금속, 농산물 등 25개 상장 선물 계약을 추적합니다.  이 지수는 연초 대비 32% 상승하여 2008년 금융 위기 이전 상승률을 넘어섰습니다.  블룸버그 상품 하위 지수(Bloomberg Commodity Subindex)는 전년 동기 대비 44.9% 급등하며 "
+            "블룸버그 상품 지수(Bloomberg Commodity Index)는 전년 동기 대비 37.3% 상승하며 2022년 에너지 위기 이후 최대 12개월 상승폭에 근접했습니다. 이 지수는 에너지, 금속, 농산물 등 25개 상장 선물 계약을 추적합니다.",
+            "블룸버그 상품 하위 지수(Bloomberg Commodity Subindex)는 전년 동기 대비 44.9% 급등하며 2022년 이후 최대 12개월 상승폭을 기록했습니다. 원자재 가격 상승세가 강하게 되살아나고 있습니다."
           ],
           "profit_paths": [
             "Q",
@@ -3476,46 +1139,6 @@
           ],
           "noise_flags": [
             "급등"
-          ]
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 1개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 1개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 1
-    },
-    {
-      "entity": "FY",
-      "category": "name_or_technology",
-      "first_seen": "2026-09-09T00:52:46+09:00",
-      "mentions_72h": 1,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "siglab"
-      ],
-      "prior_mentions": 2,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "siglab",
-          "tier": "D1",
-          "message_id": "siglab/141903",
-          "permalink": "https://t.me/siglab/141903",
-          "published_at_kst": "2026-10-02T08:35:18+09:00",
-          "source_cluster": "source-68",
-          "business_numbers": [
-            " 글로벌 말고도 사야 할 이유가 많다> 현대차증권 최승호 ㆍ AION2: 기대를 뛰어넘은 초기 흥행세 ㆍ 아이온2 이후에도 사야 할 이유: 주요 3개 신작 합쳐 FY 27 매출액 5,103억원 전망 ㆍ 주가전망 및 Valuation - 게임주 TOP-PICK 유지  <인텍플러스[064290] 멈추지 않는 수주 모멘텀> 메리츠증권 김동관 ㆍ 3Q26E Preview: "
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": [
-            "목표주가"
           ]
         }
       ],
@@ -3549,9 +1172,7 @@
           "published_at_kst": "2026-10-01T22:34:57+09:00",
           "source_cluster": "source-6",
           "business_numbers": [
-            "3% 상승하며 2022년 에너지 위기 이후 최대 12개월 상승폭에 근접했습니다. 이 지수는 에너지, 금속, 농산물 등 25개 상장 선물 계약을 추적합니다.  이 지수는 연초 대비 32% 상승하여 2008년 금융 위기 이전 상승률을 넘어섰습니다.  블룸버그 상품 하위 지수(Bloomberg Commodity Subindex)는 전년 동기 대비 44.9% 급등하며 ",
-            "는 연초 대비 32% 상승하여 2008년 금융 위기 이전 상승률을 넘어섰습니다.  블룸버그 상품 하위 지수(Bloomberg Commodity Subindex)는 전년 동기 대비 44.9% 급등하며 2022년 이후 최대 12개월 상승폭을 기록했습니다. 원자재 가격 상승세가 강하게 되살아나고 있습니다.",
-            "금융 위기 이전 상승률을 넘어섰습니다.  블룸버그 상품 하위 지수(Bloomberg Commodity Subindex)는 전년 동기 대비 44.9% 급등하며 2022년 이후 최대 12개월 상승폭을 기록했습니다. 원자재 가격 상승세가 강하게 되살아나고 있습니다."
+            "블룸버그 상품 하위 지수(Bloomberg Commodity Subindex)는 전년 동기 대비 44.9% 급등하며 2022년 이후 최대 12개월 상승폭을 기록했습니다. 원자재 가격 상승세가 강하게 되살아나고 있습니다."
           ],
           "profit_paths": [
             "Q",
@@ -3570,120 +1191,60 @@
       "noise_penalty": 1
     },
     {
-      "entity": "Presidential",
+      "entity": "IDM",
       "category": "name_or_technology",
-      "first_seen": "2026-10-01T22:17:46+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
+      "first_seen": "2026-09-07T13:07:24+09:00",
+      "mentions_72h": 3,
+      "independent_channels": 2,
       "independent_channel_names": [
-        "corevalue"
+        "corevalue",
+        "quantum_algo"
       ],
-      "prior_mentions": 0,
+      "prior_mentions": 2,
       "business_independent_channels": 1,
       "status": "radar_only",
       "novelty": "unconfirmed",
       "official_verification": "pending",
       "evidence_posts": [
-        {
-          "channel": "HanaResearch",
-          "tier": "D1",
-          "message_id": "HanaResearch/20550",
-          "permalink": "https://t.me/HanaResearch/20550",
-          "published_at_kst": "2026-10-01T22:17:46+09:00",
-          "source_cluster": "source-3",
-          "business_numbers": [
-            "재가 아니다, L/O 성수기 진입] - 3Q 평균 환율 1,423원/달러로 2Q(1,502원) 대비 약 5% 하락 - 수출 비중 높은 기업 컨센 하향 가능성 높음. 다만 실적이 -5% 이내면 악재로 작용할 것 같지 않음 - 환율 영향 희석 기대 기업: 삼성바이오로직스, 삼성에피스홀딩스, 셀트리온, 한미약품, 알테오젠 등 - ESMO Presidential Sy"
-          ],
-          "profit_paths": [
-            "Q"
-          ],
-          "noise_flags": [
-            "관련주"
-          ]
-        },
         {
           "channel": "corevalue",
           "tier": "D1",
-          "message_id": "corevalue/47246",
-          "permalink": "https://t.me/corevalue/47246",
-          "published_at_kst": "2026-10-02T13:03:52+09:00",
-          "source_cluster": "source-3",
+          "message_id": "corevalue/47255",
+          "permalink": "https://t.me/corevalue/47255",
+          "published_at_kst": "2026-10-02T21:21:51+09:00",
+          "source_cluster": "source-425",
           "business_numbers": [
-            "재가 아니다, L/O 성수기 진입] - 3Q 평균 환율 1,423원/달러로 2Q(1,502원) 대비 약 5% 하락 - 수출 비중 높은 기업 컨센 하향 가능성 높음. 다만 실적이 -5% 이내면 악재로 작용할 것 같지 않음 - 환율 영향 희석 기대 기업: 삼성바이오로직스, 삼성에피스홀딩스, 셀트리온, 한미약품, 알테오젠 등 - ESMO Presidential Sy"
+            "- 9월 한달 간 OSAT 업종은 가파른 주가 상승 기록. 코스닥 지수가 2.3% 상승한 데 반해 OSAT 업종은 평균 42.3% 상승. 국내 IDM의 메모리 생산량 증가에 따라 메모리 OSAT로의 외주 물량이 먼저 확대되고 있는 점이 주가에 반영된 것으로 판",
+            "- 9월 한달 간 OSAT 업종은 가파른 주가 상승 기록. 코스닥 지수가 2.3% 상승한 데 반해 OSAT 업종은 평균 42.3% 상승. 국내 IDM의 메모리 생산량 증가에 따라 메모리 OSAT로의 외주 물량이 먼저 확대되고 있는 점이 주가에 반영된 것으로 판단"
           ],
           "profit_paths": [
             "Q"
           ],
           "noise_flags": [
-            "관련주"
-          ]
-        }
-      ],
-      "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
-        "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
-        "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
-      ],
-      "noise_penalty": 2
-    },
-    {
-      "entity": "WD",
-      "category": "name_or_technology",
-      "first_seen": "2026-10-02T09:53:27+09:00",
-      "mentions_72h": 2,
-      "independent_channels": 1,
-      "independent_channel_names": [
-        "growth_semi"
-      ],
-      "prior_mentions": 0,
-      "business_independent_channels": 1,
-      "status": "radar_only",
-      "novelty": "unconfirmed",
-      "official_verification": "pending",
-      "evidence_posts": [
-        {
-          "channel": "growth_semi",
-          "tier": "D1",
-          "message_id": "growth_semi/1581",
-          "permalink": "https://t.me/growth_semi/1581",
-          "published_at_kst": "2026-10-02T09:53:27+09:00",
-          "source_cluster": "source-102",
-          "business_numbers": [
-            "mediaCodeNo=257  📌 600억엔 투자해 2027년 생산능력 2배 도시바는 필리핀 공장에 약 600억엔을 투자해 AI 데이터센터용 HDD 생산능력을 2027회계연도 중 2배 확대할 계획  대규모 HDD 증설은 약 5년 만으로, AI 인프라 저장장치 수요 증가에 대응  현재 데이터 용량 기준 점유율은 WD 47%, 시게이트 42%, 도시바 11% 수준",
-            "용 HDD 생산능력을 2027회계연도 중 2배 확대할 계획  대규모 HDD 증설은 약 5년 만으로, AI 인프라 저장장치 수요 증가에 대응  현재 데이터 용량 기준 점유율은 WD 47%, 시게이트 42%, 도시바 11% 수준  📌 점유율 11%→중기 30% 목표 도시바는 대규모 증설과 고용량 제품 확대를 통해 HDD 시장 점유율을 중기적으로 30%까지 높인다는 ",
-            "을 2027회계연도 중 2배 확대할 계획  대규모 HDD 증설은 약 5년 만으로, AI 인프라 저장장치 수요 증가에 대응  현재 데이터 용량 기준 점유율은 WD 47%, 시게이트 42%, 도시바 11% 수준  📌 점유율 11%→중기 30% 목표 도시바는 대규모 증설과 고용량 제품 확대를 통해 HDD 시장 점유율을 중기적으로 30%까지 높인다는 목표  기존 대비 "
-          ],
-          "profit_paths": [
-            "Q",
-            "P"
-          ],
-          "noise_flags": [
-            "급등"
+            "목표주가"
           ]
         },
         {
-          "channel": "growthresearch",
-          "tier": "D1",
-          "message_id": "growthresearch/30148",
-          "permalink": "https://t.me/growthresearch/30148",
-          "published_at_kst": "2026-10-02T10:12:25+09:00",
-          "source_cluster": "source-102",
+          "channel": "quantum_algo",
+          "tier": "D2",
+          "message_id": "quantum_algo/102781",
+          "permalink": "https://t.me/quantum_algo/102781",
+          "published_at_kst": "2026-10-03T17:18:29+09:00",
+          "source_cluster": "source-425",
           "business_numbers": [
-            "mediaCodeNo=257  📌 600억엔 투자해 2027년 생산능력 2배 도시바는 필리핀 공장에 약 600억엔을 투자해 AI 데이터센터용 HDD 생산능력을 2027회계연도 중 2배 확대할 계획  대규모 HDD 증설은 약 5년 만으로, AI 인프라 저장장치 수요 증가에 대응  현재 데이터 용량 기준 점유율은 WD 47%, 시게이트 42%, 도시바 11% 수준",
-            "용 HDD 생산능력을 2027회계연도 중 2배 확대할 계획  대규모 HDD 증설은 약 5년 만으로, AI 인프라 저장장치 수요 증가에 대응  현재 데이터 용량 기준 점유율은 WD 47%, 시게이트 42%, 도시바 11% 수준  📌 점유율 11%→중기 30% 목표 도시바는 대규모 증설과 고용량 제품 확대를 통해 HDD 시장 점유율을 중기적으로 30%까지 높인다는 ",
-            "을 2027회계연도 중 2배 확대할 계획  대규모 HDD 증설은 약 5년 만으로, AI 인프라 저장장치 수요 증가에 대응  현재 데이터 용량 기준 점유율은 WD 47%, 시게이트 42%, 도시바 11% 수준  📌 점유율 11%→중기 30% 목표 도시바는 대규모 증설과 고용량 제품 확대를 통해 HDD 시장 점유율을 중기적으로 30%까지 높인다는 목표  기존 대비 "
+            "- 9월 한달 간 OSAT 업종은 가파른 주가 상승 기록. 코스닥 지수가 2.3% 상승한 데 반해 OSAT 업종은 평균 42.3% 상승. 국내 IDM의 메모리 생산량 증가에 따라 메모리 OSAT로의 외주 물량이 먼저 확대되고 있는 점이 주가에 반영된 것으로 판",
+            "- 9월 한달 간 OSAT 업종은 가파른 주가 상승 기록. 코스닥 지수가 2.3% 상승한 데 반해 OSAT 업종은 평균 42.3% 상승. 국내 IDM의 메모리 생산량 증가에 따라 메모리 OSAT로의 외주 물량이 먼저 확대되고 있는 점이 주가에 반영된 것으로 판단"
           ],
           "profit_paths": [
-            "Q",
-            "P"
+            "Q"
           ],
           "noise_flags": [
-            "급등"
+            "목표주가"
           ]
         }
       ],
       "why_unusual": [
-        "최근 72시간 2개 게시물, 재전송 제거 후 1개 독립 채널",
+        "최근 72시간 3개 게시물, 재전송 제거 후 2개 독립 채널",
         "엔티티 주변 사업 숫자 포착 2개 게시물, 숫자 근거 독립 채널 1개",
         "30일 이력 또는 신규성 근거가 부족하므로 신규 등장 미확정"
       ],

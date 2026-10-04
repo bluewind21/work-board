@@ -1,6 +1,6 @@
 {
   "date_kst": "2026-10-04",
-  "collected_at_kst": "2026-10-04T20:45:49+09:00",
+  "collected_at_kst": "2026-10-04T21:01:59+09:00",
   "total_posts": 56,
   "channels": [
     {
@@ -13,7 +13,7 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-07T07:12:22+09:00"
+      "earliest_fetched_at_kst": null
     },
     {
       "channel": "sk_smallcap",
@@ -25,31 +25,31 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-07T07:21:59+09:00"
+      "earliest_fetched_at_kst": null
     },
     {
       "channel": "eqmirae",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 60,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 3,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T13:18:25+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T08:21:10+09:00"
     },
     {
       "channel": "opendisco",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 799,
-      "errors_count": 1,
-      "fetched_pages": 40,
-      "history_complete": false,
-      "backfill_next_before": 1567,
-      "earliest_fetched_at_kst": "2026-09-16T17:39:21+09:00"
+      "timestamp_count": 640,
+      "errors_count": 0,
+      "fetched_pages": 32,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-07T07:30:35+09:00"
     },
     {
       "channel": "hanasmallcap",
@@ -61,175 +61,175 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-08T18:14:56+09:00"
+      "earliest_fetched_at_kst": null
     },
     {
       "channel": "SKSCyclical",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 60,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 3,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-06T14:28:10+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T11:00:38+09:00"
     },
     {
       "channel": "HI_GS",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 2,
-      "timestamp_count": 157,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 8,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T17:18:56+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T07:00:58+09:00"
     },
     {
       "channel": "hana_us_stock",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 2,
-      "timestamp_count": 178,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 9,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-04T21:31:34+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T06:16:00+09:00"
     },
     {
       "channel": "siglab",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 725,
-      "errors_count": 1,
-      "fetched_pages": 40,
-      "history_complete": false,
-      "backfill_next_before": 141132,
-      "earliest_fetched_at_kst": "2026-09-07T22:21:02+09:00"
+      "timestamp_count": 107,
+      "errors_count": 0,
+      "fetched_pages": 6,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-04T21:05:15+09:00"
     },
     {
       "channel": "corevalue",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 3,
-      "timestamp_count": 401,
+      "timestamp_count": 32,
       "errors_count": 0,
-      "fetched_pages": 21,
+      "fetched_pages": 2,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T18:09:11+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T07:58:38+09:00"
     },
     {
       "channel": "growthresearch",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 6,
-      "timestamp_count": 603,
+      "timestamp_count": 49,
       "errors_count": 0,
-      "fetched_pages": 35,
+      "fetched_pages": 3,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T12:40:06+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T00:19:24+09:00"
     },
     {
       "channel": "growth_semi",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 7,
-      "timestamp_count": 205,
+      "timestamp_count": 38,
       "errors_count": 0,
-      "fetched_pages": 11,
+      "fetched_pages": 2,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T12:40:18+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T08:45:14+09:00"
     },
     {
       "channel": "knowledge_to_wealth",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 1,
-      "timestamp_count": 251,
+      "timestamp_count": 31,
       "errors_count": 0,
-      "fetched_pages": 15,
+      "fetched_pages": 2,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T00:26:41+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T19:38:16+09:00"
     },
     {
       "channel": "sksresearch",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 83,
+      "timestamp_count": 15,
       "errors_count": 0,
-      "fetched_pages": 5,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-06T14:28:27+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T07:08:20+09:00"
     },
     {
       "channel": "HanaResearch",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 1,
-      "timestamp_count": 147,
+      "timestamp_count": 17,
       "errors_count": 0,
-      "fetched_pages": 8,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T16:58:40+09:00"
+      "earliest_fetched_at_kst": "2026-10-01T22:17:46+09:00"
     },
     {
       "channel": "quantum_algo",
       "tier": "D2",
       "http_status": 200,
       "today_post_count": 23,
-      "timestamp_count": 797,
-      "errors_count": 1,
-      "fetched_pages": 40,
-      "history_complete": false,
-      "backfill_next_before": 102009,
-      "earliest_fetched_at_kst": "2026-09-14T12:53:44+09:00"
+      "timestamp_count": 500,
+      "errors_count": 0,
+      "fetched_pages": 25,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-09-05T07:03:03+09:00"
     },
     {
       "channel": "STANDARDCAPITAL",
       "tier": "D2",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 60,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 3,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-05T11:14:42+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T02:25:09+09:00"
     },
     {
       "channel": "FastStockNewsUSA",
       "tier": "D2",
       "http_status": 200,
       "today_post_count": 10,
-      "timestamp_count": 643,
+      "timestamp_count": 57,
       "errors_count": 0,
-      "fetched_pages": 34,
+      "fetched_pages": 3,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-09-04T22:20:13+09:00"
+      "earliest_fetched_at_kst": "2026-10-01T22:34:49+09:00"
     },
     {
       "channel": "FastStockNews",
       "tier": "D2",
       "http_status": 200,
       "today_post_count": 1,
-      "timestamp_count": 798,
+      "timestamp_count": 864,
       "errors_count": 1,
-      "fetched_pages": 40,
+      "fetched_pages": 44,
       "history_complete": false,
-      "backfill_next_before": 125279,
-      "earliest_fetched_at_kst": "2026-09-17T14:11:51+09:00"
+      "backfill_next_before": 124470,
+      "earliest_fetched_at_kst": "2026-09-08T08:19:45+09:00"
     }
   ],
   "posts": [
@@ -684,28 +684,10 @@
   ],
   "errors": [
     {
-      "channel": "opendisco",
-      "type": "pagination",
-      "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/opendisco?before=1567"
-    },
-    {
-      "channel": "siglab",
-      "type": "pagination",
-      "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/siglab?before=141132"
-    },
-    {
-      "channel": "quantum_algo",
-      "type": "pagination",
-      "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/quantum_algo?before=102009"
-    },
-    {
       "channel": "FastStockNews",
       "type": "pagination",
       "message": "Page budget reached; history incomplete.",
-      "url": "https://t.me/s/FastStockNews?before=125279"
+      "url": "https://t.me/s/FastStockNews?before=124470"
     }
   ]
 }
