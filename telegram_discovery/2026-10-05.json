@@ -1,7 +1,7 @@
 {
   "date_kst": "2026-10-05",
-  "collected_at_kst": "2026-10-05T05:50:13+09:00",
-  "total_posts": 0,
+  "collected_at_kst": "2026-10-05T06:05:59+09:00",
+  "total_posts": 1,
   "channels": [
     {
       "channel": "SK_Research_Asset",
@@ -193,19 +193,19 @@
       "fetched_pages": 5,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T05:52:54+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T06:15:59+09:00"
     },
     {
       "channel": "STANDARDCAPITAL",
       "tier": "D2",
       "http_status": 200,
-      "today_post_count": 0,
+      "today_post_count": 1,
       "timestamp_count": 20,
       "errors_count": 0,
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": null
+      "earliest_fetched_at_kst": "2026-10-05T06:03:27+09:00"
     },
     {
       "channel": "FastStockNewsUSA",
@@ -232,6 +232,15 @@
       "earliest_fetched_at_kst": "2026-10-02T07:42:58+09:00"
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "collected_at_kst": "2026-10-05T06:05:59+09:00",
+      "channel": "STANDARDCAPITAL",
+      "message_id": "STANDARDCAPITAL/10242",
+      "published_at_kst": "2026-10-05T06:03:27+09:00",
+      "permalink": "https://t.me/STANDARDCAPITAL/10242",
+      "body": "건승기원\nhttps://www.instagram.com/reel/DeEC5fZvORk/?stkn=MW84MHY4djRtZDNhNA=="
+    }
+  ],
   "errors": []
 }
