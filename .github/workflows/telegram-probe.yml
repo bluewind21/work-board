@@ -1,196 +1,42 @@
-name: Telegram public preview probe
+name: Telegram daily collector
 
 on:
   workflow_dispatch:
 
-permissions: {}
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-collector-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  telegram-probe:
+  telegram-collector:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 15
     steps:
-      - name: Probe Telegram posts and publication timestamps
-        shell: python3 {0}
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Collect today's public Telegram posts
+        id: collect
+        run: python3 scripts/telegram_collect.py
+
+      - name: Save daily JSON in repository
+        env:
+          OUTPUT_PATH: ${{ steps.collect.outputs.output_path }}
+          COLLECTION_DATE: ${{ steps.collect.outputs.collection_date }}
+          TARGET_BRANCH: ${{ github.ref_name }}
         run: |
-          import json
-          import sys
-          from datetime import datetime
-          from html.parser import HTMLParser
-          from http.client import HTTPException
-          from urllib.error import HTTPError, URLError
-          from urllib.request import Request, urlopen
-          from zoneinfo import ZoneInfo
-          
-          KST = ZoneInfo("Asia/Seoul")
-          USER_AGENT = (
-              "Mozilla/5.0 (X11; Linux x86_64) "
-              "AppleWebKit/537.36 (KHTML, like Gecko) "
-              "Chrome/131.0.0.0 Safari/537.36"
-          )
-          
-          def warn(channel, message):
-              text = f"{channel}: {message}"
-              text = text.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
-              print(f"::warning::{text}", flush=True)
-          
-          class TelegramParser(HTMLParser):
-              VOID_TAGS = {
-                  "area", "base", "br", "col", "embed", "hr", "img", "input",
-                  "link", "meta", "param", "source", "track", "wbr",
-              }
-          
-              def __init__(self):
-                  super().__init__(convert_charrefs=True)
-                  self.stack = []
-                  self.posts = {}
-                  self.timestamps = []
-          
-              def handle_starttag(self, tag, attrs):
-                  attrs = dict(attrs)
-                  classes = set((attrs.get("class") or "").split())
-                  post, in_text = self.stack[-1][1:] if self.stack else (None, False)
-                  if "tgme_widget_message" in classes and attrs.get("data-post"):
-                      post = self.posts.setdefault(
-                          attrs["data-post"], {"parts": [], "timestamps": []}
-                      )
-                      in_text = False
-                  if post is not None and "tgme_widget_message_text" in classes:
-                      in_text = True
-                  if tag == "time" and attrs.get("datetime"):
-                      raw = attrs["datetime"]
-                      self.timestamps.append(raw)
-                      if post is not None:
-                          post["timestamps"].append(raw)
-                  if post is not None and in_text:
-                      if tag in {"br", "p", "div"}:
-                          post["parts"].append(" ")
-                      elif tag == "img" and attrs.get("alt"):
-                          post["parts"].append(attrs["alt"])
-                  if tag not in self.VOID_TAGS:
-                      self.stack.append((tag, post, in_text))
-          
-              def handle_startendtag(self, tag, attrs):
-                  self.handle_starttag(tag, attrs)
-                  if tag not in self.VOID_TAGS:
-                      self.handle_endtag(tag)
-          
-              def handle_endtag(self, tag):
-                  for index in range(len(self.stack) - 1, -1, -1):
-                      if self.stack[index][0] == tag:
-                          _, post, in_text = self.stack[index]
-                          if post is not None and in_text and tag in {"p", "div"}:
-                              post["parts"].append(" ")
-                          del self.stack[index:]
-                          break
-          
-              def handle_data(self, data):
-                  if self.stack:
-                      _, post, in_text = self.stack[-1]
-                      if post is not None and in_text:
-                          post["parts"].append(data)
-          
-          def parse_timestamp(raw):
-              value = datetime.fromisoformat(raw.replace("Z", "+00:00"))
-              if value.tzinfo is None or value.utcoffset() is None:
-                  raise ValueError("timestamp has no UTC/offset information")
-              return value
-          
-          def probe(channel, today):
-              url = f"https://t.me/s/{channel}"
-              status = None
-              body = b""
-              final_url = url
-              error = None
-              charset = "utf-8"
-              request = Request(
-                  url,
-                  headers={
-                      "User-Agent": USER_AGENT,
-                      "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-                      "Accept-Encoding": "identity",
-                  },
-              )
-              try:
-                  with urlopen(request, timeout=30) as response:
-                      status = response.status
-                      final_url = response.geturl()
-                      charset = response.headers.get_content_charset() or "utf-8"
-                      body = response.read()
-              except HTTPError as exc:
-                  status = exc.code
-                  final_url = exc.geturl()
-                  error = f"HTTPError: {exc.code} {exc.reason}"
-                  try:
-                      with exc:
-                          body = exc.read()
-                  except (HTTPException, OSError, URLError) as read_error:
-                      error += f"; body read failed: {read_error}"
-              except (HTTPException, OSError, URLError) as exc:
-                  error = f"{type(exc).__name__}: {exc}"
-          
-              print(f"channel: {channel}")
-              print(f"URL: {url}")
-              print(f"HTTP status: {status if status is not None else 'N/A'}")
-              print(f"HTML bytes: {len(body)}")
-              print(f"Final URL: {final_url}")
-              parser = TelegramParser()
-              try:
-                  parser.feed(body.decode(charset, errors="replace"))
-                  parser.close()
-              except (LookupError, ValueError) as exc:
-                  warn(channel, f"HTML parsing failed: {exc}")
-          
-              parsed = {}
-              for raw in parser.timestamps:
-                  if raw in parsed:
-                      continue
-                  try:
-                      parsed[raw] = parse_timestamp(raw)
-                  except ValueError as exc:
-                      parsed[raw] = None
-                      warn(channel, f"Invalid <time datetime> {raw!r}: {exc}")
-              valid = [parsed[raw] for raw in parser.timestamps if parsed[raw] is not None]
-              today_posts = []
-              for message_id, post in parser.posts.items():
-                  times = [parsed[raw] for raw in post["timestamps"] if parsed[raw] is not None]
-                  if times and times[0].astimezone(KST).date() == today:
-                      today_posts.append((message_id, post, times[0].astimezone(KST)))
-          
-              print(f"Total posts in fetched HTML: {len(parser.posts)}")
-              print(f"Timestamp count (<time datetime>): {len(parser.timestamps)}")
-              print(f"Valid timestamp count: {len(valid)}")
-              for label, value in (
-                  ("Oldest timestamp", min(valid) if valid else None),
-                  ("Latest timestamp", max(valid) if valid else None),
-              ):
-                  text = (
-                      f"{value.isoformat()} | KST: {value.astimezone(KST).isoformat()}"
-                      if value is not None else "N/A"
-                  )
-                  print(f"{label}: {text}")
-              print(f"Today (Asia/Seoul): {today.isoformat()}")
-              print(f"Today posts (Asia/Seoul): {len(today_posts)}")
-              for message_id, post, published in today_posts:
-                  preview = " ".join("".join(post["parts"]).split())[:200]
-                  print(f"Today's post | channel: {channel}")
-                  print(f"message id: {message_id}")
-                  print(f"permalink: https://t.me/{message_id}")
-                  print(f"Published (KST): {published.isoformat()}")
-                  print(f"Body first 200 characters: {json.dumps(preview, ensure_ascii=False)}")
-                  print()
-          
-              if error or status != 200:
-                  warn(channel, f"HTTP access failed: {error or status}")
-              if not parser.timestamps:
-                  warn(channel, "No <time datetime> found; publication dates cannot be verified.")
-              elif not valid:
-                  warn(channel, "No usable timezone-aware publication timestamps found.")
-              print(flush=True)
-              return error is None and status == 200
-          
-          if __name__ == "__main__":
-              today = datetime.now(KST).date()
-              print("Scope: posts visible in one public preview page per channel; no pagination.")
-              results = [probe(channel, today) for channel in ("KISemicon", "skitteam")]
-              sys.exit(0 if all(results) else 1)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$OUTPUT_PATH"
+          if git diff --cached --quiet -- "$OUTPUT_PATH"; then
+            echo "Daily JSON unchanged."
+            exit 0
+          fi
+          git commit -m "data: collect Telegram posts for $COLLECTION_DATE" -- "$OUTPUT_PATH"
+          git pull --rebase origin "$TARGET_BRANCH"
+          git push origin "HEAD:$TARGET_BRANCH"
