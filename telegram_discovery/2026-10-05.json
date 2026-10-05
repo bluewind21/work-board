@@ -1,7 +1,7 @@
 {
   "date_kst": "2026-10-05",
-  "collected_at_kst": "2026-10-05T06:05:59+09:00",
-  "total_posts": 1,
+  "collected_at_kst": "2026-10-05T11:37:14+09:00",
+  "total_posts": 14,
   "channels": [
     {
       "channel": "SK_Research_Asset",
@@ -37,7 +37,7 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T08:21:10+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T13:23:15+09:00"
     },
     {
       "channel": "opendisco",
@@ -49,7 +49,7 @@
       "fetched_pages": 9,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T07:30:25+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T11:42:06+09:00"
     },
     {
       "channel": "hanasmallcap",
@@ -73,19 +73,19 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T11:00:38+09:00"
+      "earliest_fetched_at_kst": null
     },
     {
       "channel": "HI_GS",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 0,
+      "today_post_count": 2,
       "timestamp_count": 20,
       "errors_count": 0,
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T07:00:58+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T12:23:27+09:00"
     },
     {
       "channel": "hana_us_stock",
@@ -97,22 +97,34 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T06:16:00+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T14:49:14+09:00"
     },
     {
       "channel": "siglab",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 50,
+      "timestamp_count": 31,
       "errors_count": 0,
-      "fetched_pages": 3,
+      "fetched_pages": 2,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T07:01:05+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T12:01:39+09:00"
     },
     {
       "channel": "corevalue",
+      "tier": "D1",
+      "http_status": 200,
+      "today_post_count": 1,
+      "timestamp_count": 20,
+      "errors_count": 0,
+      "fetched_pages": 1,
+      "history_complete": true,
+      "backfill_next_before": null,
+      "earliest_fetched_at_kst": "2026-10-02T11:49:59+09:00"
+    },
+    {
+      "channel": "growthresearch",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
@@ -121,38 +133,26 @@
       "fetched_pages": 2,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T07:58:38+09:00"
-    },
-    {
-      "channel": "growthresearch",
-      "tier": "D1",
-      "http_status": 200,
-      "today_post_count": 0,
-      "timestamp_count": 49,
-      "errors_count": 0,
-      "fetched_pages": 3,
-      "history_complete": true,
-      "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T08:30:40+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T13:07:40+09:00"
     },
     {
       "channel": "growth_semi",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 38,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 2,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T08:45:14+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T13:07:34+09:00"
     },
     {
       "channel": "knowledge_to_wealth",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 0,
-      "timestamp_count": 30,
+      "today_post_count": 1,
+      "timestamp_count": 31,
       "errors_count": 0,
       "fetched_pages": 2,
       "history_complete": true,
@@ -169,7 +169,7 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T07:08:20+09:00"
+      "earliest_fetched_at_kst": null
     },
     {
       "channel": "HanaResearch",
@@ -181,19 +181,19 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T10:56:35+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T14:48:46+09:00"
     },
     {
       "channel": "quantum_algo",
       "tier": "D2",
       "http_status": 200,
-      "today_post_count": 0,
-      "timestamp_count": 100,
+      "today_post_count": 8,
+      "timestamp_count": 80,
       "errors_count": 0,
-      "fetched_pages": 5,
+      "fetched_pages": 4,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T06:15:59+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T12:13:16+09:00"
     },
     {
       "channel": "STANDARDCAPITAL",
@@ -217,19 +217,19 @@
       "fetched_pages": 3,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T07:49:38+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T13:37:34+09:00"
     },
     {
       "channel": "FastStockNews",
       "tier": "D2",
       "http_status": 200,
-      "today_post_count": 0,
-      "timestamp_count": 80,
+      "today_post_count": 1,
+      "timestamp_count": 60,
       "errors_count": 0,
-      "fetched_pages": 4,
+      "fetched_pages": 3,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T07:42:58+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T12:34:40+09:00"
     }
   ],
   "posts": [
@@ -240,6 +240,110 @@
       "published_at_kst": "2026-10-05T06:03:27+09:00",
       "permalink": "https://t.me/STANDARDCAPITAL/10242",
       "body": "건승기원\nhttps://www.instagram.com/reel/DeEC5fZvORk/?stkn=MW84MHY4djRtZDNhNA=="
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102811",
+      "published_at_kst": "2026-10-05T07:20:10+09:00",
+      "permalink": "https://t.me/quantum_algo/102811",
+      "body": "美, 금리인상 속도조절 관측에도… “韓 포함 금리 상승 시간문제”\n\nhttps://naver.me/5reIHy0T"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102812",
+      "published_at_kst": "2026-10-05T07:39:21+09:00",
+      "permalink": "https://t.me/quantum_algo/102812",
+      "body": "“美에 공장 안 지으면 관세 300%” 트럼프 격전지 갈때면 동맹들 떤다\n\nhttps://naver.me/5ulkmioc"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102813",
+      "published_at_kst": "2026-10-05T07:53:36+09:00",
+      "permalink": "https://t.me/quantum_algo/102813",
+      "body": "美에너지장관 \"유럽 경유 방출에 갤런당 6달러 아래로 내릴 것\"\n\nhttps://naver.me/G7NOQVsu"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102814",
+      "published_at_kst": "2026-10-05T08:24:03+09:00",
+      "permalink": "https://t.me/quantum_algo/102814",
+      "body": "[주간증시전망] 美 국채 금리에 눌린 증시… 삼성전자 3분기 실적에 쏠린 눈\n\nhttps://naver.me/GZDB7ntI"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "knowledge_to_wealth",
+      "message_id": "knowledge_to_wealth/8727",
+      "published_at_kst": "2026-10-05T08:40:47+09:00",
+      "permalink": "https://t.me/knowledge_to_wealth/8727",
+      "body": "국민연금의 코스피 대비 코스닥 투자 비중을 보면 2021년 3.9%에서 2023년 4.1%까지 늘었지만, 이후 다시 줄어들어 작년 3.01%, 올해 2월까지 2.64%를 기록했다.\n\nhttps://naver.me/FCZ8QZQ7"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102815",
+      "published_at_kst": "2026-10-05T08:49:13+09:00",
+      "permalink": "https://t.me/quantum_algo/102815",
+      "body": "美 인상 기대 꺾였지만 장기금리 5.28%…환율 어디로[주간외환전망]\n\nhttps://naver.me/x3cCL3nH"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102816",
+      "published_at_kst": "2026-10-05T09:22:42+09:00",
+      "permalink": "https://t.me/quantum_algo/102816",
+      "body": "\"공급망의 왕\" 애플의 위기…터너스의 애플은 어떤 모습일까\n\nhttps://naver.me/539eOK1j"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102817",
+      "published_at_kst": "2026-10-05T09:57:50+09:00",
+      "permalink": "https://t.me/quantum_algo/102817",
+      "body": "앤트로픽·릴리가 지목한 '이 회사'…AI신약붐에 주가 7배\n\nhttps://naver.me/5bCYptUt"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "FastStockNews",
+      "message_id": "FastStockNews/126083",
+      "published_at_kst": "2026-10-05T10:02:17+09:00",
+      "permalink": "https://t.me/FastStockNews/126083",
+      "body": "[단독] 강력한 오픈 모델, AI 경쟁 판도 뒤흔든다\n\n엔비디아(Nvidia)의 투자를 받아 큰 기대를 모으고 있는 스타트업 '리플렉션(Reflection)'이 강력한 오픈 가중치(open-weight) 시스템 출시를 앞두고 있습니다. 이는 중국의 신흥 AI 기업뿐만 아니라 미국의 거대 AI 기업들 모두를 위협하며 AI 경쟁 판도를 흔들 것으로 보입니다.\n\n​중요한 이유 (Why it matters): 미국산 오픈 가중치 모델과 엔비디아 GPU의 결합은 개인과 기업 고객에게 앤스로픽(Anthropic), 오픈AI(OpenAI), 구글(Google) 등의 독점 모델을 대체할 수 있는 훨씬 저렴하고 새로운 선택지를 제공하게 됩니다.\n\nhttps://www.axios.com/2026/10/04/reflection-open-weight-ai\n\n(네비우스·스페이스X를 통해 컴퓨팅 확보\n\n리플렉션은 네비우스와 10억 달러가 넘는 컴퓨팅 계약을 체결\n\n앞서 6월에는 스페이스X와도 컴퓨팅 확보 계약을 맺음)"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "quantum_algo",
+      "message_id": "quantum_algo/102818",
+      "published_at_kst": "2026-10-05T10:46:13+09:00",
+      "permalink": "https://t.me/quantum_algo/102818",
+      "body": "✅ 일본 반도체 장비 및 테스트 업종 등락률 (2026년10월5일 10:45)\n\n1) 도쿄일렉트론, 어드반테스트, 디스코 등 일본 주요 반도체 장비주가 +5% 정도 강한 상승세\n\n2) 지난 주말 미국증시에서 테라다인(TER)이 +8% 급등하였고 일본증시에서 어드밴테스트가 역사적 고가를 경신하며 반도체 검사장비주가 특히 강세\n\n3) 반도체 테스트 장비 기업들의 주가 강세는 HBM '테스트 시간(Test Time)'의 구조적 폭증에 기인\n\n4) 기존 범용 D램 대비 칩당 테스트 소요 시간과 복잡도가 기하급수적으로 늘어나면서 테라다인의 Magnum E2 시스템과 어드밴테스트의 고성능 메모리 테스터 수요가 폭발적으로 증가\n\n5) 내일 우리증시에서 ① 반도체 테스터 소모품(리노공업, ISC, 티에스이, 오킨스전자), ② 테스터와 세트로 출하되는 핸들러 및 인접장비 기업(테크윙, 디아이, 엑시콘) ③ 이들의 장비를 대량 도입해 외주 테스트를 수행하는 OSAT/테스트 하우스(두산테스나) 등 집중 관찰필요\n\n6) 특히 '번인 테스트(Burn-In Test) 소켓' 영역에 특화된 포지셔닝을 갖고 있는 오킨스전자는 HBM 및 DDR5, LPDDR5X 등 고단가·고성능 메모리 테스트에서 번인 공정 시간이 길어지고 검사 기준이 까다로워지면서, 번인 소켓의 교체 주기 단축과 소모량 증가로 실적 급증 가능성에 주목\n\n#도쿄일렉트론\n#어드반테스트\n#디스코\n#테라다인\n#HBM\n#LPDDR5X\n#DDR5\n#리노공업\n#ISC\n#티에스이\n#오킨스전자\n#테크윙\n#디아이\n#엑시콘\n#두산테스나\n#번인테스트소켓"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "corevalue",
+      "message_id": "corevalue/47261",
+      "published_at_kst": "2026-10-05T11:19:20+09:00",
+      "permalink": "https://t.me/corevalue/47261",
+      "body": "https://n.news.naver.com/mnews/article/011/0004668183"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "HI_GS",
+      "message_id": "HI_GS/7171",
+      "published_at_kst": "2026-10-05T11:30:06+09:00",
+      "permalink": "https://t.me/HI_GS/7171",
+      "body": "[2040년까지 현역 軍병력 13만명 감축…육해공군 지휘부 동의]\n• 2040년까지 현역 군 병력 13만 명 감축하는 국방개혁 기본계획에 육·해·공군 지휘부 동의\n• 현역 병력을 현 48만 명에서 35만 명 수준으로 단계적 감축하고 상비예비군·민간 인력 확충으로 총인력 50만 명 유지 구상\n• 병역자원 급감 대응 위해 간부 비율을 현 40%에서 63%로 확대하고 병사 비율은 60%에서 37%로 축소\n\n❗️ 현역 병력 13만 명 감축 및 간부 비율 63% 확대로 군 병력구조 정예화 추진\n출처: [서울경제]\nURL: [https://www.sedaily.com/article/20097648](https://www.sedaily.com/article/20097648)\n─────────────────────\n📈 텔레그램 공개 채널 [https://t.me/HI_GS](https://t.me/HI_GS)\n🎴 그래 이게 맞지"
+    },
+    {
+      "collected_at_kst": "2026-10-05T11:37:14+09:00",
+      "channel": "HI_GS",
+      "message_id": "HI_GS/7172",
+      "published_at_kst": "2026-10-05T11:34:04+09:00",
+      "permalink": "https://t.me/HI_GS/7172",
+      "body": "[한화오션 국내 최대 1,800톤급 골리앗 크레인 강재절단식]\n• 한화오션이 거제조선소 1도크 도입 목적으로 발주한 국내 조선소 육상 골리앗 크레인 중 최대 규모인 1,800톤급 갠트리 크레인 강재절단식 진행\n• 제작사는 중국 장쑤 레인보우중공업 자회사인 난퉁 레인보우 인텔리전트 이퀴프먼트(RIEC)\n• 고하중·대경간 설계를 바탕으로 VLCC, LNG선 등 대형 상선과 해양플랜트 모듈 및 특수선의 대형 블록 일괄 인양·탑재 공정 단축 추진\n\n❗️ 대형 상선 및 해양·방산 수주 확대에 대응한 단순 설비 교체 이상의 생산능력 확대 목적 핵심 인프라 투자\n출처: [해양통신]\nURL: [https://oceanpress.co.kr/news/article.html?no=31397](https://oceanpress.co.kr/news/article.html?no=31397)\n─────────────────────\n📈 텔레그램 공개 채널 [https://t.me/HI_GS](https://t.me/HI_GS)\n🎴 생산성 개선... 대찬 투자... 근데 뭘 들어올리려는건지?"
     }
   ],
   "errors": []
