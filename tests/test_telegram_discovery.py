@@ -156,9 +156,8 @@ class DiscoveryTests(unittest.TestCase):
 
     def test_schedule_and_monitor_boundary(self):
         content = (Path(__file__).resolve().parents[1] / '.github/workflows/telegram-discovery.yml').read_text()
-        for utc, kst in [(21, 6), (3, 12), (9, 18)]:
-            self.assertIn(f"cron: '20 {utc} * * *'", content)
-            self.assertEqual((utc + 9) % 24, kst)
+        self.assertIn("cron: '20 8,12,18 * * *'", content)
+        self.assertIn("timezone: 'Asia/Seoul'", content)
         self.assertIn('workflow_dispatch:', content)
         self.assertIn('git add -- telegram_discovery', content)
         self.assertNotIn('git add -- telegram/', content)
