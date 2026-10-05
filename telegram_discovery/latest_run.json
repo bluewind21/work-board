@@ -1,13 +1,13 @@
 {
-  "collected_at_kst": "2026-10-05T11:37:14+09:00",
-  "window_start_kst": "2026-09-05T11:37:14+09:00",
-  "window_end_kst": "2026-10-05T11:37:14+09:00",
+  "collected_at_kst": "2026-10-05T19:38:23+09:00",
+  "window_start_kst": "2026-09-05T19:38:23+09:00",
+  "window_end_kst": "2026-10-05T19:38:23+09:00",
   "schema_version": 1,
   "baseline_status": "complete",
   "coverage": {
     "SK_Research_Asset": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:12:22+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -15,7 +15,7 @@
     },
     "sk_smallcap": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:21:59+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -23,7 +23,7 @@
     },
     "eqmirae": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T13:18:25+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -31,7 +31,7 @@
     },
     "opendisco": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-07T07:30:35+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -39,7 +39,7 @@
     },
     "hanasmallcap": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-08T18:14:56+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -47,7 +47,7 @@
     },
     "SKSCyclical": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-06T14:28:10+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -55,7 +55,7 @@
     },
     "HI_GS": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T17:18:56+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -63,7 +63,7 @@
     },
     "hana_us_stock": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-04T21:31:34+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -71,7 +71,7 @@
     },
     "siglab": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-04T21:05:15+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -79,7 +79,7 @@
     },
     "corevalue": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T18:09:11+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -87,7 +87,7 @@
     },
     "growthresearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T12:40:06+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -95,7 +95,7 @@
     },
     "growth_semi": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T12:40:18+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -103,7 +103,7 @@
     },
     "knowledge_to_wealth": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T00:26:41+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -111,7 +111,7 @@
     },
     "sksresearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-06T14:28:27+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -119,7 +119,7 @@
     },
     "HanaResearch": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T16:58:40+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -127,7 +127,7 @@
     },
     "quantum_algo": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T07:03:03+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -135,7 +135,7 @@
     },
     "STANDARDCAPITAL": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T11:14:42+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -143,7 +143,7 @@
     },
     "FastStockNewsUSA": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-04T22:20:13+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -151,7 +151,7 @@
     },
     "FastStockNews": {
       "history_complete": true,
-      "last_success_at_kst": "2026-10-05T11:37:14+09:00",
+      "last_success_at_kst": "2026-10-05T19:38:23+09:00",
       "earliest_observed_at_kst": "2026-09-05T09:35:54+09:00",
       "latest_run_complete": true,
       "errors_count": 0,
@@ -160,10 +160,10 @@
   },
   "errors": [],
   "date_kst": "2026-10-05",
-  "total_posts": 14,
-  "baseline_posts": 7635,
-  "total_entities": 6241,
-  "total_candidates": 6,
+  "total_posts": 57,
+  "baseline_posts": 7638,
+  "total_entities": 6260,
+  "total_candidates": 12,
   "channels": [
     {
       "channel": "SK_Research_Asset",
@@ -199,19 +199,19 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T13:23:15+09:00"
+      "earliest_fetched_at_kst": null
     },
     {
       "channel": "opendisco",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 180,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 9,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T11:42:06+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T20:10:10+09:00"
     },
     {
       "channel": "hanasmallcap",
@@ -229,25 +229,25 @@
       "channel": "SKSCyclical",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 0,
+      "today_post_count": 1,
       "timestamp_count": 20,
       "errors_count": 0,
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": null
+      "earliest_fetched_at_kst": "2026-10-05T14:49:27+09:00"
     },
     {
       "channel": "HI_GS",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 2,
+      "today_post_count": 4,
       "timestamp_count": 20,
       "errors_count": 0,
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T12:23:27+09:00"
+      "earliest_fetched_at_kst": "2026-10-03T05:37:12+09:00"
     },
     {
       "channel": "hana_us_stock",
@@ -259,43 +259,43 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T14:49:14+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T21:49:54+09:00"
     },
     {
       "channel": "siglab",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 31,
+      "timestamp_count": 17,
       "errors_count": 0,
-      "fetched_pages": 2,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T12:01:39+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T20:02:45+09:00"
     },
     {
       "channel": "corevalue",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 1,
+      "today_post_count": 4,
       "timestamp_count": 20,
       "errors_count": 0,
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T11:49:59+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T21:07:27+09:00"
     },
     {
       "channel": "growthresearch",
       "tier": "D1",
       "http_status": 200,
       "today_post_count": 0,
-      "timestamp_count": 32,
+      "timestamp_count": 19,
       "errors_count": 0,
-      "fetched_pages": 2,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T13:07:40+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T20:59:13+09:00"
     },
     {
       "channel": "growth_semi",
@@ -307,55 +307,55 @@
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T13:07:34+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T20:59:18+09:00"
     },
     {
       "channel": "knowledge_to_wealth",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 1,
-      "timestamp_count": 31,
+      "today_post_count": 3,
+      "timestamp_count": 33,
       "errors_count": 0,
       "fetched_pages": 2,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T19:38:16+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T19:58:19+09:00"
     },
     {
       "channel": "sksresearch",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 0,
-      "timestamp_count": 15,
+      "today_post_count": 1,
+      "timestamp_count": 16,
       "errors_count": 0,
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": null
+      "earliest_fetched_at_kst": "2026-10-05T14:49:42+09:00"
     },
     {
       "channel": "HanaResearch",
       "tier": "D1",
       "http_status": 200,
-      "today_post_count": 0,
-      "timestamp_count": 17,
+      "today_post_count": 9,
+      "timestamp_count": 20,
       "errors_count": 0,
       "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T14:48:46+09:00"
+      "earliest_fetched_at_kst": "2026-10-03T14:50:58+09:00"
     },
     {
       "channel": "quantum_algo",
       "tier": "D2",
       "http_status": 200,
-      "today_post_count": 8,
+      "today_post_count": 21,
       "timestamp_count": 80,
       "errors_count": 0,
       "fetched_pages": 4,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T12:13:16+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T20:29:30+09:00"
     },
     {
       "channel": "STANDARDCAPITAL",
@@ -373,33 +373,33 @@
       "channel": "FastStockNewsUSA",
       "tier": "D2",
       "http_status": 200,
-      "today_post_count": 0,
+      "today_post_count": 6,
       "timestamp_count": 58,
       "errors_count": 0,
       "fetched_pages": 3,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T13:37:34+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T21:24:23+09:00"
     },
     {
       "channel": "FastStockNews",
       "tier": "D2",
       "http_status": 200,
-      "today_post_count": 1,
-      "timestamp_count": 60,
+      "today_post_count": 7,
+      "timestamp_count": 20,
       "errors_count": 0,
-      "fetched_pages": 3,
+      "fetched_pages": 1,
       "history_complete": true,
       "backfill_next_before": null,
-      "earliest_fetched_at_kst": "2026-10-02T12:34:40+09:00"
+      "earliest_fetched_at_kst": "2026-10-02T19:45:41+09:00"
     }
   ],
   "verification": {
-    "daily_previous_posts": 1,
-    "daily_preserved_posts": 1,
+    "daily_previous_posts": 14,
+    "daily_preserved_posts": 14,
     "daily_duplicate_count": 0,
-    "baseline_previous_retained_posts": 7622,
-    "baseline_preserved_posts": 7622,
+    "baseline_previous_retained_posts": 7595,
+    "baseline_preserved_posts": 7595,
     "baseline_duplicate_count": 0,
     "chronological": true
   }
