@@ -1,0 +1,98 @@
+{
+  "collected_at_kst": "2026-10-05T10:57:25+09:00",
+  "date_kst": "2026-10-05",
+  "total_collected": 0,
+  "total_posts": 0,
+  "channels": [
+    {
+      "channel": "KISemicon",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "jw_tech",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "skitteam",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 14,
+      "errors_count": 0
+    },
+    {
+      "channel": "kiwoom_semibat",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 16,
+      "errors_count": 0
+    },
+    {
+      "channel": "semirae",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "meritz_research",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 12,
+      "errors_count": 0
+    },
+    {
+      "channel": "meritz_strategy",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "shinhanresearch",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "HanaResearch",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 17,
+      "errors_count": 0
+    },
+    {
+      "channel": "hmsecresearch",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    },
+    {
+      "channel": "hodolrytv",
+      "http_status": 200,
+      "today_post_count": 0,
+      "fetched_pages": 1,
+      "timestamp_count": 20,
+      "errors_count": 0
+    }
+  ],
+  "posts": [],
+  "errors": []
+}
